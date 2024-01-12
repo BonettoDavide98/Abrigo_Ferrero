@@ -50,13 +50,13 @@ namespace QVLEGSCOG2362.Algoritmi
 
         public void SetWizardImage(ICogImage image)
         {
-            if (image != null && this.imgWizard.Allocated)
+            if (image != null)
                 this.imgWizard = image.CopyBase(CogImageCopyModeConstants.CopyPixels);
         }
 
         public ICogImage GetWizardImage()
         {
-            if (this.imgWizard == null || !this.imgWizard.Allocated)
+            if (this.imgWizard == null)
                 return null;
             else
                 return this.imgWizard.CopyBase(CogImageCopyModeConstants.CopyPixels);
@@ -100,8 +100,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     // Free other state (managed objects).
                     base.DisposeBase();
 
-                    //TODO : 
-                    //this.imgWizard?.Dispose();
+                    ((IDisposable)this.imgWizard)?.Dispose();
                     this.imgWizard = null;
                 }
                 // Free your own state (unmanaged objects).

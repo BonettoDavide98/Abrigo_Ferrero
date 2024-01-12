@@ -46,6 +46,28 @@ namespace QVLEGSCOG2362.Utilities
         {
             staticGraphics.Add(cogGraphic);
         }
+        public void AddStaticGraphics(string text, CogColorConstants color, int row, int column)
+        {
+            AddStaticGraphics(text, color, row, column, 18, true);
+        }
+
+        public void AddStaticGraphics(string text, CogColorConstants color, int row, int column, int fontSize)
+        {
+            AddStaticGraphics(text, color, row, column, fontSize, false);
+        }
+
+        public void AddStaticGraphics(string text, CogColorConstants color, int row, int column, int fontSize, bool isStringMessage)
+        {
+            CogGraphicLabel cgl = new CogGraphicLabel();
+
+            cgl.Text = text;
+            cgl.Color = color;
+            cgl.Y = row;
+            cgl.X = column;
+            cgl.Font = new System.Drawing.Font("Arial", fontSize);
+
+            AddStaticGraphics(cgl);
+        }
 
         public ObjectToDisplay Clone()
         {
@@ -87,14 +109,26 @@ namespace QVLEGSCOG2362.Utilities
 
                     if (this.image != null)
                     {
-                        //this.IconicVar.Dispose();
-                        this.image = null;
+                        if (this.image is IDisposable)
+                        {
+                            ((IDisposable)this.image).Dispose();
+                            this.image = null;
+
+                            DisposeStaticGraphics();
+                        }
+
                     }
                 }
                 // Free your own state (unmanaged objects).
                 // Set large fields to null.
                 disposed = true;
             }
+        }
+
+        public void DisposeStaticGraphics()
+        {
+            ((IDisposable)this.staticGraphics).Dispose();
+            this.staticGraphics = null;
         }
 
         // Use C# destructor syntax for finalization code.

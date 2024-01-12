@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cognex.VisionPro;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -49,7 +50,7 @@ namespace QVLEGSCOG2362.Class
         public List<DataType.TipoCamera> CamereTipo { get; set; } = new List<DataType.TipoCamera>();
 
 
-        public AppManager(int idStazione, ComunicazioneManager comunicazioneManager, Manager.SchedaIO schedaIO, Dictionary<string, string> camereSN, DBL.LinguaManager linguaManager)
+        public AppManager(int idStazione, ComunicazioneManager comunicazioneManager, Manager.SchedaIO schedaIO, Dictionary<string, ICogFrameGrabber> camereSN, DBL.LinguaManager linguaManager)
         {
             //IMPOSTAZIONI
             this.impostazioni = DBL.ImpostazioniManager.ReadImpostazioni();
@@ -217,7 +218,7 @@ namespace QVLEGSCOG2362.Class
             return cameraConfig;
         }
 
-        private IFrameGrabberManager GetFrameGrabberManager(int idCamera, bool isFromFile, Dictionary<string, string> camereSN, DataType.Impostazioni impostazioni)
+        private IFrameGrabberManager GetFrameGrabberManager(int idCamera, bool isFromFile, Dictionary<string, ICogFrameGrabber> camereSN, DataType.Impostazioni impostazioni)
         {
             IFrameGrabberManager ret = null;
             try
@@ -226,11 +227,11 @@ namespace QVLEGSCOG2362.Class
                 switch (idCamera)
                 {
                     case 0: impCam = impostazioni.ImpostazioniCamera1; break;
-                    case 1: impCam = impostazioni.ImpostazioniCamera2; break;
-                    case 2: impCam = impostazioni.ImpostazioniCamera3; break;
-                    case 3: impCam = impostazioni.ImpostazioniCamera4; break;
-                    case 4: impCam = impostazioni.ImpostazioniCamera5; break;
-                    case 5: impCam = impostazioni.ImpostazioniCamera6; break;
+                    //case 1: impCam = impostazioni.ImpostazioniCamera2; break;
+                    //case 2: impCam = impostazioni.ImpostazioniCamera3; break;
+                    //case 3: impCam = impostazioni.ImpostazioniCamera4; break;
+                    //case 4: impCam = impostazioni.ImpostazioniCamera5; break;
+                    //case 5: impCam = impostazioni.ImpostazioniCamera6; break;
                     default: break;
                 }
 
@@ -240,7 +241,7 @@ namespace QVLEGSCOG2362.Class
 
                     if (camereSN?.ContainsKey(impCam.IpCamera) == true)
                     {
-                        ipCamera = camereSN[impCam.IpCamera];
+                        ipCamera = camereSN[impCam.IpCamera].OwnedGigEAccess.CurrentIPAddress;
                     }
                     else
                         ipCamera = impCam.IpCamera;
@@ -520,26 +521,26 @@ namespace QVLEGSCOG2362.Class
         {
             int[] ret = null;
 
-            try
-            {
-                Fins fins = null;
-                try
-                {
-                    fins = new Fins(idStazione == 0 ? this.impostazioni.PLC_1_IP : this.impostazioni.PLC_2_IP, 9600);
+            //try
+            //{
+            //    Fins fins = null;
+            //    try
+            //    {
+            //        fins = new Fins(idStazione == 0 ? this.impostazioni.PLC_1_IP : this.impostazioni.PLC_2_IP, 9600);
 
-                    int[] lettura = fins.Read<int[]>(3, 5000, 82, true);
+            //        int[] lettura = fins.Read<int[]>(3, 5000, 82, true);
 
-                    ret = lettura;
-                }
-                finally
-                {
-                    fins?.Disconnect();
-                }
-            }
-            catch (Exception)
-            {
-                ret = new int[] { -1, -1, -1 };
-            }
+            //        ret = lettura;
+            //    }
+            //    finally
+            //    {
+            //        fins?.Disconnect();
+            //    }
+            //}
+            //catch (Exception)
+            //{
+            //    ret = new int[] { -1, -1, -1 };
+            //}
 
             return ret;
         }
@@ -613,44 +614,40 @@ namespace QVLEGSCOG2362.Class
 
         private void NewError(Utilities.ObjectToDisplay[] iconicVarList, DataType.ElaborateResult[] result)
         {
-            //TODO :  
-            //try
-            //{
-            //    if (cntMaxCtrl == 0)
-            //        return;
+            try
+            {
+                if (cntMaxCtrl == 0)
+                    return;
 
-            //    lock (objLockError)
-            //    {
-            //        ArrayList[] iconicVarListClone = iconicVarList.Select(k => Utilities.CommonUtility.CloneArrayList(k)).ToArray();
-            //        this.iconicVarListAll.Add(iconicVarListClone);
-            //        this.resultAll.Add(result);
-            //        this.dateTimeAll.Add(DateTime.Now);
+                Utilities.ObjectToDisplay[] iconicVarListClone = iconicVarList.Select(k => k.Clone()).ToArray();
+                this.iconicVarListAll.Add(iconicVarListClone);
+                this.resultAll.Add(result);
+                this.dateTimeAll.Add(DateTime.Now);
 
-            //        if (iconicVarListAll.Count > cntMaxCtrl)
-            //        {
-            //            ArrayList[] tmp = iconicVarListAll[0];
+                if (iconicVarListAll.Count > cntMaxCtrl)
+                {
+                    Utilities.ObjectToDisplay[] tmp = iconicVarListAll[0];
 
-            //            for (int i = 0; i < tmp.Length; i++)
-            //            {
-            //                if (tmp[i] != null)
-            //                    Utilities.CommonUtility.ClearArrayList(tmp[i]);
-            //            }
+                    for (int i = 0; i < tmp.Length; i++)
+                    {
+                        if (tmp[i] != null)
+                            Utilities.CommonUtility.ClearArrayList(tmp[i]);
+                    }
 
-            //            iconicVarListAll.RemoveAt(0);
-            //        }
+                    iconicVarListAll.RemoveAt(0);
+                }
 
-            //        if (resultAll.Count > cntMaxCtrl)
-            //        {
-            //            resultAll.RemoveAt(0);
-            //        }
+                if (resultAll.Count > cntMaxCtrl)
+                {
+                    resultAll.RemoveAt(0);
+                }
 
-            //        if (dateTimeAll.Count > cntMaxCtrl)
-            //        {
-            //            dateTimeAll.RemoveAt(0);
-            //        }
-            //    }
-            //}
-            //catch (Exception) { }
+                if (dateTimeAll.Count > cntMaxCtrl)
+                {
+                    dateTimeAll.RemoveAt(0);
+                }
+            }
+            catch (Exception) { }
         }
 
         public void GetLastError(out List<Utilities.ObjectToDisplay[]> iconicVarError, out List<DataType.ElaborateResult[]> resultError, out List<DateTime> dateTimeError)
@@ -658,25 +655,24 @@ namespace QVLEGSCOG2362.Class
             iconicVarError = new List<Utilities.ObjectToDisplay[]>();
             resultError = new List<DataType.ElaborateResult[]>();
             dateTimeError = new List<DateTime>();
+            
+            try
+            {
+                lock (objLockError)
+                {
+                    for (int i = 0; i < this.cntMaxCtrl; i++)
+                    {
+                        if (iconicVarListAll.Count > i && resultAll.Count > i)
+                        {
+                            iconicVarError.Add(iconicVarListAll[i].Select(k => k.Clone()).ToArray());
+                            resultError.Add(resultAll[i]);
+                            dateTimeError.Add(dateTimeAll[i]);
+                        }
 
-            //TODO : 
-            //try
-            //{
-            //    lock (objLockError)
-            //    {
-            //        for (int i = 0; i < this.cntMaxCtrl; i++)
-            //        {
-            //            if (iconicVarListAll.Count > i && resultAll.Count > i)
-            //            {
-            //                iconicVarError.Add(iconicVarListAll[i].Select(k => Utilities.CommonUtility.CloneArrayList(k)).ToArray());
-            //                resultError.Add(resultAll[i]);
-            //                dateTimeError.Add(dateTimeAll[i]);
-            //            }
-
-            //        }
-            //    }
-            //}
-            //catch (Exception) { }
+                    }
+                }
+            }
+            catch (Exception) { }
         }
 
         public void GetLastError(int idCamera, out List<Utilities.ObjectToDisplay> iconicVarError, out List<DataType.ElaborateResult> resultError, out List<DateTime> dateTimeError)
@@ -684,25 +680,24 @@ namespace QVLEGSCOG2362.Class
             iconicVarError = new List<Utilities.ObjectToDisplay>();
             resultError = new List<DataType.ElaborateResult>();
             dateTimeError = new List<DateTime>();
+            
+            try
+            {
+                lock (objLockError)
+                {
+                    for (int i = 0; i < this.cntMaxCtrl; i++)
+                    {
+                        if (iconicVarListAll.Count > i && resultAll.Count > i)
+                        {
+                            iconicVarError.Add(iconicVarListAll[i][this.cameraIdIdx[idCamera]].Clone());
+                            resultError.Add(resultAll[i][this.cameraIdIdx[idCamera]]);
+                            dateTimeError.Add(dateTimeAll[i]);
+                        }
 
-            //TODO : 
-            //try
-            //{
-            //    lock (objLockError)
-            //    {
-            //        for (int i = 0; i < this.cntMaxCtrl; i++)
-            //        {
-            //            if (iconicVarListAll.Count > i && resultAll.Count > i)
-            //            {
-            //                iconicVarError.Add(Utilities.CommonUtility.CloneArrayList(iconicVarListAll[i][this.cameraIdIdx[idCamera]]));
-            //                resultError.Add(resultAll[i][this.cameraIdIdx[idCamera]]);
-            //                dateTimeError.Add(dateTimeAll[i]);
-            //            }
-
-            //        }
-            //    }
-            //}
-            //catch (Exception) { }
+                    }
+                }
+            }
+            catch (Exception) { }
         }
 
 

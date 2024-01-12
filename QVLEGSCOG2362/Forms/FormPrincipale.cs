@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cognex.VisionPro;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -84,13 +85,15 @@ namespace QVLEGSCOG2362
 
                 this.comunicazioneManager = new Class.ComunicazioneManager(schedaIO, this.impostazioni);
 
-                int numStazioni = GetNumStazioni(this.impostazioni);
-                int numCamere = GetNumCamereTot(this.impostazioni);
+                //int numStazioni = GetNumStazioni(this.impostazioni);
+                int numStazioni = 1;
+                //int numCamere = GetNumCamereTot(this.impostazioni);
+                int numCamere = 1;
 
-                Dictionary<string, string> camereSN = null;
+                Dictionary<string, ICogFrameGrabber> camereSN = null;
 
 #if !_Simulazione
-                camereSN = GetSerialNumberSaperaLT();
+                camereSN = GetSerialNumberCamere();
 #endif
 
                 if (numStazioni > 0)
@@ -780,41 +783,24 @@ namespace QVLEGSCOG2362
             ChangePage(Page.Home);
         }
 
-        //private Dictionary<string, string> GetSerialNumberSaperaLT()
-        //{
-        //    Dictionary<string, string> ret = new Dictionary<string, string>();
-        //    try
-        //    {
-        //        HalconDotNet.HTuple valueList;
-        //        string information = HalconDotNet.HInfo.InfoFramegrabber("SaperaLT", "device", out valueList);
+        private Dictionary<string, ICogFrameGrabber> GetSerialNumberCamere()
+        {
+            CogFrameGrabbers cfg = new CogFrameGrabbers();
 
-        //        if (valueList.Type != HalconDotNet.HTupleType.EMPTY)
-        //            if (valueList.SArr != null)
-        //                for (int i = 0; i < valueList.SArr.Length; i++)
-        //                {
-        //                    HalconDotNet.HTuple fg = null;
-        //                    try
-        //                    {
-        //                        string camera = valueList.SArr[i];
-        //                        HalconDotNet.HOperatorSet.OpenFramegrabber("SaperaLT", 1, 1, 0, 0, 0, 0, "default", -1, "default", -1, "false", "", camera, -1, -1, out fg);
-        //                        HalconDotNet.HTuple sn;
-        //                        HalconDotNet.HOperatorSet.GetFramegrabberParam(fg, "DeviceSerialNumber", out sn);
+            Dictionary<string, ICogFrameGrabber> dict = new Dictionary<string, ICogFrameGrabber>();
 
-        //                        if (sn != null && sn.S != null)
-        //                            ret.Add(sn.S, camera);
+            foreach(ICogFrameGrabber icfg in cfg)
+            {
+                dict.Add(icfg.OwnedGigEAccess.CurrentIPAddress, icfg);
+            }
 
-        //                    }
-        //                    finally
-        //                    {
-        //                        if (fg != null)
-        //                            HalconDotNet.HOperatorSet.CloseFramegrabber(fg);
-        //                    }
-        //                }
-        //    }
-        //    catch (Exception) { }
-
-        //    return ret;
-        //}
+            foreach (KeyValuePair<string, ICogFrameGrabber> kvp in dict)
+            {
+                //textBox3.Text += ("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
+                Console.WriteLine(string.Format("Key = {0}, Value = {1}", kvp.Key, kvp.Value));
+            }
+            return dict;
+        }
 
     }
 }

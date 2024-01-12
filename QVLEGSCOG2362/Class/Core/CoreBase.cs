@@ -171,7 +171,7 @@ namespace QVLEGSCOG2362.Class
 
         private void WriteErrorImageToDisk_OLD(Utilities.CacheErrorObject ceo)
         {
-            //TODO : 
+            //TODO : ImageToDisk
             //DateTime d = DateTime.Now;
 
             //string path = System.IO.Path.Combine(this.config.PathDatiBase, "ERRORI", (numCamera + 1).ToString());
@@ -210,7 +210,7 @@ namespace QVLEGSCOG2362.Class
 
         private void WriteErrorImageToDisk(Utilities.CacheErrorObject ceo)
         {
-            //TODO : 
+            //TODO : ImageToDisk
             //DateTime d = DateTime.Now;
 
             //string path = System.IO.Path.Combine(this.config.PathErrori, d.ToString("yyyyMMdd"), (idCamera + 1).ToString());
@@ -273,7 +273,7 @@ namespace QVLEGSCOG2362.Class
 
         private void Write_N_ToDisk(Utilities.CacheErrorObject ceo)
         {
-            //TODO : 
+            //TODO : WriteToDisk
             //DateTime d = DateTime.Now;
 
             //string path = System.IO.Path.Combine(this.config.PathDatiBase, "IMG_SAVE", (numCamera + 1).ToString());

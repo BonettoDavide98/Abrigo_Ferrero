@@ -61,7 +61,7 @@ namespace QVLEGSCOG2362.Wizard
             {
                 ret = selectedUC.GetImage();
             }
-            //TODO : 
+            //TODO:
             //else if (string.IsNullOrWhiteSpace(txtFileName.Text) == false)
             //{
             //    ret = new ICogImage();

@@ -94,8 +94,7 @@ namespace QVLEGSCOG2362.Wizard
                 }
                 finally
                 {
-                    //TODO : 
-                    //image?.Dispose();
+                    ((IDisposable)image)?.Dispose();
                 }
             }
 

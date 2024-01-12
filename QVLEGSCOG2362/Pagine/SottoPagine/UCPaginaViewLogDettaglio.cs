@@ -166,7 +166,7 @@ namespace QVLEGSCOG2362.Pagine.SottoPagine
 
                     for (int i = 0; i < res.TestiOutAlgoritmi.Count; i++)
                     {
-                        AppendText(lbl, res.TestiOutAlgoritmi[i].Item1 + "\n\r", res.TestiOutAlgoritmi[i].Item2 == "red" ? System.Drawing.Color.Red : System.Drawing.Color.Green);
+                        AppendText(lbl, res.TestiOutAlgoritmi[i].Item1 + "\n\r", res.TestiOutAlgoritmi[i].Item2 == Cognex.VisionPro.CogColorConstants.Red? System.Drawing.Color.Red : System.Drawing.Color.Green);
                     }
                 }
             }

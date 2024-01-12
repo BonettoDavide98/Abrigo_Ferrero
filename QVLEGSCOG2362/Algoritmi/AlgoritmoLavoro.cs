@@ -100,6 +100,20 @@ namespace QVLEGSCOG2362.Algoritmi
             {
                 workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
 
+
+                if (image != null)
+                {
+                    if (image is IDisposable)
+                    {
+                        ((IDisposable)image).Dispose();
+                        image = null;
+                    }
+
+                }
+
+
+
+
                 if (caricamentoParametri)
                 {
                     //Se sto caricando i parametri do OK

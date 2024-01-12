@@ -33,14 +33,10 @@ namespace QVLEGSCOG2362
             DBL.GestioneTurniManager.ConnectionString = Properties.Settings.Default.ConnectionString;
             DBL.UtenteProvider.ConnectionString = Properties.Settings.Default.ConnectionString;
 
-            //CONTROLLO DONGLE HALCON
+            //CONTROLLO DONGLE COGNEX
             try
             {
-                //TODO : 
-                //HalconDotNet.HSystem.SetSystem("width", 2000);
-                //HalconDotNet.HSystem.SetSystem("height", 2000);
-                //HalconDotNet.HSystem.SetSystem("thread_num", 4);
-                //HalconDotNet.HSystem.SetSystem("clip_region", "false");
+                Cognex.VisionPro.CogLicense.GetLicensedFeatures(false, true);
             }
             catch (Exception ex)
             {

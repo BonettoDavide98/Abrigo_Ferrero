@@ -70,8 +70,7 @@ namespace QVLEGSCOG2362.Algoritmi
             {
                 for (int i = 0; i < res.TestiOutAlgoritmi.Count; i++)
                 {
-                    //TODO : 
-                    //workingList.Add(new Utilities.ObjectToDisplay(res.TestiOutAlgoritmi[i].Item1, res.TestiOutAlgoritmi[i].Item2, 60 + (i * 20), 10, 16, true));
+                    workingList.AddStaticGraphics(res.TestiOutAlgoritmi[i].Item1, res.TestiOutAlgoritmi[i].Item2, 60 + (i * 20), 10, 16, true);
                 }
             }
             catch (Exception) { }
@@ -83,8 +82,7 @@ namespace QVLEGSCOG2362.Algoritmi
             {
                 for (int i = 0; i < res.TestiRagioneScarto.Count; i++)
                 {
-                    //TODO : 
-                    //workingList.Add(new Utilities.ObjectToDisplay(res.TestiRagioneScarto[i], "red", 60 + (i * 20), 10, 16, true));
+                    workingList.AddStaticGraphics(res.TestiRagioneScarto[i], CogColorConstants.Red, 60 + (i * 20), 10, 16, true);
                 }
             }
             catch (Exception) { }
@@ -171,8 +169,7 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                //TODO : 
-                //workingList.Add(new Utilities.ObjectToDisplay(res.Success ? "OK" : "KO", res.Success ? COLORE_ANN_OK : COLORE_ANN_KO, 10, 10, 30));
+                workingList.AddStaticGraphics(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red, 10, 10, 30);
 
                 AddTestiOutAlgoritmi(res, ref workingList);
 
@@ -238,8 +235,7 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                //TODO : 
-                //workingList.Add(new Utilities.ObjectToDisplay(res.Success ? "OK" : "KO", res.Success ? COLORE_ANN_OK : COLORE_ANN_KO, 10, 10, 30));
+                workingList.AddStaticGraphics(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red, 10, 10, 30);
 
                 AddTestiOutAlgoritmi(res, ref workingList);
 
@@ -305,8 +301,7 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                //TODO : 
-                //workingList.Add(new Utilities.ObjectToDisplay(res.Success ? "OK" : "KO", res.Success ? COLORE_ANN_OK : COLORE_ANN_KO, 10, 10, 30));
+                workingList.AddStaticGraphics(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red, 10, 10, 30);
 
                 AddTestiOutAlgoritmi(res, ref workingList);
 

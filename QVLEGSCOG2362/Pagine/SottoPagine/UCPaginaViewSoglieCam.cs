@@ -28,37 +28,37 @@ namespace QVLEGSCOG2362.Pagine.SottoPagine
             try
             {
                 Dictionary<string, TableLayoutPanel> testTlp = new Dictionary<string, TableLayoutPanel>();
-                testTlp.Add("TEST_INTEGRITA_AREA", tlpPageIntegrita);
-                testTlp.Add("TEST_INTEGRITA_DELTA", tlpPageIntegrita);
-                testTlp.Add("TEST_DIMENSIONE_DIAMETRO", tlpPageDimensione);
-                testTlp.Add("TEST_DIMENSIONE_CIRCOLARITA", tlpPageDimensione);
-                testTlp.Add("TEST_DIMENSIONE_W", tlpPageDimensione);
-                testTlp.Add("TEST_DIMENSIONE_H", tlpPageDimensione);
-                testTlp.Add("TEST_DISEGNI_PRESENZA_AREA", tlpPageDisegni);
-                testTlp.Add("TEST_DISEGNI_MACCHIE_GROSSE_AREA_MAX", tlpPageDisegni);
-                testTlp.Add("TEST_COLORE_DIST", tlpPageColore);
-                testTlp.Add("TEST_COLORE_DIST_2", tlpPageColore);
-                testTlp.Add("TEST_COLORE_2_AREA", tlpPageColore2);
-                testTlp.Add("TEST_SBORDAMENTO_AREA_MAX", tlpPageSbordamento);
-                testTlp.Add("TEST_DIMENSIONE_LATO_W", tlpPageDimensioneLato);
-                testTlp.Add("TEST_DIMENSIONE_LATO_H", tlpPageDimensioneLato);
-                testTlp.Add("TEST_CREPE_LEN", tlpPageCrepe);
-                testTlp.Add("TEST_RAKE_DELTA_V", tlpPageRakeV);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_0", tlpPageRakeV);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_1", tlpPageRakeV);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_2", tlpPageRakeV);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_3", tlpPageRakeV);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_4", tlpPageRakeV);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_0", tlpPageRakeH);
-                testTlp.Add("TEST_RAKE_DELTA_H", tlpPageRakeH);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_1", tlpPageRakeH);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_2", tlpPageRakeH);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_3", tlpPageRakeH);
-                testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_4", tlpPageRakeH);
-                testTlp.Add("TEST_TOP_3D_AREA_CENTRO", tlpPageTop3D);
-                testTlp.Add("TEST_TOP_3D_AREA_DISALLINEAMENTO", tlpPageTop3D);
-                testTlp.Add("TEST_BUCHI_LATO_3D_AREA_MAX", tlpPageBuchiLato3D);
-                testTlp.Add("TEST_DIMENSIONE_ALTEZZA", tlpPageTopLatoAltezza);
+                //testTlp.Add("TEST_INTEGRITA_AREA", tlpPageIntegrita);
+                //testTlp.Add("TEST_INTEGRITA_DELTA", tlpPageIntegrita);
+                //testTlp.Add("TEST_DIMENSIONE_DIAMETRO", tlpPageDimensione);
+                //testTlp.Add("TEST_DIMENSIONE_CIRCOLARITA", tlpPageDimensione);
+                //testTlp.Add("TEST_DIMENSIONE_W", tlpPageDimensione);
+                //testTlp.Add("TEST_DIMENSIONE_H", tlpPageDimensione);
+                //testTlp.Add("TEST_DISEGNI_PRESENZA_AREA", tlpPageDisegni);
+                //testTlp.Add("TEST_DISEGNI_MACCHIE_GROSSE_AREA_MAX", tlpPageDisegni);
+                //testTlp.Add("TEST_COLORE_DIST", tlpPageColore);
+                //testTlp.Add("TEST_COLORE_DIST_2", tlpPageColore);
+                //testTlp.Add("TEST_COLORE_2_AREA", tlpPageColore2);
+                //testTlp.Add("TEST_SBORDAMENTO_AREA_MAX", tlpPageSbordamento);
+                //testTlp.Add("TEST_DIMENSIONE_LATO_W", tlpPageDimensioneLato);
+                //testTlp.Add("TEST_DIMENSIONE_LATO_H", tlpPageDimensioneLato);
+                //testTlp.Add("TEST_CREPE_LEN", tlpPageCrepe);
+                //testTlp.Add("TEST_RAKE_DELTA_V", tlpPageRakeV);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_0", tlpPageRakeV);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_1", tlpPageRakeV);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_2", tlpPageRakeV);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_3", tlpPageRakeV);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_V_4", tlpPageRakeV);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_0", tlpPageRakeH);
+                //testTlp.Add("TEST_RAKE_DELTA_H", tlpPageRakeH);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_1", tlpPageRakeH);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_2", tlpPageRakeH);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_3", tlpPageRakeH);
+                //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_4", tlpPageRakeH);
+                //testTlp.Add("TEST_TOP_3D_AREA_CENTRO", tlpPageTop3D);
+                //testTlp.Add("TEST_TOP_3D_AREA_DISALLINEAMENTO", tlpPageTop3D);
+                //testTlp.Add("TEST_BUCHI_LATO_3D_AREA_MAX", tlpPageBuchiLato3D);
+                //testTlp.Add("TEST_DIMENSIONE_ALTEZZA", tlpPageTopLatoAltezza);
 
                 foreach (var item in testTlp)
                 {

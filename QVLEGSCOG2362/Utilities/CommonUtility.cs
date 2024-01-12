@@ -74,8 +74,7 @@ namespace QVLEGSCOG2362.Utilities
                 {
                     if (arr.GetStaticGraphics()[i] != null)
                     {
-                        //TODO :
-                        //(arr.GetStaticGraphics()[i]).Dispose();
+                        arr.DisposeStaticGraphics();
                         arr.GetStaticGraphics()[i] = null;
                     }
                 }
@@ -234,14 +233,6 @@ namespace QVLEGSCOG2362.Utilities
             {
                 dummy = string.Format("{0} TIMEOUT", dummy);
             }
-
-            CogGraphicLabel cgl = new CogGraphicLabel()
-            {
-                Text = dummy,
-                Font = new System.Drawing.Font("Arial", 16, System.Drawing.FontStyle.Bold)
-            };
-
-            cogWndCntrl.StaticGraphics.Add(cgl, "default");
         }
 
         public static void DisplayRegolazioni(ObjectToDisplay dipObjList, CogRecordDisplay cogWndCntrl)

@@ -119,23 +119,24 @@ namespace QVLEGSCOG2362.Class
 
         public void SetExpo(double expo)
         {
-            throw new Exception("EXPO NOT AVAILABLE IN FILE");
+            //throw new Exception("EXPO NOT AVAILABLE IN FILE");
         }
 
         public void SetGain(double gain)
         {
-
-            throw new Exception("GAIN NOT AVAILABLE IN FILE");
+            //throw new Exception("GAIN NOT AVAILABLE IN FILE");
         }
 
         public double GetExpo()
         {
-            throw new Exception("EXPO NOT AVAILABLE IN FILE");
+            //throw new Exception("EXPO NOT AVAILABLE IN FILE");
+            return 1000;
         }
 
         public double GetGain()
         {
-            throw new Exception("GAIN NOT AVAILABLE IN FILE");
+            //throw new Exception("GAIN NOT AVAILABLE IN FILE");
+            return 1;
         }
 
 

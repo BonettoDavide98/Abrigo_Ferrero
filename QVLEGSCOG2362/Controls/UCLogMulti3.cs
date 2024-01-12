@@ -92,7 +92,7 @@ namespace QVLEGSCOG2362
 
                     for (int i = 0; i < res.TestiOutAlgoritmi.Count; i++)
                     {
-                        if (res.TestiOutAlgoritmi[i].Item2 == "red")
+                        if (res.TestiOutAlgoritmi[i].Item2 == Cognex.VisionPro.CogColorConstants.Red)
                             lbl.Text += res.TestiOutAlgoritmi[i].Item1 + "\n\r";
                     }
                 }

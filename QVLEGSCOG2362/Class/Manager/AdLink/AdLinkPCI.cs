@@ -6,7 +6,7 @@
 
         public bool Connect()
         {
-            this.deviceNum = DASK.Register_Card(DASK.PCI_7230, 0);
+            //this.deviceNum = DASK.Register_Card(DASK.PCI_7230, 0);
 
             return deviceNum >= 0;
         }

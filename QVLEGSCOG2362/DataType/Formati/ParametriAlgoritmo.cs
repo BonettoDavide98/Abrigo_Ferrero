@@ -127,10 +127,9 @@ namespace QVLEGSCOG2362.DataType
                 if (disposing)
                 {
                     // Free other state (managed objects).
-
-                    //TODO : 
-                    //this.ImageRef?.Dispose();
-                    //this.ImageRef = null;
+                    
+                    ((IDisposable)this.ImageRef)?.Dispose();
+                    this.ImageRef = null;
 
 
                 }

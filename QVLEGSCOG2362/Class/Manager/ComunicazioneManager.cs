@@ -296,34 +296,34 @@ namespace QVLEGSCOG2362.Class
 
         public void SetTorretta(bool verde, bool rosso, bool giallo, bool sirena)
         {
-            try
-            {
-#if !_Simulazione
-                Fins fins1 = null;
-                Fins fins2 = null;
-                try
-                {
-                    fins1 = new Fins(this.impostazioni.PLC_2_IP, 9600);
-                    List<int> valoriWriteDWord1 = new List<int>();
-                    valoriWriteDWord1.Add(verde ? 1 : 0);
-                    valoriWriteDWord1.Add(giallo ? 1 : 0);
-                    valoriWriteDWord1.Add(rosso ? 1 : 0);
-                    fins1.Write(valoriWriteDWord1, valoriWriteDWord1.Count, 50, 82, false);
+//            try
+//            {
+//#if !_Simulazione
+//                Fins fins1 = null;
+//                Fins fins2 = null;
+//                try
+//                {
+//                    fins1 = new Fins(this.impostazioni.PLC_2_IP, 9600);
+//                    List<int> valoriWriteDWord1 = new List<int>();
+//                    valoriWriteDWord1.Add(verde ? 1 : 0);
+//                    valoriWriteDWord1.Add(giallo ? 1 : 0);
+//                    valoriWriteDWord1.Add(rosso ? 1 : 0);
+//                    fins1.Write(valoriWriteDWord1, valoriWriteDWord1.Count, 50, 82, false);
 
 
-                    fins2 = new Fins(this.impostazioni.PLC_1_IP, 9600);
-                    List<int> valoriWriteDWord2 = new List<int>();
-                    valoriWriteDWord2.Add(sirena ? 1 : 0);
-                    fins2.Write(valoriWriteDWord2, valoriWriteDWord2.Count, 50, 82, false);
-                }
-                finally
-                {
-                    fins1?.Disconnect();
-                    fins2?.Disconnect();
-                }
-#endif
-            }
-            catch (Exception) { }
+//                    fins2 = new Fins(this.impostazioni.PLC_1_IP, 9600);
+//                    List<int> valoriWriteDWord2 = new List<int>();
+//                    valoriWriteDWord2.Add(sirena ? 1 : 0);
+//                    fins2.Write(valoriWriteDWord2, valoriWriteDWord2.Count, 50, 82, false);
+//                }
+//                finally
+//                {
+//                    fins1?.Disconnect();
+//                    fins2?.Disconnect();
+//                }
+//#endif
+//            }
+//            catch (Exception) { }
         }
 
 

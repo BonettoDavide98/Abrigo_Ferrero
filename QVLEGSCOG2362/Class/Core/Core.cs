@@ -259,7 +259,9 @@ namespace QVLEGSCOG2362.Class
                                 //    imageRotate = imgGrabTmp;
 
                                 //CoreOnNewImage(imageRotate.CopyImage(), tPreElab);
-                                CoreOnNewImage(imgGrabTmp, tPreElab);
+                                //OLD
+                                //CoreOnNewImage(imgGrabTmp, tPreElab);
+                                CoreOnNewImage(imgGrabTmp.CopyBase(CogImageCopyModeConstants.CopyPixels), tPreElab);
 
                                 if (inRegolazione)
                                 {

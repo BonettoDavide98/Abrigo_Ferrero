@@ -27,16 +27,17 @@ namespace QVLEGSCOG2362.Class
                 CogFrameGrabbers cogFrameGrabbers = new CogFrameGrabbers();
                 foreach(ICogFrameGrabber frameGrabber in cogFrameGrabbers)
                 {
-                    if(frameGrabber.Name == frameGrabberConfig.Name)
+                    Console.WriteLine(frameGrabber.OwnedGigEAccess.CurrentIPAddress + " =? " + frameGrabberConfig.Device);
+                    if(frameGrabber.OwnedGigEAccess.CurrentIPAddress == frameGrabberConfig.Device)
                     {
                         this.framegrabber = frameGrabber;
                     }
                 }
 
                 if (framegrabber == null)
-                    throw new Exception("CAM NAME ERROR");
+                    throw new Exception("CAM IP ERROR");
 
-                acqFifo = framegrabber.CreateAcqFifo(frameGrabberConfig.Device, frameGrabberConfig.pixelFormatConstants, frameGrabberConfig.Port, true);
+                acqFifo = framegrabber.CreateAcqFifo("Generic GigEVision (Bayer Color)", frameGrabberConfig.pixelFormatConstants, 0, true);
                 //this.framegrabber = new ICogFrameGrabber(frameGrabberConfig.Name
                 //    , frameGrabberConfig.Horizzontal_resolution
                 //    , frameGrabberConfig.Vertical_resolution
@@ -233,7 +234,7 @@ namespace QVLEGSCOG2362.Class
             {
                 ICogGigEAccess gigEAccess = framegrabber.OwnedGigEAccess;
 
-                gigEAccess.SetFeature(param, value);
+                //gigEAccess.SetFeature(param, value);
             } catch(Exception ex)
             {
                 MessageBox.Show(ex.StackTrace);

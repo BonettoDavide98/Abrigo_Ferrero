@@ -72,9 +72,9 @@ namespace QVLEGSCOG2362.Wizard
             //{
             //    this.core.StopAndWaitEnd(true);
             //}
+            this.core.StopAndWaitEnd(true);
 
-            //base.OnValidateStep(e);
-            throw new NotImplementedException();
+            base.OnValidateStep(e);
         }
 
         private void Object2Form(DataType.ParametriAlgoritmo param)

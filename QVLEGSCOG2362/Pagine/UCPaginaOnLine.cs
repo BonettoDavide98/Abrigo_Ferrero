@@ -113,7 +113,7 @@ namespace QVLEGSCOG2362.Pagine
         {
             try
             {
-                lblCntTout.Text = string.Format("{0} {1} {2}", num[0], num[1], num[2]);
+                //lblCntTout.Text = string.Format("{0} {1} {2}", num[0], num[1], num[2]);
             }
             catch (Exception) { }
         }

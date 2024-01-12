@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cognex.VisionPro;
+using System;
 using System.Collections.Generic;
 
 namespace QVLEGSCOG2362.DataType
@@ -20,7 +21,7 @@ namespace QVLEGSCOG2362.DataType
 
         public StatisticheObj StatisticheObj { get; set; }
 
-        public List<Tuple<string, string>> TestiOutAlgoritmi { get; set; }
+        public List<Tuple<string, CogColorConstants>> TestiOutAlgoritmi { get; set; }
         public List<string> TestiRagioneScarto { get; set; }
 
         public ElaborateResult(bool? isCircle)
@@ -34,7 +35,7 @@ namespace QVLEGSCOG2362.DataType
 
             this.StatisticheObj = new StatisticheObj() { TimeStamp = DateTime.Now };
 
-            this.TestiOutAlgoritmi = new List<Tuple<string, string>>();
+            this.TestiOutAlgoritmi = new List<Tuple<string, CogColorConstants>>();
             this.TestiRagioneScarto = new List<string>();
         }
 
