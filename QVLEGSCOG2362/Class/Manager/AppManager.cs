@@ -227,11 +227,11 @@ namespace QVLEGSCOG2362.Class
                 switch (idCamera)
                 {
                     case 0: impCam = impostazioni.ImpostazioniCamera1; break;
-                    //case 1: impCam = impostazioni.ImpostazioniCamera2; break;
-                    //case 2: impCam = impostazioni.ImpostazioniCamera3; break;
-                    //case 3: impCam = impostazioni.ImpostazioniCamera4; break;
-                    //case 4: impCam = impostazioni.ImpostazioniCamera5; break;
-                    //case 5: impCam = impostazioni.ImpostazioniCamera6; break;
+                    case 1: impCam = impostazioni.ImpostazioniCamera2; break;
+                    case 2: impCam = impostazioni.ImpostazioniCamera3; break;
+                    case 3: impCam = impostazioni.ImpostazioniCamera4; break;
+                    case 4: impCam = impostazioni.ImpostazioniCamera5; break;
+                    case 5: impCam = impostazioni.ImpostazioniCamera6; break;
                     default: break;
                 }
 

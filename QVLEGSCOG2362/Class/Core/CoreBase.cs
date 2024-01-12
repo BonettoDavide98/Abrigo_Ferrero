@@ -171,61 +171,59 @@ namespace QVLEGSCOG2362.Class
 
         private void WriteErrorImageToDisk_OLD(Utilities.CacheErrorObject ceo)
         {
-            //TODO : ImageToDisk
-            //DateTime d = DateTime.Now;
+            DateTime d = DateTime.Now;
 
-            //string path = System.IO.Path.Combine(this.config.PathDatiBase, "ERRORI", (numCamera + 1).ToString());
+            string path = System.IO.Path.Combine(this.config.PathDatiBase, "ERRORI", (numCamera + 1).ToString());
 
-            //if (!System.IO.Directory.Exists(path))
-            //    System.IO.Directory.CreateDirectory(path);
+            if (!System.IO.Directory.Exists(path))
+                System.IO.Directory.CreateDirectory(path);
 
-            //string fileName = System.IO.Path.Combine(path, string.Format("{0}.tif", d.ToString("yyyyMMdd HH mm ss.fff")));
+            string fileName = System.IO.Path.Combine(path, string.Format("{0}.tif", d.ToString("yyyyMMdd HH mm ss.fff")));
 
-            //if (ceo != null && ceo.IconicVar != null && ceo.IconicVar.Count > 0 && ((Utilities.ObjectToDisplay)ceo.IconicVar[0]).IconicVar is ICogImage)
-            //{
-            //    (((Utilities.ObjectToDisplay)ceo.IconicVar[0]).IconicVar as ICogImage).WriteImage("tiff", 255, fileName);
+            if (ceo != null && ceo.IconicVar != null && ceo.IconicVar.GetImage() != null)
+            {
+                ceo.IconicVar.GetImage().ToBitmap().Save(fileName, System.Drawing.Imaging.ImageFormat.Tiff);
 
-            //    /* cancello le immagini più vecchie oltre il numero di immagini da tenere*/
-            //    string[] filesInError = System.IO.Directory.GetFiles(path);
+                /* cancello le immagini più vecchie oltre il numero di immagini da tenere*/
+                string[] filesInError = System.IO.Directory.GetFiles(path);
 
-            //    if (filesInError.Length > this.config.NumeroErroriSuDisco)
-            //    {
-            //        filesInError = filesInError.OrderByDescending(k => k).Skip(this.config.NumeroErroriSuDisco).ToArray();
-            //        try
-            //        {
-            //            foreach (var file in filesInError)
-            //            {
-            //                System.IO.File.Delete(file);
-            //            }
-            //        }
-            //        catch (Exception)
-            //        {
-            //            // Volutamente vuoto
-            //        }
-            //    }
-            //}
+                if (filesInError.Length > this.config.NumeroErroriSuDisco)
+                {
+                    filesInError = filesInError.OrderByDescending(k => k).Skip(this.config.NumeroErroriSuDisco).ToArray();
+                    try
+                    {
+                        foreach (var file in filesInError)
+                        {
+                            System.IO.File.Delete(file);
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        // Volutamente vuoto
+                    }
+                }
+            }
         }
 
         private int cntErroriSalati = 0;
 
         private void WriteErrorImageToDisk(Utilities.CacheErrorObject ceo)
         {
-            //TODO : ImageToDisk
-            //DateTime d = DateTime.Now;
+            DateTime d = DateTime.Now;
 
-            //string path = System.IO.Path.Combine(this.config.PathErrori, d.ToString("yyyyMMdd"), (idCamera + 1).ToString());
+            string path = System.IO.Path.Combine(this.config.PathErrori, d.ToString("yyyyMMdd"), (idCamera + 1).ToString());
 
-            //if (!System.IO.Directory.Exists(path))
-            //    System.IO.Directory.CreateDirectory(path);
+            if (!System.IO.Directory.Exists(path))
+                System.IO.Directory.CreateDirectory(path);
 
-            //string fileName = System.IO.Path.Combine(path, string.Format("{0}.tif", d.ToString("HH mm ss.fff")));
+            string fileName = System.IO.Path.Combine(path, string.Format("{0}.tif", d.ToString("HH mm ss.fff")));
 
-            //if (ceo != null && ceo.IconicVar != null && ceo.IconicVar.Count > 0 && ((Utilities.ObjectToDisplay)ceo.IconicVar[0]).IconicVar is ICogImage)
-            //{
-            //    (((Utilities.ObjectToDisplay)ceo.IconicVar[0]).IconicVar as ICogImage).WriteImage("tiff", 255, fileName);
+            if (ceo != null && ceo.IconicVar != null && ceo.IconicVar.GetImage() != null)
+            {
+                ceo.IconicVar.GetImage().ToBitmap().Save(fileName, System.Drawing.Imaging.ImageFormat.Tiff);
 
-            //    this.cntErroriSalati++;
-            //}
+                this.cntErroriSalati++;
+            }
         }
 
         //public List<Utilities.CacheErrorObject> GetLastErrorsClone()
@@ -273,20 +271,19 @@ namespace QVLEGSCOG2362.Class
 
         private void Write_N_ToDisk(Utilities.CacheErrorObject ceo)
         {
-            //TODO : WriteToDisk
-            //DateTime d = DateTime.Now;
+            DateTime d = DateTime.Now;
 
-            //string path = System.IO.Path.Combine(this.config.PathDatiBase, "IMG_SAVE", (numCamera + 1).ToString());
+            string path = System.IO.Path.Combine(this.config.PathDatiBase, "IMG_SAVE", (numCamera + 1).ToString());
 
-            //if (!System.IO.Directory.Exists(path))
-            //    System.IO.Directory.CreateDirectory(path);
+            if (!System.IO.Directory.Exists(path))
+                System.IO.Directory.CreateDirectory(path);
 
-            //string fileName = System.IO.Path.Combine(path, string.Format("{0}.tif", d.ToString("yyyyMMdd HH mm ss.fff")));
+            string fileName = System.IO.Path.Combine(path, string.Format("{0}.tif", d.ToString("yyyyMMdd HH mm ss.fff")));
 
-            //if (ceo != null && ceo.IconicVar != null && ceo.IconicVar.Count > 0 && ((Utilities.ObjectToDisplay)ceo.IconicVar[0]).IconicVar is ICogImage)
-            //{
-            //    (((Utilities.ObjectToDisplay)ceo.IconicVar[0]).IconicVar as ICogImage).WriteImage("tiff", 255, fileName);
-            //}
+            if (ceo != null && ceo.IconicVar != null && ceo.IconicVar.GetImage() != null)
+            {
+                ceo.IconicVar.GetImage().ToBitmap().Save(fileName, System.Drawing.Imaging.ImageFormat.Tiff);
+            }
         }
 
         #endregion Salva immagini

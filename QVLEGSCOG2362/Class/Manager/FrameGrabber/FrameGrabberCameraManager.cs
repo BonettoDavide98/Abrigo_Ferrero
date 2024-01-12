@@ -27,7 +27,6 @@ namespace QVLEGSCOG2362.Class
                 CogFrameGrabbers cogFrameGrabbers = new CogFrameGrabbers();
                 foreach(ICogFrameGrabber frameGrabber in cogFrameGrabbers)
                 {
-                    Console.WriteLine(frameGrabber.OwnedGigEAccess.CurrentIPAddress + " =? " + frameGrabberConfig.Device);
                     if(frameGrabber.OwnedGigEAccess.CurrentIPAddress == frameGrabberConfig.Device)
                     {
                         this.framegrabber = frameGrabber;
@@ -102,12 +101,9 @@ namespace QVLEGSCOG2362.Class
 
         public void SetOutput(string line, bool value)
         {
-            //if (!line.Equals("Line3"))
-            //{
             SetParam("LineSelector", line);
             SetParam("outputLineSource", "SoftwareControlled");
             SetParam("outputLineValue", value ? "Active" : "Inactive");
-            //}
         }
 
         public bool GetValueInput(string line)
@@ -142,7 +138,7 @@ namespace QVLEGSCOG2362.Class
             try
             {
                 //TODO : Set Gain
-                //acqFifo.OwnedDigitalCameraGainParams.
+                //acqFifo.
             }
             catch (Exception ex)
             {
@@ -289,7 +285,6 @@ namespace QVLEGSCOG2362.Class
                 if (disposing)
                 {
                     // Free other state (managed objects).
-                    //framegrabber.Dispose();
                     framegrabber.Disconnect(false);
                 }
                 // Free your own state (unmanaged objects).
