@@ -1,0 +1,711 @@
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Administrator\Desktop\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare\ultimo rivettatura tradotto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Administrator\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\rivettatura\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Progetec\Desktop\non toccare\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Administrator\Desktop\non toccare 30 11 2011\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Administrator\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Documenti\==Projects\Progetec\Tramontina\-OK-rivettatura\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 new SNPX\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\non toccare 2012 agosto\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\progetec\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.dll
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\bin\Debug\TSWizards.pdb
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.dll
+C:\Users\Luca\Desktop\non toccare feb 2013\RobotGuidanceTramontina\wizard\obj\Debug\TSWizards.pdb
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.dll
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.pdb
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.dll
+C:\Users\Luca\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\progetec\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.pdb
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.dll
+C:\Documents and Settings\Amministratore\Desktop\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.csprojResolveAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\3-rivettaAvvita 2014\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.csprojResolveAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\robotGuidance multilingua_\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\RIVETTETURA SAPERA\VERSIONE SAPERA\RobotGuidanceMultilingua\wizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\PrintCheck\TSWizard\obj\Debug\TSWizards.csprojResolveAssemblyReference.cache
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\obj\Debug\TSWizards.csprojResolveAssemblyReference.cache
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Advantech.AECH070990\Desktop\PrintCheck\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\obj\Debug\TSWizards.csprojResolveAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\BRESCIA\PrintCheck\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COTTALI\__OLD2\PrintCheck\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\20190805_Coproget\TSWizard\obj\Debug\TSWizards.pdb
+C:\QUALIVISION\Coproget\TSWizard\bin\Debug\TSWizards.dll
+C:\QUALIVISION\Coproget\TSWizard\bin\Debug\TSWizards.pdb
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.dll
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.pdb
+C:\QUALIVISION\Coproget\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Nuova cartella\Coproget\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\TestBisturi\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\20191113_TestBisturi\TSWizard\obj\Debug\TSWizards.pdb
+C:\QUALIVISION\src\TestBisturi\TSWizard\bin\Debug\TSWizards.dll
+C:\QUALIVISION\src\TestBisturi\TSWizard\bin\Debug\TSWizards.pdb
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.dll
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.pdb
+C:\QUALIVISION\src\TestBisturi\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\BIANCO\Progetto\TestBisturi\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\TestBisturi\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\PROGETEC\Tramontina\DISCHI\PT_DISCHI\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\TECHNOPACK\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Qualivision\src\QVLEGS\TSWizard\bin\Debug\TSWizards.dll
+C:\Qualivision\src\QVLEGS\TSWizard\bin\Debug\TSWizards.pdb
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.dll
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\QVLEGS\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\TSWizard\obj\Debug\TSWizards.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\bin\Debug\TSWizards.dll
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\bin\Debug\TSWizards.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.dll
+C:\PROGRAMMI_DEMO\QVLEGS\TSWizard\obj\Debug\TSWizards.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\bin\Debug\TSWizards.dll
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\bin\Debug\TSWizards.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.dll
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Qualivision\src\QVLEGS\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojResolveAssemblyReference.cache
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\QUALIVISION\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\QUALIVISION\src\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojResolveAssemblyReference.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\TSWizard\obj\Debug\TSWizards.pdb
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\bin\Debug\TSWizards.dll
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\bin\Debug\TSWizards.pdb
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.csprojResolveAssemblyReference.cache
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.BaseExteriorStep.resources
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.BaseInteriorStep.resources
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.BaseStep.resources
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.BaseWizard.resources
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.Controls.EtchedLine.resources
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.csproj.GenerateResource.Cache
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.csproj.CoreCompileInputs.cache
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.dll
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\TSWizard\obj\Debug\TSWizards.pdb

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSWizards", "TSWizards.csproj", "{DCF08909-AC8C-4E8D-A868-F54D5B888E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSWizardDemo", "TSWizardDemo\TSWizardDemo.csproj", "{F2B7FC83-688D-444B-92E9-63758AA1FEDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DCF08909-AC8C-4E8D-A868-F54D5B888E43}.Debug.ActiveCfg = Debug|.NET
+		{DCF08909-AC8C-4E8D-A868-F54D5B888E43}.Debug.Build.0 = Debug|.NET
+		{DCF08909-AC8C-4E8D-A868-F54D5B888E43}.Release.ActiveCfg = Release|.NET
+		{DCF08909-AC8C-4E8D-A868-F54D5B888E43}.Release.Build.0 = Release|.NET
+		{F2B7FC83-688D-444B-92E9-63758AA1FEDF}.Debug.ActiveCfg = Debug|.NET
+		{F2B7FC83-688D-444B-92E9-63758AA1FEDF}.Debug.Build.0 = Debug|.NET
+		{F2B7FC83-688D-444B-92E9-63758AA1FEDF}.Release.ActiveCfg = Release|.NET
+		{F2B7FC83-688D-444B-92E9-63758AA1FEDF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSWizards", "TSWizards.csproj", "{DCF08909-AC8C-4E8D-A868-F54D5B888E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSWizardDemo", "TSWizardDemo\TSWizardDemo.csproj", "{F2B7FC83-688D-444B-92E9-63758AA1FEDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCF08909-AC8C-4E8D-A868-F54D5B888E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF08909-AC8C-4E8D-A868-F54D5B888E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF08909-AC8C-4E8D-A868-F54D5B888E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF08909-AC8C-4E8D-A868-F54D5B888E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B7FC83-688D-444B-92E9-63758AA1FEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B7FC83-688D-444B-92E9-63758AA1FEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B7FC83-688D-444B-92E9-63758AA1FEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B7FC83-688D-444B-92E9-63758AA1FEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

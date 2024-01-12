@@ -1,0 +1,16 @@
+
+Date and Time: 09/01/2024 10:38:19
+System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.CheckForComplete() in C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\UCEditAlgoritmo\UCEditAlgMacchie.cs:riga 74
+   in QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.SetAlgoritmo(AlgoritmoWizard algoritmoWizard) in C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\UCEditAlgoritmo\UCEditAlgMacchie.cs:riga 57
+   in QVLEGS.Pagine.UCPaginaEditRicettaCam.CaricaRicetta(String idFormato) in C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\Pagine\SottoPagine\UCPaginaEditRicettaCam.cs:riga 211
+Date and Time: 09/01/2024 10:38:19
+System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.CheckForComplete() in C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\UCEditAlgoritmo\UCEditAlgMacchie.cs:riga 74
+   in QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.SetAlgoritmo(AlgoritmoWizard algoritmoWizard) in C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\UCEditAlgoritmo\UCEditAlgMacchie.cs:riga 57
+   in QVLEGS.Pagine.UCPaginaEditRicettaCam.CaricaRicetta(String idFormato) in C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\Pagine\SottoPagine\UCPaginaEditRicettaCam.cs:riga 211
+Date and Time: 09/01/2024 10:38:19
+System.NullReferenceException: Riferimento a un oggetto non impostato su un'istanza di oggetto.
+   in QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.CheckForComplete() in C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\UCEditAlgoritmo\UCEditAlgMacchie.cs:riga 74
+   in QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.SetAlgoritmo(AlgoritmoWizard algoritmoWizard) in C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\UCEditAlgoritmo\UCEditAlgMacchie.cs:riga 57
+   in QVLEGS.Pagine.UCPaginaEditRicettaCam.CaricaRicetta(String idFormato) in C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\Pagine\SottoPagine\UCPaginaEditRicettaCam.cs:riga 211

@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cognex.VisionPro.SmartLine</name>
+    </assembly>
+    <members>
+        <member name="T:Cognex.VisionPro.SmartLine.CogSmartLineMaxPolarityConstants">
+            <summary>
+            Enumeration of LineMax polarity values.
+            </summary>
+        </member>
+        <member name="F:Cognex.VisionPro.SmartLine.CogSmartLineMaxPolarityConstants.DarkToLight">
+            <summary>
+            The brightness transitions from dark to light, along the direction of
+            the line normal.
+            </summary>
+        </member>
+        <member name="F:Cognex.VisionPro.SmartLine.CogSmartLineMaxPolarityConstants.LightToDark">
+            <summary>
+            The brightness transitions from light to dark, along the direction of
+            the line normal.
+            </summary>
+        </member>
+        <member name="F:Cognex.VisionPro.SmartLine.CogSmartLineMaxPolarityConstants.Either">
+            <summary>
+            The brightness transitions from dark to light or from light to dark,
+            but not both, along the direction of the line normal.
+            </summary>
+        </member>
+        <member name="F:Cognex.VisionPro.SmartLine.CogSmartLineMaxPolarityConstants.Mixed">
+            <summary>
+            The brightness transitions from dark to light and from light to dark,
+            along the direction of the line normal.
+            </summary>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.#ctor(Cognex.VisionPro.SmartLine.CogSmartLineMaxResult)">
+            <summary>
+            Construct a deep copy of the supplied CogSmartLineMaxResult object.
+            </summary>
+            <param name="other">The CogSmartLineMaxResult object to be copied. May not be null.</param>
+            <exception cref="T:System.ArgumentNullException">
+            If the input argument is null.
+            </exception>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Serialization constructor for the CogSmartLineMaxResult object.
+            </summary>
+            <param name="info">The standard SerializationInfo argument.</param>
+            <param name="ctxt">The standard StreamingContext argument.</param>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Populates the provided SerializationInfo with the data needed to serialize the object.
+            </summary>
+            <param name="info">The SerializationInfo to which serialization data must be added.</param>
+            <param name="ctxt">The StreamingContext that indicates the intent of the current serialization operation.</param>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.Contrast">
+            <summary>
+            Gets the absolute contrast across the line segment in the ExpectedLineNormal direction.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.Coverage">
+            <summary>
+            Gets the proportion of inliers relative to the maximum possible number of inliers.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.ID">
+            <summary>
+            Gets the unique ID used to identify this result.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.Intensity">
+            <summary>
+            Gets the average intensity along the line segment.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.MaxError">
+            <summary>
+            Gets the distance of the farthest inlier from the line.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.NormalAngle">
+            <summary>
+            Gets the direction of the line segment along the normal direction.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.NormalizedContrast">
+            <summary>
+            Gets the normalized contrast across the line segment in the ExpectedLineNormal direction.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.NumProjectionRegions">
+            <summary>
+            Gets the number of "care" projection regions along the line segment.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.RMSError">
+            <summary>
+            Gets the residual error in fitting the Inliers to the line segment.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.TangentAngle">
+            <summary>
+            Gets the direction of the line segment along the tangent direction.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.Inliers">
+            <summary>
+            Gets the set of edge points fitted to the line.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.Polarity">
+            <summary>
+            Gets the polarity across the line in the ExpectedLineNormal direction.
+            </summary>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.GetLine">
+            <summary>
+            Creates a graphic of the the line segment result.
+            </summary>
+            <returns>The created CogLine</returns>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineMaxResult.GetLineSegment">
+            <summary>
+            Creates a graphic of the line result.
+            </summary>
+            <returns>The LineSegment</returns>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineResult.#ctor(Cognex.VisionPro.SmartLine.CogSmartLineResult)">
+            <summary>
+            Copy construct a CogSmartLineResult instance.
+            </summary>
+            <param name="other"></param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="other"/> is null.
+            </exception>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineResult.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Serialization constructor for the CogSmartLineResult object.
+            </summary>
+            <param name="info">The standard SerializationInfo argument.</param>
+            <param name="ctxt">The standard StreamingContext argument.</param>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineResult.Score">
+            <summary>
+            Gets the calculated score of the current LineMax result and Segmenter result assignment.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineResult.SmartLineMaxResult">
+            <summary>
+            Gets the LineMaxResult.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineResult.SegmentResult">
+            <summary>
+            Gets the segment result.
+            </summary>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineResult.ConsideredSegmentResults">
+            <summary>
+            Gets the Segment Result collection which contains all the considered Segmenter results.
+            Only those items contained which threshold was higher than the given Threshold.
+            The results below that number are discarded.
+            </summary>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineResults.#ctor(Cognex.VisionPro.SmartLine.CogSmartLineResults)">
+            <summary>
+            Construct a deep copy of the supplied CogSmartLineResults object.
+            </summary>
+            <param name="other">The CogSmartLineResults to be copied. Must not be null.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="other"/> is null.
+            </exception>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineResults.ProcessedInputImage">
+            <summary>
+            Gets the processed input image provided to the SmartLineSegmentOperator for segmentation.
+            </summary>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineResults.ResultLine(System.String)">
+            <summary>
+            Returns the SmartLineResult corresponding to the provided class name. 
+            Returns null if the provided className is not found in the SmartLineResults collection.
+            </summary>
+            <param name="className">The class name of the desired line results.</param>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineResults.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Serialization constructor for CogSmartLineResults object.
+            </summary>
+            <param name="info">The standard SerializationInfo argument.</param>
+            <param name="ctxt">The standard StreamingContext argument.</param>
+        </member>
+        <member name="T:Cognex.VisionPro.SmartLine.CogSmartLineTool">
+            <summary>
+            This is the class for the CogSmartLineTool. The CogSmartLineTool
+            provides functionality for interacting with a Vision SmartLineTool
+            <see cref="T:Cognex.Vision.SmartLine.SmartLineTool" /> from within a VisionPro environment.
+            </summary>
+            <remarks>
+            <para>
+            This tool has a non-standard structure. It provides an
+            <see cref="P:Cognex.VisionPro.SmartLine.CogSmartLineTool.InputImage" />
+            property that allows for the automatic conversion of input images to
+            be provided to the underlying SmartLineTool. However, all setting run parameters,
+            setting training parameters, retrieving results, and any functionality beyond 
+            providing an input image and running the tool must be done through the
+            <see cref="P:Cognex.VisionPro.SmartLine.CogSmartLineTool.VisionInteropTool" />
+            property. This property allows direct access to the SmartLine Tool;
+            CogSmartLineTool provides a wrapper for it in order to enable its use within
+            ToolBlocks and other existing VisionPro architecture.
+            </para>
+            </remarks>
+        </member>
+        <member name="F:Cognex.VisionPro.SmartLine.CogSmartLineTool.SfInputImage">
+            <summary>
+            This bit will be set in the EventArgs of a Changed event
+            every time the value returned by InputImage may have changed.
+            </summary>
+        </member>
+        <member name="F:Cognex.VisionPro.SmartLine.CogSmartLineTool.SfVisionInteropTool">
+            <summary>
+            This bit will be set in the EventArgs of a Changed event
+            every time the value returned by VisionInteropTool may have changed.
+            </summary>
+        </member>
+        <member name="F:Cognex.VisionPro.SmartLine.CogSmartLineTool.SfResults">
+            <summary>
+            This bit will be set in the EventArgs of a Changed event
+            every time the value returned by Results may have changed.
+            </summary>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineTool.#ctor">
+            <summary>
+            Default construct a CogSmartLineTool instance.
+            </summary>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineTool.#ctor(Cognex.VisionPro.SmartLine.CogSmartLineTool)">
+            <summary>
+            Constructs a new instance of this class as a deep copy of the
+            given instance.
+            </summary>
+            <param name="other">
+            The CogSmartLineTool object to be copied. May not be null.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            If the input argument is null.
+            </exception>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineTool.Run">
+            <summary>
+            Run the SmartLine tool on the current InputImage
+            and place the SmartLine results in the Results
+            collection.
+            The tool will run using an internally held Vision SmartLine Tool that has been trained
+            and configured directly through the
+            <see cref="P:Cognex.VisionPro.SmartLine.CogSmartLineTool.VisionInteropTool" />
+            property.
+            </summary>
+            <event cref="E:Cognex.VisionPro.ICogTool.Running">
+            Fires before the tool runs.
+            </event>
+            <event cref="E:Cognex.VisionPro.ICogTool.Ran">
+            Fires after the tool runs.
+            </event>
+            <remarks>
+            Note that, like all VisionPro tools, run time errors
+            will be reported in the RunStatus.
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineTool.VisionInteropTool">
+            <summary>
+            The underlying <see cref="T:Cognex.Vision.SmartLine.SmartLineTool"/>.
+            </summary>
+            <remarks>
+            <para>
+            This property allows you to set train-time and runtime parameters of
+            the underlying SmartLineTool.
+            </para>
+            </remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+            <para>
+            Fires when the value of this property changes.
+            </para>
+            <para>
+            The following state flag may be affected:
+            </para>
+            <list type="bullet">
+            <item>
+            <see cref="F:Cognex.VisionPro.CogSmartLineTool.SfVisionInteropTool" />
+            </item>
+            </list>
+            </event>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineTool.InputImage">
+            <summary>
+            The image upon which to perform SmartLine analysis.
+            </summary>
+            <value>
+            The default is null.
+            </value>
+            <remarks>
+            SmartLineTool can only support <see cref="T:Cognex.VisionPro.CogImage8Grey"/> images.
+            </remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+            <para>
+            Fires when the value of this property changes.
+            </para>
+            <para>
+            The following state flag may be affected:
+            </para>
+            <list type="bullet">
+            <item>
+            <see cref="F:Cognex.VisionPro.CogSmartLineTool.SfInputImage" />
+            </item>
+            </list>
+            </event>
+        </member>
+        <member name="P:Cognex.VisionPro.SmartLine.CogSmartLineTool.Results">
+            <summary>
+            Gets the collection of results generated by the most recent call to run.
+            </summary> Gets the collection of results generated by the most recent call to
+            <returns>
+            The zero-based index-able collection.
+            </returns>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineTool.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Serialization constructor for CogSmartLineTool object.
+            </summary>
+            <param name="info">The standard SerializationInfo argument.</param>
+            <param name="ctxt">The standard StreamingContext argument.</param>
+        </member>
+        <member name="M:Cognex.VisionPro.SmartLine.CogSmartLineTool.Clone">
+            <summary>
+            Create a duplicate of this CogSmartLineTool object.
+            </summary>
+            <returns>A newly created duplicate of this CogSmartLineTool object.</returns>
+        </member>
+    </members>
+</doc>

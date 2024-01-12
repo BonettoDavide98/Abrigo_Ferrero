@@ -1,0 +1,399 @@
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\bin\Debug\ClientEEIP.exe.config
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\bin\Debug\ClientEEIP.exe
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.Form1.resources
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.exe
+C:\Users\Amministratore\source\repos\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\bin\Debug\ClientEEIP.exe.config
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\bin\Debug\ClientEEIP.exe
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.Form1.resources
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.exe
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Qualivision3\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.frmProva.resources
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\bin\Debug\ClientEEIP.exe.config
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\bin\Debug\ClientEEIP.exe
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.Form1.resources
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.frmProva.resources
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.exe
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\ClientEEIP\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\bin\Debug\ClientEEIP.exe.config
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\bin\Debug\ClientEEIP.exe
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\obj\Debug\ClientEEIP.Form1.resources
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\obj\Debug\ClientEEIP.frmProva.resources
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\obj\Debug\ClientEEIP.exe
+C:\Users\Amministratore\Desktop\ClientEEIP UDP\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.Form1.resources
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.frmProva.resources
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.exe
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.exe.config
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.exe
+C:\Users\Amministratore\Desktop\3o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.exe.config
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.exe
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.Form1.resources
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.frmProva.resources
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.exe
+C:\Users\Qualivision3\Desktop\3o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Qualivision3\Desktop\4o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Qualivision3\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Qualivision3\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\Users\Qualivision3\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Qualivision3\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Qualivision3\Desktop\4o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Qualivision3\Desktop\4o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Qualivision3\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Qualivision3\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\Users\Amministratore\Desktop\4o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Amministratore\Desktop\4o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Amministratore\Desktop\4o TCPUDP\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Amministratore\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Amministratore\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Amministratore\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Amministratore\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Amministratore\Desktop\4o TCPUDP\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\QUALIVISION\Coproget\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\QUALIVISION\Coproget\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\QUALIVISION\Coproget\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\QUALIVISION\Coproget\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\QUALIVISION\Coproget\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\QUALIVISION\Coproget\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\QUALIVISION\Coproget\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\QUALIVISION\Coproget\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\QUALIVISION\Coproget\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\COPROGET\PROGETTO\Coproget\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alex\Documents\GitHub\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alex\Documents\GitHub\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alex\Documents\GitHub\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alex\Documents\GitHub\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Qualivision\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Qualivision\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Qualivision\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Qualivision\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Qualivision\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Qualivision\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Qualivision\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Qualivision\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Qualivision\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.CodeAnalysisLog.xml
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.lastcodeanalysissucceeded
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\Prova EthIP\Sorgenti\ProvaHandshakeEthIP\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Amministratore\Desktop\Prova EthIP\Sorgenti\ProvaHandshakeEthIP\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Amministratore\Desktop\Prova EthIP\Sorgenti\ProvaHandshakeEthIP\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\Prova EthIP\Sorgenti\ProvaHandshakeEthIP\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Amministratore\Desktop\Prova EthIP\Sorgenti\ProvaHandshakeEthIP\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Amministratore\Desktop\Prova EthIP\Sorgenti\ProvaHandshakeEthIP\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Amministratore\Desktop\Prova EthIP\Sorgenti\ProvaHandshakeEthIP\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Amministratore\Desktop\Prova EthIP\Sorgenti\ProvaHandshakeEthIP\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Amministratore\Desktop\Prova EthIP\Sorgenti\ProvaHandshakeEthIP\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alex\Documents\GitHub\FerreroMisureHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alex\Documents\GitHub\FerreroMisureHMI\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alex\Documents\GitHub\FerreroMisureHMI\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alex\Documents\GitHub\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alex\Documents\GitHub\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alex\Documents\GitHub\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Qualivision\FerreroMisureHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Qualivision\FerreroMisureHMI\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Qualivision\FerreroMisureHMI\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Qualivision\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\Qualivision\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Qualivision\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\Qualivision\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Qualivision\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Qualivision\FerreroMisureHMI\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Qualivision\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\Qualivision\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Qualivision\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\Qualivision\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Qualivision\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Qualivision\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Qualivision\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Qualivision\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Qualivision\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alex\Desktop\FerreroMisure\2020 08 17\FerreroHMI20\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alex\Desktop\FerreroMisure\2020 08 17\FerreroHMI20\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alex\Desktop\FerreroMisure\2020 08 17\FerreroHMI20\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alex\Desktop\FerreroMisure\2020 08 17\FerreroHMI20\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\FerreroMisure\2020 08 17\FerreroHMI20\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alex\Desktop\FerreroMisure\2020 08 17\FerreroHMI20\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\FerreroMisure\2020 08 17\FerreroHMI20\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\FerreroMisure\2020 08 17\FerreroHMI20\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alex\Desktop\FerreroMisure\2020 08 17\FerreroHMI20\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Qualivision\_SRC\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Qualivision\_SRC\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Qualivision\_SRC\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Qualivision\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\Qualivision\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Qualivision\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\Qualivision\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Qualivision\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Qualivision\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alex\Desktop\FerreroMisure\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alex\Desktop\FerreroMisure\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alex\Desktop\FerreroMisure\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alex\Desktop\FerreroMisure\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\FerreroMisure\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alex\Desktop\FerreroMisure\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\FerreroMisure\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\FerreroMisure\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alex\Desktop\FerreroMisure\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\FERRERO\BANCO_MISURA\_SRC\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\FERRERO\BANCO_MISURA\_SRC\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\FERRERO\BANCO_MISURA\_SRC\FerreroHMI\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\FERRERO\BANCO_MISURA\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\FERRERO\BANCO_MISURA\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\FERRERO\BANCO_MISURA\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\FERRERO\BANCO_MISURA\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\FERRERO\BANCO_MISURA\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\FERRERO\BANCO_MISURA\_SRC\FerreroHMI\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Qualivision\src\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Qualivision\src\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Qualivision\src\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Qualivision\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Qualivision\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\Qualivision\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Qualivision\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Qualivision\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Qualivision\src\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Qualivision\src\20210209_QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Qualivision\src\20210209_QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Qualivision\src\20210209_QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Qualivision\src\20210209_QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Qualivision\src\20210209_QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Qualivision\src\20210209_QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Qualivision\src\20210209_QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Qualivision\src\20210209_QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Qualivision\src\20210209_QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Amministratore\Desktop\FILE_QVLEGS\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\PROGRAMMI_DEMO\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\PROGRAMMI_DEMO\QVLEGS\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\PROGRAMMI_DEMO\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\PROGRAMMI_DEMO\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\PROGRAMMI_DEMO\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\PROGRAMMI_DEMO\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\PROGRAMMI_DEMO\QVLEGS\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\PROGRAMMI_DEMO\QVLEGS\SRC\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Luca\Desktop\ALESSANDRO\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\QUALIVISION\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\QUALIVISION\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\QUALIVISION\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\QUALIVISION\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\QUALIVISION\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\QUALIVISION\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\QUALIVISION\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\QUALIVISION\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\QUALIVISION\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\QUALIVISION\src\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\QUALIVISION\src\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\QUALIVISION\src\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\QUALIVISION\src\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\QUALIVISION\src\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\QUALIVISION\src\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\QUALIVISION\src\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\QUALIVISION\src\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\_mod_vaschette\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECHNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\vv\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\ClientEEIP\obj\Debug\ClientEEIP.pdb
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\ClientEEIP\bin\Debug\ClientEEIP.dll.config
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\ClientEEIP\bin\Debug\ClientEEIP.dll
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\ClientEEIP\bin\Debug\ClientEEIP.pdb
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\ClientEEIP\obj\Debug\ClientEEIP.csprojResolveAssemblyReference.cache
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\ClientEEIP\obj\Debug\ClientEEIP.Properties.Resources.resources
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\ClientEEIP\obj\Debug\ClientEEIP.csproj.GenerateResource.Cache
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\ClientEEIP\obj\Debug\ClientEEIP.csproj.CoreCompileInputs.cache
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\ClientEEIP\obj\Debug\ClientEEIP.dll
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\ClientEEIP\obj\Debug\ClientEEIP.pdb

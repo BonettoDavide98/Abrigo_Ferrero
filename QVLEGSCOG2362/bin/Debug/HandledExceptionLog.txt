@@ -1,0 +1,16 @@
+
+Date and Time: 12/01/2024 10:25:41
+System.Exception: SOGLIA INESISTENTE
+   in QVLEGSCOG2362.Algoritmi.AlgoritmoLavoro.GetSoglieByKey(String key) in C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\Algoritmi\AlgoritmoLavoro.cs:riga 318
+   in QVLEGSCOG2362.UCEditSoglia.Init(String descrizione, AlgoritmoLavoro algoritmo, LinguaManager linguaManager) in C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\Controls\UCEditSoglia.cs:riga 41
+   in QVLEGSCOG2362.Pagine.SottoPagine.UCPaginaViewSoglieCam.Init(AppManager appManager, Impostazioni impostazioni, Int32 idCamera, String idFormato, LinguaManager linguaManager) in C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\Pagine\SottoPagine\UCPaginaViewSoglieCam.cs:riga 124
+Date and Time: 12/01/2024 10:25:49
+System.Exception: SOGLIA INESISTENTE
+   in QVLEGSCOG2362.Algoritmi.AlgoritmoLavoro.GetSoglieByKey(String key) in C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\Algoritmi\AlgoritmoLavoro.cs:riga 318
+   in QVLEGSCOG2362.UCEditSoglia.Init(String descrizione, AlgoritmoLavoro algoritmo, LinguaManager linguaManager) in C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\Controls\UCEditSoglia.cs:riga 41
+   in QVLEGSCOG2362.Pagine.SottoPagine.UCPaginaViewSoglieCam.Init(AppManager appManager, Impostazioni impostazioni, Int32 idCamera, String idFormato, LinguaManager linguaManager) in C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\Pagine\SottoPagine\UCPaginaViewSoglieCam.cs:riga 124
+Date and Time: 12/01/2024 10:25:50
+System.Exception: SOGLIA INESISTENTE
+   in QVLEGSCOG2362.Algoritmi.AlgoritmoLavoro.GetSoglieByKey(String key) in C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\Algoritmi\AlgoritmoLavoro.cs:riga 318
+   in QVLEGSCOG2362.UCEditSoglia.Init(String descrizione, AlgoritmoLavoro algoritmo, LinguaManager linguaManager) in C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\Controls\UCEditSoglia.cs:riga 41
+   in QVLEGSCOG2362.Pagine.SottoPagine.UCPaginaViewSoglieCam.Init(AppManager appManager, Impostazioni impostazioni, Int32 idCamera, String idFormato, LinguaManager linguaManager) in C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\Pagine\SottoPagine\UCPaginaViewSoglieCam.cs:riga 124

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\professional\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\Alex\Desktop\Gildemeister\20200629\GildemeisterHMI\ClientEEIP\bin\Debug\ClientEEIP.dll">
+   <Modules>
+    <Module Name="clienteeip.dll">
+     <Namespaces>
+      <Namespace Name="ClientEEIP">
+       <Types>
+        <Type Name="UdpDataServer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2020-07-01 12:45:58Z" FixCategory="NonBreaking">
+           <Issue Name="NonBreaking" Certainty="95" Level="CriticalError">Implementare IDisposable in 'UdpDataServer' poiché crea membri dei tipi IDisposable seguenti: 'Socket'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UdpServer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2020-07-01 12:45:58Z" FixCategory="NonBreaking">
+           <Issue Name="NonBreaking" Certainty="95" Level="CriticalError">Implementare IDisposable in 'UdpServer' poiché crea membri dei tipi IDisposable seguenti: 'Socket'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ClientEEIP.ClassiMie">
+       <Types>
+        <Type Name="TcpServerAsync" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#OnReceiveData" Kind="Event" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2020-07-01 12:45:58Z" FixCategory="Breaking">
+             <Issue Name="Second" Certainty="95" Level="Error">Dichiarare il secondo parametro di 'EventHandler&lt;TcpUdpData&gt;' come EventArgs o come istanza di un tipo che estende EventArgs, con nome 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ClientEEIP.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2020-07-01 12:45:58Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Evitare il codice privato non chiamato</Name>
+   <Description>È presente un codice non chiamato che non è visibile esternamente e non è un punto di ingresso riconosciuto in fase di esecuzione. Se questa violazione genera un errore, inviare la segnalazione del problema al team dell'analisi codice di Visual Studio.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009">
+   <Name>Dichiarare correttamente i gestori eventi</Name>
+   <Description>Per convenzione, gli eventi .NET hanno due parametri che specificano, rispettivamente, l'origine e i dati dell'evento. Le firme del gestore eventi devono avere il seguente formato: void MyEventHandler(object sender, EventArgs e). Il parametro 'sender' è sempre di tipo System.Object, anche se è possibile utilizzare un tipo più specifico. il parametro 'e' è sempre di tipo System.EventArgs. Gli eventi che non forniscono dati devono utilizzare il tipo delegato System.EventHandler. I gestori eventi restituiscono un valore void, in modo da poter inviare ogni evento a più metodi di destinazione. Qualsiasi valore restituito da una destinazione viene perso dopo la prima chiamata.</Description>
+   <Resolution Name="Second">Dichiarare il secondo parametro di {0} come EventArgs o come istanza di un tipo che estende EventArgs, con nome 'e'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182133.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>I tipi proprietari di campi Disposable devono essere Disposable</Name>
+   <Description>I tipi che dichiarano membri Disposable devono implementare l'interfaccia IDisposable. Se il tipo non è proprietario di risorse non gestite, non implementare finalizzatori su di esso.</Description>
+   <Resolution Name="NonBreaking">Implementare IDisposable in {0} poiché crea membri dei tipi IDisposable seguenti: {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Attendibilità</String>
+  <String Key="CollapseAll">Comprimi tutto</String>
+  <String Key="CheckId">ID controllo</String>
+  <String Key="Error">Errore</String>
+  <String Key="Errors">errori</String>
+  <String Key="ExpandAll">Espandi tutto</String>
+  <String Key="Help">Guida</String>
+  <String Key="Line">Riga</String>
+  <String Key="Messages">messaggi</String>
+  <String Key="LocationNotStoredInPdb">[Percorso non archiviato nel PDB]</String>
+  <String Key="Project">Progetto</String>
+  <String Key="Resolution">Risoluzione</String>
+  <String Key="Rule">Regola</String>
+  <String Key="RuleFile">File delle regole</String>
+  <String Key="RuleDescription">Descrizione regola</String>
+  <String Key="Source">Origine</String>
+  <String Key="Status">Stato</String>
+  <String Key="Target">Destinazione</String>
+  <String Key="Warning">Avviso</String>
+  <String Key="Warnings">avvisi</String>
+  <String Key="ReportTitle">Report di analisi codice</String>
+ </Localized>
+</FxCopReport>

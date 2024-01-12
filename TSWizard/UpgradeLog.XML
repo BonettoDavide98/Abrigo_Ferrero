@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TSWizard">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Amministratore\Desktop\wizard\TSWizard.sln">
+</Property><Property Name="Date" Value="sabato 10 gennaio 2009">
+</Property><Property Name="Time" Value="16.55">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TSWizard.sln" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizard.sln">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="TSWizards.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizards.csproj">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="AllowClose.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\AllowClose.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="BaseExteriorStep.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\BaseExteriorStep.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="BaseInteriorStep.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\BaseInteriorStep.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="BaseStep.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\BaseStep.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="BaseWizard.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\BaseWizard.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="Collections.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\Collections.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="Controls\BulletList.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\Controls\BulletList.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="Controls\LineFrame.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\Controls\LineFrame.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="PageLayout.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\PageLayout.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="ShowStepEvent.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\ShowStepEvent.cs">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="keyfile.snk" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\keyfile.snk">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="BaseExteriorStep.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\BaseExteriorStep.resx">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="BaseInteriorStep.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\BaseInteriorStep.resx">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="BaseStep.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\BaseStep.resx">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="BaseWizard.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\BaseWizard.resx">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="Controls\LineFrame.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\Controls\LineFrame.resx">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="wizard.bmp" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\wizard.bmp">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="wizardSide.jpg" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\wizardSide.jpg">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="wizardSideLogo.jpg" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\wizardSideLogo.jpg">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="TSWizards.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TSWizards" Source="TSWizards.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\TSWizardDemo.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\TSWizardDemo.csproj">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\DemoWizard.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\DemoWizard.cs">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Form1.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Form1.cs">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step1.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step1.cs">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step2.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step2.cs">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step3.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step3.cs">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step4.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step4.cs">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step5.cs" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step5.cs">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\App.ico" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\App.ico">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\customLogo.jpg" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\customLogo.jpg">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\customSideBarImage.jpg" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\customSideBarImage.jpg">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\customSideBarLogo.jpg" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\customSideBarLogo.jpg">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\DemoWizard.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\DemoWizard.resx">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Form1.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Form1.resx">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step1.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step1.resx">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step2.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step2.resx">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step3.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step3.resx">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step4.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step4.resx">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\Step5.resx" Description="File successfully backed up as C:\Documents and Settings\Amministratore\Desktop\wizard\Backup\TSWizardDemo\Step5.resx">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\TSWizardDemo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TSWizardDemo" Source="TSWizardDemo\TSWizardDemo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TSWizard.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TSWizard.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TSWizards" Source="TSWizards.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TSWizardDemo" Source="TSWizardDemo\TSWizardDemo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

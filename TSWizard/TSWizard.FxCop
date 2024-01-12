@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<FxCopProject Version="1.072">
+    <ProjectOptions>
+        <PersistViolations>False</PersistViolations>
+        <SharedProject>False</SharedProject>
+    </ProjectOptions>
+    <TargetAssemblies>
+        <TargetAssembly Visible="True">p:\tswizard\bin\release\tswizards.dll</TargetAssembly>
+    </TargetAssemblies>
+    <Rules>
+        <RuleAssemblies>
+            <RuleAssembly Visible="True" Name="%fxcop%\rules\comrules.dll" />
+            <RuleAssembly Visible="True" Name="%fxcop%\rules\designrules.dll" />
+            <RuleAssembly Visible="True" Name="%fxcop%\rules\globalizationrules.dll" />
+            <RuleAssembly Visible="True" Name="%fxcop%\rules\namingrules.dll" />
+            <RuleAssembly Visible="True" Name="%fxcop%\rules\performancerules.dll" />
+            <RuleAssembly Visible="True" Name="%fxcop%\rules\securityrules.dll" />
+            <RuleAssembly Visible="True" Name="%fxcop%\rules\usagerules.dll" />
+        </RuleAssemblies>
+    </Rules>
+    <ExcludeFiles>
+        <ProjectExclude Visible="True" />
+    </ExcludeFiles>
+    <Exclusions />
+</FxCopProject>

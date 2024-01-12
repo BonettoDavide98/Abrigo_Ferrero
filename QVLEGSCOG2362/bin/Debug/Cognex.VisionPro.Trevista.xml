@@ -1,0 +1,2125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        "Cognex.VisionPro.Trevista"
+    </assembly>
+    <members>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaTool.Result">
+            <summary>
+Gets the Result from the last run of the tool.
+</summary>
+            <value> The results from the last run of the tool.
+Default value is null.</value>
+            <remarks>
+The returned Result will be null if the last call to
+<see cref="M:Cognex.VisionPro.Implementation.CogToolBase.Run" />
+failed.  
+</remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaTool.RunParams">
+            <summary>
+Gets or sets the parameters to be used when this Trevista tool is run.
+</summary>
+            <value>
+The parameters to be used at runtime. Default value is a default
+constructed
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevista" />
+object.
+</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flags may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfRunParams" /></item></list></event>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaTool.InputImage">
+            <summary>
+Gets or sets the input image that will be 
+used at run time. The tool will only run successfully
+if the image is a
+<see cref="T:Cognex.VisionPro.CogImage8Interlaced" />.
+</summary>
+            <value>The input image.  Default value is null.</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.  
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfInputImage" /></item></list></event>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordDiagEnable">
+            <summary>
+Enable the creation of graphical tool records by bitwise ORing the
+desired values from
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordDiagConstants" />.
+</summary>
+            <value>A bitwise combination of the values from
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordDiagConstants" />.
+Default value is InputImageByReference.
+</value>
+            <remarks>
+                <para>
+  A VisionPro tool record is a data structure that contains graphical
+  information about the state of the tool.  You can obtain two different
+  records from the tool: the Current Record, which describes the current
+  state of the tool, and the LastRun Record, which describes the state of the
+  tool immediately after the last call to the tool's Run function.
+</para>
+                <para>
+  The current record is obtained by calling the <see cref="M:Cognex.VisionPro.Implementation.CogToolBase.CreateCurrentRecord" />
+  method of the tool.  The last run record is obtained by calling the <see cref="M:Cognex.VisionPro.Implementation.CogToolBase.CreateLastRunRecord" />
+  method.
+</para>
+                <para>
+  You can specify the content of the current record using the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.CurrentRecordEnable" />
+  property.  You can specify the content of the last run record using the
+  <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordEnable" />
+  and <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordDiagEnable" />
+  properties.  Graphical information requested via the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordDiagEnable" />
+  property is only created when the tool is run, and may cause the tool to run
+  more slowly.
+</para>
+            </remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfLastRunRecordDiagEnable" /></item></list></event>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordEnable">
+            <summary>
+Enable the creation of graphical tool records by bitwise ORing the
+desired values from
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants" />.
+</summary>
+            <value>A bitwise combination of the values from
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants" />.
+Default value is Result
+</value>
+            <remarks>
+                <para>
+  A VisionPro tool record is a data structure that contains graphical
+  information about the state of the tool.  You can obtain two different
+  records from the tool: the Current Record, which describes the current
+  state of the tool, and the LastRun Record, which describes the state of the
+  tool immediately after the last call to the tool's Run function.
+</para>
+                <para>
+  The current record is obtained by calling the <see cref="M:Cognex.VisionPro.Implementation.CogToolBase.CreateCurrentRecord" />
+  method of the tool.  The last run record is obtained by calling the <see cref="M:Cognex.VisionPro.Implementation.CogToolBase.CreateLastRunRecord" />
+  method.
+</para>
+                <para>
+  You can specify the content of the current record using the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.CurrentRecordEnable" />
+  property.  You can specify the content of the last run record using the
+  <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordEnable" />
+  and <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordDiagEnable" />
+  properties.  Graphical information requested via the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordDiagEnable" />
+  property is only created when the tool is run, and may cause the tool to run
+  more slowly.
+</para>
+            </remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flags may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfLastRunRecordEnable" /></item><item><see cref="F:Cognex.VisionPro.Implementation.CogToolBase.SfCreateLastRunRecord" /></item></list></event>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaTool.CurrentRecordEnable">
+            <summary>
+Enable the creation of graphical tool records by bitwise ORing the
+desired values from
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaCurrentRecordConstants" />.
+</summary>
+            <value>
+A bitwise combination of the values from
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaCurrentRecordConstants" />.
+Default value is InputImage.
+</value>
+            <remarks>
+                <para>
+  A VisionPro tool record is a data structure that contains graphical
+  information about the state of the tool.  You can obtain two different
+  records from the tool: the Current Record, which describes the current
+  state of the tool, and the LastRun Record, which describes the state of the
+  tool immediately after the last call to the tool's Run function.
+</para>
+                <para>
+  The current record is obtained by calling the <see cref="M:Cognex.VisionPro.Implementation.CogToolBase.CreateCurrentRecord" />
+  method of the tool.  The last run record is obtained by calling the <see cref="M:Cognex.VisionPro.Implementation.CogToolBase.CreateLastRunRecord" />
+  method.
+</para>
+                <para>
+  You can specify the content of the current record using the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.CurrentRecordEnable" />
+  property.  You can specify the content of the last run record using the
+  <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordEnable" />
+  and <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordDiagEnable" />
+  properties.  Graphical information requested via the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaTool.LastRunRecordDiagEnable" />
+  property is only created when the tool is run, and may cause the tool to run
+  more slowly.
+</para>
+            </remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flags may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfCurrentRecordEnable" /></item><item><see cref="F:Cognex.VisionPro.Implementation.CogToolBase.SfCreateCurrentRecord" /></item></list></event>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaTool.Clone">
+            <summary>
+Create a duplicate of this CogTrevistaTool object.
+</summary>
+            <returns>
+A new CogTrevistaTool instance that is a deep copy.
+</returns>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaTool.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+Serialization constructor for CogTrevistaTool object.
+</summary>
+            <param name="info">
+The standard SerializationInfo argument.
+</param>
+            <param name="ctxt">
+The standard StreamingContext argument.
+</param>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaTool.#ctor(Cognex.VisionPro.Trevista.CogTrevistaTool)">
+            <summary>
+Constructs a deep copy of the supplied CogTrevistaTool object.
+</summary>
+            <param name="other">
+The object to copy.  Must not be null.
+</param>
+            <exception cref="T:System.ArgumentNullException">
+                <paramref name="other" /> is null.
+</exception>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaTool.#ctor">
+            <summary>
+Constructs a default CogTrevistaTool object.  This new tool 
+contains a default set of run params.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfResult">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time
+the value returned by Result may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfInputImage">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time
+the value returned by InputImage may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfRunParams">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time
+the value returned by RunParams may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfCurrentRecordEnable">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time
+the value returned by CurrentRecordEnable may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfLastRunRecordDiagEnable">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time
+the value returned by LastRunRecordDiagEnable may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaTool.SfLastRunRecordEnable">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time
+the value returned by LastRunRecordEnable may have changed.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaTool">
+            <summary>
+Class that represents the top-level Trevista tool. With this tool
+you can process an input
+<see cref="T:Cognex.VisionPro.CogImage8Interlaced" />
+and create a
+<see cref="T:Cognex.VisionPro.Trevis.CogTrevistaResult" />
+with up to nine output images. You can select which output
+images you want using the
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevista">RunParams</see>
+that are part of the tool. The class holds all of the objects needed
+to process the input, display graphic records, and hold the results.
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevista.CreateFloatHistogram(Cognex.VisionPro.Trevista.CogTrevistaOutputImageConstants,System.Int32,System.Double@,System.Double@,System.Boolean)">
+            <summary>
+Creates a histogram of the internal floating point values for the
+image that you specify.
+</summary>
+            <returns>
+A one-dimensional <see cref="T:System.Array" /> of integers that contains
+the requested histogram.  Or null, if the histogram cannot be computed.
+</returns>
+            <param name="whichImage">
+An enumeration that specifies which image will be histogrammed.
+</param>
+            <param name="numElements">
+The number of elements to create in the returned histogram array.
+</param>
+            <param name="minFloat">
+If <paramref name="expandRange" /> is false, this output is the minimum
+floating point value found in the histogrammed image.  
+If <paramref name="expandRange" /> is true, this output is the smaller of:
+<list type="bullet"><item>
+The minimum floating point value found in the histogrammed image,
+</item><item>
+The <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" />
+for the histogrammed image.
+</item><item>
+The <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />
+for the histogrammed image.
+</item></list>
+This output will be zero if the histogram cannot be computed.
+</param>
+            <param name="maxFloat">
+If <paramref name="expandRange" /> is false, this output is the maximum
+floating point value found in the histogrammed image.  
+If <paramref name="expandRange" /> is true, this output is the larger of:
+<list type="bullet"><item>
+The maximum floating point value found in the histogrammed image,
+</item><item>
+The <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" />
+for the histogrammed image.
+</item><item>
+The <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />
+for the histogrammed image.
+</item></list>
+This output will be zero if the histogram cannot be computed.
+</param>
+            <param name="expandRange">
+If true, the floating point range of the output histogram will be
+expanded (if necessary) to include both the 
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /> and 
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />
+values.  If false, the floating point range of the output histogram will
+exactly match the range of values in the histogrammed image.
+</param>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied <paramref name="whichImage" /> argument is
+not a valid member of the
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaOutputImageConstants" />
+enumeration.
+</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied <paramref name="numElements" /> argument is less than one.
+</exception>
+            <remarks>
+                <para>
+The returned histogram represents the range of floating point numbers
+between <paramref name="minFloat" /> and <paramref name="maxFloat" />,
+broken into <paramref name="numElements" /> bins.  The integer value in
+each bin is the number of image pixels whose value falls into that bin's
+portion of the full range.  If <paramref name="expandRange" /> is true,
+there may be zero-valued bins at either end of the returned histogram
+array.
+</para>
+                <para>
+The returned histogram is computed based on the results of the last
+call to
+<see cref="M:Cognex.VisionPro.Trevista.CogTrevista.Execute(Cognex.VisionPro.ICogVisionData)" />. 
+If the specified image has never been computed, a null histogram will be
+returned, and <paramref name="minFloat" /> and
+<paramref name="maxFloat" /> will be set to zero.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.MotionAccuracy">
+            <summary>
+Cognex Internal Use Only.
+Gets or sets the motion compensation accuracy.
+</summary>
+            <value>
+The motion compensation accuracy. Must be greater
+than zero and less than or equal to one. The
+accuracy of motion compensation increases as this
+value approaches 1. Default value is 1. This property
+is ignored if
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevista.MotionType" />
+is None.
+</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfMotionAccuracy" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied value is either greater than 1, or less than
+or equal to zero.
+</exception>
+            <remarks>
+                <para>
+    This property only supports float value type precision.
+    Up to five decimal places (such as 0.00001) will be maintained. 
+    Further precision can be assigned but will be lost due truncation.
+  </para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.MotionFilterSize">
+            <summary>
+Cognex Internal Use Only.
+Gets or sets the filter size of the matching algorithm, in pixels, to be
+used when including motion compensation in the processing of output
+images.
+</summary>
+            <value>
+The filter size of the matching algorithm, in pixels, to be used when
+processing must compensate for relative motion that occurred between
+acquisition of each of the four input shading images. Default value
+is 71. This property is ignored if
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevista.MotionType" />
+is None.
+</value>
+            <remarks>
+Motion compensation tries to match a portion of one shading image
+to another, and then estimates the linear motion between those
+two consecutive shading images. The MotionFilterSize property
+specifies the size of the "portion" that can be matched between
+two shading images. Larger values make compensation run more slowly,
+but increase accuracy.
+</remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfMotionFilterSize" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.MotionType">
+            <summary>
+Cognex Internal Use Only.
+Gets or sets what type of motion compensation will be included
+in the processing of output images.
+</summary>
+            <value>
+How processing of output images will compensate for relative
+motion that occurred between acquisition of each of the
+four input shading images. Options include:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.MotionType.None" /></item><item><see cref="F:Cognex.VisionPro.Trevista.MotionType.Linear" /></item></list>
+Default value is None.
+</value>
+            <remarks>
+Motion copmensation is only relevant for
+<see cref="F:Cognex.VisionPro.CogImageInterlacedScanTypeConstants.Areascan" />
+images. It has no effect, and no reasonable interpretation, for
+<see cref="F:Cognex.VisionPro.CogImageInterlacedScanTypeConstants.Linescan" />
+images.
+</remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfMotionType" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied value is not a valid member of the
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaMotionTypeConstants" />
+enumeration.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.SensorCorrectionEnabled">
+            <summary>
+Gets or sets whether gradient correction is performed as part of the
+calculation of
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeHorizontalImage" />
+and
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeVerticalImage" /></summary>
+            <value>
+If true, include gradient correction to compute a more accurate  
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeHorizontalImage" />
+and
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeVerticalImage" />.
+If false, skip gradient correction in order to compute results in less time.
+Default value is false.
+</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfSensorCorrectionEnabled" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.IsGpuAvailable">
+            <summary>
+Returns true if a supported GPU is currently available.
+</summary>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.GPUDeviceIndex">
+            <summary>
+Cognex Internal Use Only
+Gets or sets the GPU device to use when ProcessorType is set to GpuIfAvailable
+</summary>
+            <value>
+The Default value is 0
+Value can not be less than 0
+</value>
+            <remarks>
+If selected GPUDeviceIndex is greater than the number of available GPUs,
+then the max index of the available GPUs will be used instead. 
+</remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfGPUDeviceIndex" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied value is less than zero.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.CpuProcessingThreadCountMax">
+            <summary>
+Gets or sets the maximum number of threads to use when processing with a CPU
+</summary>
+            <value>
+The Default value is 4
+If set to zero, the number of threads used will be one less than the number 
+of concurrent threads supported by this implementation.
+</value>
+            <remarks>
+A value of 0 means one less than the number of threads that can be executed simultaneously.
+There is no restriction on max value, but keep in mind that more threads does
+not always mean faster processing. At some point it will even slow down the
+processing speed.
+</remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfCpuProcessingThreadCountMax" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied value is less than zero.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.ProcessorType">
+            <summary>
+Gets or sets the preferred mechanism for the processing of results.
+</summary>
+            <value>
+The preferred processing mechanism. Options include:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.ProcessorType.CpuOnly" />
+    Always compute results using a CPU.
+  </item><item><see cref="F:Cognex.VisionPro.Trevista.ProcessorType.GpuIfAvailable" />
+    Compute results using a supported GPU if available, otherwise use
+    a CPU.
+  </item></list>
+Default value is CpuOnly.
+</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfProcessorType" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied value is not a valid member of the
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaProcessorTypeConstants" />
+enumeration.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.DepthImageParams">
+            <summary>
+Gets or sets the parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" />.
+</summary>
+            <value>
+Parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" />.
+<para>
+All output image parameters share these common properties:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" /></item></list></para><para>
+Along with the common output image parameters, the DepthImageParams adds:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthMode" /></item></list></para></value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfDepthImageParams" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+The input value is null.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.ContourImageParams">
+            <summary>
+Gets or sets the parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ContourImage" />.
+</summary>
+            <value>
+Parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ContourImage" />.
+<para>
+All output image parameters share these common properties:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" /></item></list></para></value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfContourImageParams" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+The input value is null.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.GreyscaleImageParams">
+            <summary>
+Gets or sets the parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.GreyscaleImage" />.
+</summary>
+            <value>
+Parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.GreyscaleImage" />.
+<para>
+All output image parameters share these common properties:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" /></item></list></para></value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfGreyscaleImageParams" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+The input value is null.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.ShapeVerticalImageParams">
+            <summary>
+Gets or sets the main parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeVerticalImage" />.
+</summary>
+            <value>
+Main parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeVerticalImage" />.
+<para>
+All output image parameters share these common properties:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" /></item></list></para></value>
+            <seealso cref="Cognex.VisionPro.CogTrevista.SensorCorrectionEnabled" />
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfShapeVerticalImageParams" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+The input value is null.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.ShapeHorizontalImageParams">
+            <summary>
+Gets or sets the main parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeHorizontalImage" />.
+</summary>
+            <value>
+Main parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeHorizontalImage" />.
+<para>
+All output image parameters share these common properties:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" /></item></list></para></value>
+            <seealso cref="Cognex.VisionPro.CogTrevista.SensorCorrectionEnabled" />
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfShapeHorizontalImageParams" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+The input value is null.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.ShadingImage4Params">
+            <summary>
+Gets or sets the parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage4" />.
+</summary>
+            <value>
+Parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage4" />.
+<para>
+All output image parameters share these common properties:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" /></item></list></para></value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfShadingImage4Params" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+The input value is null.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.ShadingImage3Params">
+            <summary>
+Gets or sets the parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage3" />.
+</summary>
+            <value>
+Parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage3" />.
+<para>
+All output image parameters share these common properties:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" /></item></list></para></value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfShadingImage3Params" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+The input value is null.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.ShadingImage2Params">
+            <summary>
+Gets or sets the parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage2" />.
+</summary>
+            <value>
+Parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage2" />.
+<para>
+All output image parameters share these common properties:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" /></item></list></para></value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfShadingImage2Params" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+The input value is null.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.ShadingImage1Params">
+            <summary>
+Gets or sets the parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage1" />.
+</summary>
+            <value>
+Parameters controlling the output
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage1" />.
+<para>
+All output image parameters share these common properties:
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" /></item></list></para></value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfShadingImage1Params" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+The input value is null.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.SensorCompensationModifier">
+            <summary>
+Gets or sets the modifier to apply to sensor correction in order to account for distortion
+from reflectance, sensor position, or other factors (no units, see remarks for details).
+</summary>
+            <value>The compensation modifier to apply to the images during processing.
+Default value is 0.</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfSensorCompensationModifier" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <remarks>
+                <para>
+  This property is only applied if the
+  <see cref="P:Cognex.VisionPro.Trevista.CogTrevista.SensorCorrectionEnabled" />
+  property is set to True.
+</para>
+                <br />
+                <para>
+    This property only supports float value type precision.
+    Up to five decimal places (such as 0.00001) will be maintained. 
+    Further precision can be assigned but will be lost due truncation.
+  </para>
+                <para>
+This property applies to all output images other than the Shading and Greyscale images. Eg. the gradient
+images and all images derived from those images.
+</para>
+                <para>
+The Sensor Compensation Modifier is an abstracted, relative, value intended for handling scenarios
+where adjustment is required in the processed images to account for factors such as sensor position 
+or reflectance that are atypical and consequently producing distortion in those images. This value 
+may be positive or negative within a range of -1 to 1.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.SensorPixelSize">
+            <summary>
+Gets or sets the SensorPixelSize in millimeters.
+</summary>
+            <value>The distance in millimeters that corresponds to the width or
+height of one pixel in the input image.
+Default value is 0.05.</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfSensorPixelSize" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <remarks>
+                <para>
+  This property is only applied if the
+  <see cref="P:Cognex.VisionPro.Trevista.CogTrevista.SensorCorrectionEnabled" />
+  property is set to True.
+</para>
+                <br />
+                <para>
+    This property only supports float value type precision.
+    Up to five decimal places (such as 0.00001) will be maintained. 
+    Further precision can be assigned but will be lost due truncation.
+  </para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevista.DomeDiameter">
+            <summary>
+Gets or sets the diameter of the dome illumination unit in millimeters.
+</summary>
+            <value>Diameter of the dome illumination unit in millimeters.
+Default value is 300.
+</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfDomeDiameter" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied value is less than or equal to zero.
+</exception>
+            <remarks>
+                <para>
+The nominal diameter values for the three Trevista domes are listed
+below.  You should enter the value that matches your dome hardware.
+<list type="bullet"><item>
+Small dome: 120 mm
+</item><item>
+Medium dome: 300 mm
+</item><item>
+Large dome: 580 mm
+</item></list></para>
+                <para>
+  This property is only applied if the
+  <see cref="P:Cognex.VisionPro.Trevista.CogTrevista.SensorCorrectionEnabled" />
+  property is set to True.
+</para>
+                <br />
+                <para>
+    This property only supports float value type precision.
+    Up to five decimal places (such as 0.00001) will be maintained. 
+    Further precision can be assigned but will be lost due truncation.
+  </para>
+            </remarks>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevista.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+Serialization constructor for CogTrevista object.
+</summary>
+            <param name="info">
+The standard SerializationInfo argument.
+</param>
+            <param name="ctxt">
+The standard StreamingContext argument.
+</param>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevista.Execute(Cognex.VisionPro.ICogVisionData)">
+            <summary>
+Take the input <see cref="T:Cognex.VisionPro.CogImage8Interlaced" /> and
+unpack its 8 bit pixels into four "shading" images. Process those to
+produce the requested output images.
+</summary>
+            <returns>
+A <see cref="T:Cognex.VisionPro.Trevista.CogTrevistaResult" />
+object that contains the requested output images.
+</returns>
+            <param name="inputImage">
+The image to process into requested output images.
+Must be of type <see cref="T:Cognex.VisionPro.CogImage8Interlaced" />.
+</param>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this method executes successfuly.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevista.SfCreateFloatHistogram" /></item></list></event>
+            <exception cref="T:System.ObjectDisposedException">
+If the object has been disposed.
+</exception>
+            <exception cref="T:System.ArgumentNullException">
+                <paramref name="inputImage" /> is null.
+</exception>
+            <exception cref="T:Cognex.VisionPro.Exceptions.CogSecurityViolationException">
+Licensing for this operation cannot be confirmed.  See
+<see cref="z:96cca39e-2aa6-4cb3-aabb-92960c4cfa63">Understanding
+VisionPro Security</see> for more information.
+</exception>
+            <exception cref="T:Cognex.VisionPro.Exceptions.CogImageNoPixelsException">
+                <paramref name="inputImage" /> has no allocated pixels.
+</exception>
+            <exception cref="T:Cognex.VisionPro.Exceptions.CogImageBadTypeException">
+                <paramref name="inputImage" /> is not a
+<see cref="T:Cognex.VisionPro.CogImage8Interlaced" />.
+</exception>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevista.Finalize">
+            <summary>
+Releases all unmanaged resources used by this
+CogTrevista object.
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevista.Dispose">
+            <summary>
+Releases all resources used by this CogTrevista object.
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevista.#ctor(Cognex.VisionPro.Trevista.CogTrevista)">
+            <summary>
+Constructs a deep copy of the supplied CogTrevista object.
+</summary>
+            <param name="other">
+The CogTrevista object to copy.  May not be null.
+</param>
+            <exception cref="T:System.ArgumentNullException">
+                <paramref name="other" /> is null.
+</exception>
+            <exception cref="T:System.ObjectDisposedException">
+                <paramref name="other" /> has been disposed.
+</exception>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevista.#ctor">
+            <summary>
+Constructs a default CogTrevista object.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfCreateFloatHistogram">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by CreateFloatHistogram() may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfSensorCompensationModifier">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by SensorCompensationModifier may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfGPUDeviceIndex">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by GPUDeviceIndex may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfCpuProcessingThreadCountMax">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by CpuProcessingThreadCountMax may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfMotionAccuracy">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by MotionAccuracy may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfMotionFilterSize">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by MotionFilterSize may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfMotionType">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by MotionType may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfSensorCorrectionEnabled">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by SensorCorrectionEnabled may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfProcessorType">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by ProcessorType may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfDepthImageParams">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by DepthImageParams may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfContourImageParams">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by ContourImageParams may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfGreyscaleImageParams">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by GreyscaleImageParams may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfShapeVerticalImageParams">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by ShapeVerticalImageParams may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfShapeHorizontalImageParams">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by ShapeHorizontalImageParams may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfShadingImage4Params">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by ShadingImage4Params may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfShadingImage3Params">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by ShadingImage3Params may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfShadingImage2Params">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by ShadingImage2Params may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfShadingImage1Params">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by ShadingImage1Params may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfSensorPixelSize">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by SensorPixelSize may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevista.SfDomeDiameter">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by DomeDiameter may have changed.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevista">
+            <summary>
+Class that holds the Trevista run parameters. These parameters 
+are used by the
+<see cref="M:Cognex.VisionPro.Trevista.CogTrevista.Execute(Cognex.VisionPro.ICogVisionData)" />
+method and control how the Trevista algorithm will generate the
+output images.
+</summary>
+            <remarks>
+The CogTrevista class processes an input
+<see cref="T:Cognex.VisionPro.CogImage8Interlaced" /> that
+shows four uniquely illuminated views of a surface to be
+analyzed. From that input, the
+<see cref="M:Cognex.VisionPro.Trevista.CogTrevista.Execute(Cognex.VisionPro.ICogVisionData)" />
+method produces a set of output images that emphasize specific
+aspects of the surface.
+</remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage">
+            <summary>
+                <para>
+Gets the computed depth image for this result.
+</para>
+                <para>
+The concrete type of this property will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> as
+requested at run time.
+</para>
+                <para>
+This property will be null if this output image was not requested.
+</para>
+            </summary>
+            <remarks>
+                <para>
+The <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" />
+comes in two varieties: "local" and "global".
+</para>
+                <para>
+When the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthMode" />
+is <see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local" />, the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" /> is computed
+by effectively integrating the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ContourImage" /> twice to
+get the surface height. Use Local mode to compute the relative heights of
+surface areas that lie near each other in your image.
+</para>
+                <para>
+When the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthMode" />
+is <see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Global" />, the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" /> is computed
+by effectively integrating the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeHorizontalImage" /> and the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeVerticalImage" /> to get
+the surface height. Use Global mode to compute the relative heights of surface areas
+that lie far away from each other in your image.
+</para>
+                <para>
+Flat areas of your 3D surface will have a value of zero in the floating point
+ContourImage, but may have a non-zero floating point value in the ShapeHorizontal
+and ShapeVertical images. This means that Global mode is a better choice for
+surfaces that have large, flat areas that are not perpendicular to the optical
+axis of your lens.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ContourImage">
+            <summary>
+                <para>
+Gets the computed contour image for this result.
+</para>
+                <para>
+The concrete type of this property will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> as
+requested at run time.
+</para>
+                <para>
+This property will be null if this output image was not requested.
+</para>
+            </summary>
+            <remarks>
+                <para>
+This image is the second derivative of the surface.
+</para>
+                <para>
+The internal floating point representation of this image has both
+positive and negative pixel values, where contour "peaks" have a
+positive value and contour "valleys" have a negative value.
+</para>
+                <para>
+For default values of
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" /> and
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />, such
+peaks will be brighter and valleys will be darker.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaResult.GreyscaleImage">
+            <summary>
+                <para>
+Gets the computed greyscale image for this result.
+</para>
+                <para>
+The concrete type of this property will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> as
+requested at run time.
+</para>
+                <para>
+This property will be null if this output image was not requested.
+</para>
+            </summary>
+            <remarks>
+                <para>
+This image is the arithmetic average of the four input shading images.
+</para>
+                <para>
+The internal floating point representation of this image has only
+positive values.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeVerticalImage">
+            <summary>
+                <para>
+Gets the computed ShapeVerticalImage for this result.
+</para>
+                <para>
+The concrete type of this property will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> as
+requested at run time.
+</para>
+                <para>
+This property will be null if this output image was not requested.
+</para>
+            </summary>
+            <remarks>
+                <para>
+This image is the surface slope, or Y gradient, along a vertical
+axis that increases from bottom to top.
+</para>
+                <para>
+The internal floating point representation of this image has both
+positive and negative pixel values.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeHorizontalImage">
+            <summary>
+                <para>
+Gets the computed ShapeHorizontalImage for this result.
+</para>
+                <para>
+The concrete type of this property will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> as
+requested at run time.
+</para>
+                <para>
+This property will be null if this output image was not requested.
+</para>
+            </summary>
+            <remarks>
+                <para>
+This image is the surface slope, or X gradient, along a horizontal
+axis that increases from left to right.
+</para>
+                <para>
+The internal floating point representation of this image has both
+positive and negative pixel values.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage4">
+            <summary>
+                <para>
+Gets the fourth input shading image for this result.
+</para>
+                <para>
+This image has been "unpacked" from the single input
+<see cref="T:Cognex.VisionPro.CogImage8Interlaced" />.
+</para>
+                <para>
+The concrete type of this property will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> as
+requested at run time.
+</para>
+                <para>
+This property will be null if this output image was not requested.
+</para>
+            </summary>
+            <remarks>
+                <para>
+If the input image's
+<see cref="P:Cognex.VisionPro.CogImage8Interlaced.LightingSequenceType" />
+was
+<see cref="F:Cognex.VisionPro.CogImageInterlacedLightingSequenceTypeConstants.Diagonal" />
+then this shading image was illuminated from the "south east" or lower
+right quadrant of the image.
+</para>
+                <para>
+If the input image's
+<see cref="P:Cognex.VisionPro.CogImage8Interlaced.LightingSequenceType" />
+was
+<see cref="F:Cognex.VisionPro.CogImageInterlacedLightingSequenceTypeConstants.Axial" />
+then this shading image was illuminated from the "south" or bottom half of the
+image.
+</para>
+                <para>
+The internal floating point representation of this image has only
+positive values.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage3">
+            <summary>
+                <para>
+Gets the third input shading image for this result.
+</para>
+                <para>
+This image has been "unpacked" from the single input
+<see cref="T:Cognex.VisionPro.CogImage8Interlaced" />.
+</para>
+                <para>
+The concrete type of this property will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> as
+requested at run time.
+</para>
+                <para>
+This property will be null if this output image was not requested.
+</para>
+            </summary>
+            <remarks>
+                <para>
+If the input image's
+<see cref="P:Cognex.VisionPro.CogImage8Interlaced.LightingSequenceType" />
+was
+<see cref="F:Cognex.VisionPro.CogImageInterlacedLightingSequenceTypeConstants.Diagonal" />
+then this shading image was illuminated from the "south west" or lower
+left quadrant of the image.
+</para>
+                <para>
+If the input image's
+<see cref="P:Cognex.VisionPro.CogImage8Interlaced.LightingSequenceType" />
+was
+<see cref="F:Cognex.VisionPro.CogImageInterlacedLightingSequenceTypeConstants.Axial" />
+then this shading image was illuminated from the "west" or left half of the
+image.
+</para>
+                <para>
+The internal floating point representation of this image has only
+positive values.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage2">
+            <summary>
+                <para>
+Gets the second input shading image for this result.
+</para>
+                <para>
+This image has been "unpacked" from the single input
+<see cref="T:Cognex.VisionPro.CogImage8Interlaced" />.
+</para>
+                <para>
+The concrete type of this property will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> as
+requested at run time.
+</para>
+                <para>
+This property will be null if this output image was not requested.
+</para>
+            </summary>
+            <remarks>
+                <para>
+If the input image's
+<see cref="P:Cognex.VisionPro.CogImage8Interlaced.LightingSequenceType" />
+was
+<see cref="F:Cognex.VisionPro.CogImageInterlacedLightingSequenceTypeConstants.Diagonal" />
+then this shading image was illuminated from the "north west" or upper
+left quadrant of the image.
+</para>
+                <para>
+If the input image's
+<see cref="P:Cognex.VisionPro.CogImage8Interlaced.LightingSequenceType" />
+was
+<see cref="F:Cognex.VisionPro.CogImageInterlacedLightingSequenceTypeConstants.Axial" />
+then this shading image was illuminated from the "north" or top half of the
+image.
+</para>
+                <para>
+The internal floating point representation of this image has only
+positive values.
+</para>
+            </remarks>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShadingImage1">
+            <summary>
+                <para>
+Gets the first input shading image for this result.
+</para>
+                <para>
+This image has been "unpacked" from the single input
+<see cref="T:Cognex.VisionPro.CogImage8Interlaced" />.
+</para>
+                <para>
+The concrete type of this property will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> as
+requested at run time.
+</para>
+                <para>
+This property will be null if this output image was not requested.
+</para>
+            </summary>
+            <remarks>
+                <para>
+If the input image's
+<see cref="P:Cognex.VisionPro.CogImage8Interlaced.LightingSequenceType" />
+was
+<see cref="F:Cognex.VisionPro.CogImageInterlacedLightingSequenceTypeConstants.Diagonal" />
+then this shading image was illuminated from the "north east" or upper
+right quadrant of the image.
+</para>
+                <para>
+If the input image's
+<see cref="P:Cognex.VisionPro.CogImage8Interlaced.LightingSequenceType" />
+was
+<see cref="F:Cognex.VisionPro.CogImageInterlacedLightingSequenceTypeConstants.Axial" />
+then this shading image was illuminated from the "east" or right half of the
+image.
+</para>
+                <para>
+The internal floating point representation of this image has only
+positive values.
+</para>
+            </remarks>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaResult.CloneICogImage(Cognex.VisionPro.ICogImage)">
+            <summary>
+Helper method to make a clone of an ICogImage^ member
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaResult.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+Serialization constructor for the CogTrevistaResult object.
+</summary>
+            <param name="info">
+The standard SerializationInfo argument.
+</param>
+            <param name="ctxt">
+The standard StreamingContext argument.
+</param>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaResult.#ctor(Cognex.VisionPro.Trevista.CogTrevistaResult)">
+            <summary>
+Construct a deep copy of the supplied CogTrevistaResult object.
+</summary>
+            <param name="other">
+The CogTrevistaResult object to be copied. May not be null.
+</param>
+            <exception cref="T:System.ArgumentNullException">
+If the input argument is null.
+</exception>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaResult">
+            <summary>
+This class holds a single Trevista result. This result consists of up
+to nine separate images. Only images that were enabled by the RunParams are included in
+the result.  The type of these images will be either
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> or
+<see cref="T:Cognex.VisionPro.CogImage16Grey" />, as specified in the
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevista">RunParams</see>.
+The result properties corresponding to images that were not requested
+will be null.
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.ToTrevistaType(Cognex.VisionPro.Trevista.CogTrevistaMotionTypeConstants)">
+            <summary>
+Translates from the Cognex Enum Type to the Trevista Enum Type 
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.ToTrevistaType(Cognex.VisionPro.Trevista.CogTrevistaProcessorTypeConstants)">
+            <summary>
+Translates from the Cognex Enum Type to the Trevista Enum Type 
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.ToTrevistaType(Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants)">
+            <summary>
+Translates from the Cognex Enum Type to the Trevista Enum Type 
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.ToTrevistaType(Cognex.VisionPro.CogImageInterlacedScanTypeConstants)">
+            <summary>
+Translates from the Cognex Enum Type to the Trevista Enum Type 
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.getTrevistaImage(Chili.Trevista.Processor*,Chili.Trevista.ImageId,Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams)">
+            <summary>
+Method to get a specified image result from the Trevista processor. Returns a CogImage8Grey or a CogImage16Grey as an ICogImage.
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+Serialization constructor for CogTrevistaDepthImageParams object.
+</summary>
+            <param name="Info">
+The standard SerializationInfo argument.
+</param>
+            <param name="Ctxt">
+The standard StreamingContext argument.
+</param>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthLevel">
+            <summary>
+Gets or sets the depth calculation level.
+</summary>
+            <value>
+Depth calculation level. Larger values expand the region
+that affects a computed depth value.
+Default value is 20.
+</value>
+            <remarks>
+                <para>
+If you are using
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Global" />
+depth mode, you should set the depth level to a number that is approximately the
+size (in pixels) of the entire surface over which you wish to compute the depth.
+</para>
+                <para>
+If you are using
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local" />
+depth mode, you should set the depth level to a number that is bigger than
+the size (in pixels) of the local surface patch over which you wish to compute
+the depth. Notice that the depth computation in
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local" />
+ mode will become slower as you increase the DepthLevel.
+</para>
+                <para>
+A depth level of 0 is valid and has a unique behavior when in
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Global" />
+depth mode. In this case, the depth level will be treated as "infinite" and use 
+all available data. If the
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local" />
+depth mode is used, then a depth level of 0 will instead produce the same result
+as a depth level of 1.
+</para>
+            </remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.SfDepthLevel" /></item></list></event>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied value is less than 0.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthMode">
+            <summary>
+Gets or sets the algorithm used to compute the depth image.
+</summary>
+            <value>
+The algorithm used to calculate the depth image:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local" /></item><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Global" /></item></list>
+Default is <see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local" />.
+</value>
+            <remarks>
+                <para>
+The <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" />
+comes in two varieties: "local" and "global".
+</para>
+                <para>
+When the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthMode" />
+is <see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local" />, the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" /> is computed
+by effectively integrating the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ContourImage" /> twice to
+get the surface height. Use Local mode to compute the relative heights of
+surface areas that lie near each other in your image.
+</para>
+                <para>
+When the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthMode" />
+is <see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Global" />, the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" /> is computed
+by effectively integrating the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeHorizontalImage" /> and the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeVerticalImage" /> to get
+the surface height. Use Global mode to compute the relative heights of surface areas
+that lie far away from each other in your image.
+</para>
+                <para>
+Flat areas of your 3D surface will have a value of zero in the floating point
+ContourImage, but may have a non-zero floating point value in the ShapeHorizontal
+and ShapeVertical images. This means that Global mode is a better choice for
+surfaces that have large, flat areas that are not perpendicular to the optical
+axis of your lens.
+</para>
+            </remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.SfDepthMode" /></item></list></event>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied value is not a valid member of the
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants" />
+enumeration.
+</exception>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.#ctor(Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams)">
+            <summary>
+Construct a deep copy of the supplied CogTrevistaDepthImageParams object.
+</summary>
+            <param name="other">
+The CogTrevistaDepthImageParams object to be copied. May not be null.
+</param>
+            <exception cref="T:System.ArgumentNullException">
+If the supplied argument is null.
+</exception>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.#ctor(System.Double,System.Double)">
+            <summary>
+Construct a CogTrevistaDepthImageParams object with the supplied values.
+<list type="bullet"><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" />
+defaults to true.
+</item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" />
+defaults to
+<see cref="F:Cognex.VisionPro.Trevista.ImageType.UInt8" />.
+</item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthMode" />
+defaults to
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local" /></item><item><see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthLevel" />
+defaults to 20.
+</item></list></summary>
+            <param name="blackLevel">
+                <para>
+Internal floating point pixels with this value will be mapped to black in
+VisionPro output images.
+See <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" />
+for details.
+</para>
+            </param>
+            <param name="whiteLevel">
+                <para>
+Internal floating point pixels with this value will be mapped to white in
+VisionPro output images.
+See <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />
+for details.
+</para>
+            </param>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.#ctor(System.Boolean,Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants,System.Double,System.Double,Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants,System.Int32)">
+            <summary>
+Construct a CogTrevistaDepthImageParams object with the supplied values.
+</summary>
+            <param name="enabled">
+Whether the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" />
+should be produced.
+</param>
+            <param name="imageType">
+The desired type of the output depth image:
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt8" /> or
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt16" /></param>
+            <param name="blackLevel">
+                <para>
+Internal floating point pixels with this value will be mapped to black in
+VisionPro output images.
+See <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" />
+for details.
+</para>
+            </param>
+            <param name="whiteLevel">
+                <para>
+Internal floating point pixels with this value will be mapped to white in
+VisionPro output images.
+See <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />
+for details.
+</para>
+            </param>
+            <param name="depthMode">
+The algorithm to use when computing the depth image:
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local" /> or
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Global" />.
+</param>
+            <param name="depthLevel">
+Depth calculation level. Larger values expand the region that affects a computed
+depth value.
+</param>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.#ctor">
+            <summary>
+Construct a default CogTrevistaDepthImageParams object.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.SfDepthMode">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by DepthMode may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.SfDepthLevel">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by DepthLevel may have changed.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams">
+            <summary>
+This class holds parameters used by
+<see cref="M:Cognex.VisionPro.Trevista.CogTrevista.Execute(Cognex.VisionPro.ICogVisionData)" />
+to control the generation of the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" />.
+</summary>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+Serialization constructor for CogTrevistaCommonImageParams object.
+</summary>
+            <param name="Info">
+The standard SerializationInfo argument.
+</param>
+            <param name="Ctxt">
+The standard StreamingContext argument.
+</param>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel">
+            <summary>
+Gets or sets the floating point pixel value that will be mapped to
+white in VisionPro output images.
+</summary>
+            <value>
+Default value is 1.
+</value>
+            <remarks>
+                <para>
+When the CogTrevista 
+<see cref="M:Cognex.VisionPro.Trevista.CogTrevista.Execute(Cognex.VisionPro.ICogVisionData)" />
+function runs, the computed pixel values are initially stored as floating point
+numbers.
+</para>
+                <para>
+These internal floating point values fall into one of two ranges:
+<list type="bullet"><item> Positive only: No values are less than zero. The values are usually
+less than one, but can be greater than one in exceptional cases.
+</item><item> Negative and positive:  The values are usually in the range between
+negative one and positive one, but they can be outside of this range in
+exceptional cases.
+</item></list></para>
+                <para>
+The internal floating point values are mapped to integer pixel values
+in VisionPro output images.  The floating point value specified by 
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" />
+is mapped to black: an integer output pixel value of zero.
+</para>
+                <para>
+Similarly, the floating point value specified by 
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />
+is mapped to white: the maximum pixel value for the specified output image
+depth.  The integer value will be 255 for a
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> and 65535 for a
+<see cref="T:Cognex.VisionPro.CogImage16Grey" />.
+</para>
+                <para>
+Any internal pixel value that falls between these two limits is linearly
+mapped to an intermediate shade of grey: a value between black and white.
+Floating point values that fall outside of the limits are mapped to either
+black or white, as specified by whichever limit is closer.
+</para>
+                <br />
+                <para>
+    This property only supports float value type precision.
+    Up to five decimal places (such as 0.00001) will be maintained. 
+    Further precision can be assigned but will be lost due truncation.
+  </para>
+            </remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.SfWhiteLevel" /></item></list></event>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel">
+            <summary>
+Gets or sets the floating point pixel value that will be mapped to
+black in VisionPro output images.
+</summary>
+            <value>
+Default value is 0.
+</value>
+            <remarks>
+                <para>
+When the CogTrevista 
+<see cref="M:Cognex.VisionPro.Trevista.CogTrevista.Execute(Cognex.VisionPro.ICogVisionData)" />
+function runs, the computed pixel values are initially stored as floating point
+numbers.
+</para>
+                <para>
+These internal floating point values fall into one of two ranges:
+<list type="bullet"><item> Positive only: No values are less than zero. The values are usually
+less than one, but can be greater than one in exceptional cases.
+</item><item> Negative and positive:  The values are usually in the range between
+negative one and positive one, but they can be outside of this range in
+exceptional cases.
+</item></list></para>
+                <para>
+The internal floating point values are mapped to integer pixel values
+in VisionPro output images.  The floating point value specified by 
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" />
+is mapped to black: an integer output pixel value of zero.
+</para>
+                <para>
+Similarly, the floating point value specified by 
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />
+is mapped to white: the maximum pixel value for the specified output image
+depth.  The integer value will be 255 for a
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> and 65535 for a
+<see cref="T:Cognex.VisionPro.CogImage16Grey" />.
+</para>
+                <para>
+Any internal pixel value that falls between these two limits is linearly
+mapped to an intermediate shade of grey: a value between black and white.
+Floating point values that fall outside of the limits are mapped to either
+black or white, as specified by whichever limit is closer.
+</para>
+                <br />
+                <para>
+    This property only supports float value type precision.
+    Up to five decimal places (such as 0.00001) will be maintained. 
+    Further precision can be assigned but will be lost due truncation.
+  </para>
+            </remarks>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.SfBlackLevel" /></item></list></event>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType">
+            <summary>
+Gets or sets the desired type of the output image associated with this
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams" />.
+</summary>
+            <value>
+The desired type of the output image associated with this
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams" />.
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt8" /> means that a
+<see cref="T:Cognex.VisionPro.CogImage8Grey" /> will be output.
+</item><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt16" /> means that a
+<see cref="T:Cognex.VisionPro.CogImage16Grey" /> will be output.
+</item></list>
+Default value is <see cref="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt8" />.
+</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.SfImageType" /></item></list></event>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+The supplied value is not a valid member of the
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants" />
+enumeration.
+</exception>
+        </member>
+        <member name="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled">
+            <summary>
+Gets or sets whether the output image associated with this
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams" />
+should be produced. If false, the associated output image
+result property will be null.
+</summary>
+            <value>Default value is true.</value>
+            <event cref="E:Cognex.VisionPro.ICogChangedEvent.Changed">
+Fires when this property changes.
+The following state flag may be affected:
+<list type="bullet"><item><see cref="F:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.SfEnabled" /></item></list></event>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.#ctor(Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams)">
+            <summary>
+Construct a deep copy of the supplied CogTrevistaCommonImageParams object.
+</summary>
+            <param name="other">
+The CogTrevistaCommonImageParams object to be copied. May not be null.
+</param>
+            <exception cref="T:System.ArgumentNullException">
+If the supplied argument is null.
+</exception>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.#ctor(System.Double,System.Double)">
+            <summary>
+Construct a  CogTrevistaCommonImageParams object with the supplied values.
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.Enabled" />
+defaults to true and
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.ImageType" />
+defaults to
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt8" />.
+</summary>
+            <param name="blackLevel">
+                <para>
+Internal floating point pixels with this value will be mapped to black in
+VisionPro output images.
+See <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" />
+for details.
+</para>
+            </param>
+            <param name="whiteLevel">
+                <para>
+Internal floating point pixels with this value will be mapped to white in
+VisionPro output images.
+See <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />
+for details.
+</para>
+            </param>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.#ctor(System.Boolean,Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants,System.Double,System.Double)">
+            <summary>
+Construct a  CogTrevistaCommonImageParams object with the supplied values.
+</summary>
+            <param name="enabled">
+Whether the output image associated with this
+<see cref="T:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams" />
+should be produced.
+</param>
+            <param name="imageType">
+The type of output image that should be produced:
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt8" /> or
+<see cref="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt16" /></param>
+            <param name="blackLevel">
+                <para>
+Internal floating point pixels with this value will be mapped to black in
+VisionPro output images.
+See <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.BlackLevel" />
+for details.
+</para>
+            </param>
+            <param name="whiteLevel">
+                <para>
+Internal floating point pixels with this value will be mapped to white in
+VisionPro output images.
+See <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.WhiteLevel" />
+for details.
+</para>
+            </param>
+        </member>
+        <member name="M:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.#ctor">
+            <summary>
+Construct a default CogTrevistaCommonImageParams object.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.SfWhiteLevel">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by WhiteLevel may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.SfBlackLevel">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by BlackLevel may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.SfImageType">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by ImageType may have changed.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams.SfEnabled">
+            <summary>
+This bit will be set in the EventArgs of a Changed event every time the
+value returned by Enabled may have changed.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaCommonImageParams">
+            <summary>
+This class holds common parameters used by
+<see cref="M:Cognex.VisionPro.Trevista.CogTrevista.Execute(Cognex.VisionPro.ICogVisionData)" />
+to control what output images are produced.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaOutputImageConstants">
+            <summary>
+Enumeration of the images that can be provided as outputs from the 
+the Trevista Tool.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaMotionTypeConstants">
+            <summary>
+This enumeration is used to specify how the processing of output
+images will compensate for relative motion that occurred between
+acquisition of each of the four input shading images.
+</summary>
+            <remarks>
+Motion compensation is only relevant for
+<see cref="F:Cognex.VisionPro.CogImageInterlacedScanTypeConstants.Areascan" />
+images. It has no effect, and no reasonable interpretation, for
+<see cref="F:Cognex.VisionPro.CogImageInterlacedScanTypeConstants.Linescan" />
+images.
+</remarks>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaMotionTypeConstants.Linear">
+            <summary>
+Linear motion compensation will be included.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaMotionTypeConstants.None">
+            <summary>
+No motion compensation will be performed.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaProcessorTypeConstants">
+            <summary>
+This enumeration is used to specify the preferred mechanism
+for the processing of results.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaProcessorTypeConstants.GpuIfAvailable">
+            <summary>
+Compute results using a supported GPU if available, otherwise
+use a CPU.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaProcessorTypeConstants.CpuOnly">
+            <summary>
+Always compute results using a CPU.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants">
+            <summary>
+This enumeration is used to specify the desired image type for a
+specific output image.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt16">
+            <summary>
+The output image should be of type
+<see cref="T:Cognex.VisionPro.CogImage16Grey" />.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaImageTypeConstants.UInt8">
+            <summary>
+The output image should be of type
+<see cref="T:Cognex.VisionPro.CogImage8Grey" />.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants">
+            <summary>
+This enumeration is used to specify the algorithm used to compute the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" />.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Global">
+            <summary>
+When the <see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthMode" />
+is Global, the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" /> is computed
+by effectively integrating the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeHorizontalImage" /> and the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ShapeVerticalImage" /> to get
+the surface height.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaDepthModeConstants.Local">
+            <summary>
+When the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaDepthImageParams.DepthMode" />
+is Local, the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.DepthImage" /> is computed
+by effectively integrating the
+<see cref="P:Cognex.VisionPro.Trevista.CogTrevistaResult.ContourImage" /> twice to
+get the surface height.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordDiagConstants">
+            <summary>
+Enumeration of diagnostic data that can be provided in the
+Tool's LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordDiagConstants.All">
+            <summary>
+Include all of the diagnostic data in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordDiagConstants.InputImageDeepCopy">
+            <summary>
+Include a deep copy of the input image in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordDiagConstants.InputImageByReference">
+            <summary>
+Include a reference to the input image in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordDiagConstants.None">
+            <summary>
+Do not include any diagnostic data in the LastRunRecord.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants">
+            <summary>
+Enumeration of non-diagnostic data that can be provided in
+the Tool's LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.All">
+            <summary>
+Include all of the non-diagnostic data in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.OutputShadingImage4">
+            <summary>
+If available, include the output ShadingImage4 in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.OutputShadingImage3">
+            <summary>
+If available, include the output ShadingImage3 in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.OutputShadingImage2">
+            <summary>
+If available, include the output ShadingImage2 in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.OutputShadingImage1">
+            <summary>
+If available, include the output ShadingImage1 in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.OutputShapeVerticalImage">
+            <summary>
+If available, include the output ShapeVerticalImage in the
+LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.OutputShapeHorizontalImage">
+            <summary>
+If available, include the output ShapeHorizontalImage in the
+LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.OutputContourImage">
+            <summary>
+If available, include the output ContourImage in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.OutputDepthImage">
+            <summary>
+If available, include the output DepthImage in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.OutputGreyscaleImage">
+            <summary>
+If available, include the output GreyscaleImage in the LastRunRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaLastRunRecordConstants.None">
+            <summary>
+Do not include any non-diagnostic data in the LastRunRecord.
+</summary>
+        </member>
+        <member name="T:Cognex.VisionPro.Trevista.CogTrevistaCurrentRecordConstants">
+            <summary>
+Enumeration of data that can be provided in the Tool's
+CurrentRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaCurrentRecordConstants.All">
+            <summary>
+Include all possible records in the CurrentRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaCurrentRecordConstants.InputImage">
+            <summary>
+Include the input image in the CurrentRecord.
+</summary>
+        </member>
+        <member name="F:Cognex.VisionPro.Trevista.CogTrevistaCurrentRecordConstants.None">
+            <summary>
+Do not include any records in the CurrentRecord.
+</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,1135 @@
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\EasyModbus.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormNumericInput.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormStringInput.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti3.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogSingolo.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti5.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTabControl.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMaiuscola.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMinuscola.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraNumerica.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBarBase.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBar.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormCopiaFormato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormEsitoControlloNastro.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormRicette.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaTurno.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneTurni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormMasterGMM.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPrincipale.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormAddFormato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormImpostazioni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPassword.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSalvaFoto.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSplash.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNotificationPanel.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmLogin.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaUtente.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneUtenti.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWizardMaskCamera.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive2Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive3Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine2Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine3Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLogDettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglieCam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4Dettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1Dettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2Dettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3Dettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaDiagnostica.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine5Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine1Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaMain.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive1Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2Lato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgControlloTop3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgBuchiLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDistanzaLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgRakeDimensioniLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioniLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgAltezza.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSbordamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgIntegrita.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditDispositivoScarto.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Utilities.UCHWndCtrlManager.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.FormScegliImgLog.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepGMM_1.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatoreGMM.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2Lato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2Lato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_6.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloNastro.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloTop3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardBuchiLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDistanzaLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardRakeDimensioneLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDispositivoScarto.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCrepe.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensioneLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDisegni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAltezza.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardSbordamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensione.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardIntegrita.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAcq.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCentraggio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicettaCam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglie.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLog.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicetta.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive5Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaRicette.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaView.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNumericUpDown.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSfasamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgCrepe.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditCentraggio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDisegni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditExpoGain.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditSoglia.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_1.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_5.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_4.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_3.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepBuchiLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita4.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRakeDimensioneLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita3.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDispositivoScarto.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreModalita.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreTrain.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepCrepe.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensioneLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDisegni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloNastro.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDistanzaLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione1.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAltezza.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSbordamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepImageRef.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensione.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRoiMain.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAcq.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainClassificatore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWait.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CopyComplete
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.exe
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe.config
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\EasyModbus.dll
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.dll
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.dll
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll.config
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\halcondotnetxl.xml
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormNumericInput.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormStringInput.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti3.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogSingolo.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti5.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTabControl.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMaiuscola.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMinuscola.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraNumerica.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBarBase.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBar.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormCopiaFormato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormEsitoControlloNastro.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormRicette.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaTurno.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneTurni.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormMasterGMM.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPrincipale.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormAddFormato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormImpostazioni.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPassword.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSalvaFoto.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSplash.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNotificationPanel.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmLogin.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaUtente.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneUtenti.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWizardMaskCamera.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive2Cam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive3Cam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine2Cam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine3Cam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLogDettaglio.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglieCam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4Dettaglio.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1Dettaglio.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2Dettaglio.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3Dettaglio.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaDiagnostica.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine5Cam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine1Cam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaMain.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive1Cam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2Lato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgControlloTop3D.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgBuchiLato3D.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDistanzaLato3D.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgRakeDimensioniLato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioniLato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioni.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgAltezza.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSbordamento.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgIntegrita.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditDispositivoScarto.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Utilities.UCHWndCtrlManager.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.FormScegliImgLog.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepGMM_1.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatoreGMM.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2Lato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2Lato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_6.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloNastro.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloTop3D.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardBuchiLato3D.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDistanzaLato3D.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardRakeDimensioneLato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDispositivoScarto.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatore.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCrepe.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensioneLato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDisegni.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAltezza.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardSbordamento.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensione.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardIntegrita.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAcq.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCentraggio.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicettaCam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglie.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLog.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicetta.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive5Cam.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaRicette.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaView.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Properties.Resources.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNumericUpDown.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSfasamento.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgCrepe.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditCentraggio.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDisegni.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditExpoGain.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditSoglia.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_1.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_5.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_4.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_3.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_2.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepBuchiLato3D.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita4.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRakeDimensioneLato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita3.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDispositivoScarto.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreModalita.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreTrain.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepCrepe.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensioneLato.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDisegni.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloNastro.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDistanzaLato3D.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione1.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione2.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita2.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAltezza.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSbordamento.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepImageRef.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensione.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRoiMain.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamento.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAcq.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamento.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainClassificatore.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWait.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.GenerateResource.Cache
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CoreCompileInputs.cache
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.exe
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.pdb
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csprojAssemblyReference.cache
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CopyComplete
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardPrintCheck.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgPrintCheck.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamentoPrintCheck.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamentoPrintCheck.resources
+C:\PROGRAMMI_DEMO\QVLEGS_STAZIONI\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainVariationPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamentoPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainVariationPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamentoPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLog.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.NotificationPanelDgv.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormInfo.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe.config
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.pdb
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\EasyModbus.dll
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.dll
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.dll
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.pdb
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll.config
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.pdb
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.pdb
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csprojResolveAssemblyReference.cache
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormNumericInput.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormStringInput.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.NotificationPanelDgv.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti3.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogSingolo.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti5.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTabControl.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMaiuscola.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMinuscola.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraNumerica.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBarBase.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBar.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormCopiaFormato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormEsitoControlloNastro.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormInfo.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormRicette.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaTurno.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneTurni.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormMasterGMM.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPrincipale.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormAddFormato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormImpostazioni.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPassword.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSalvaFoto.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSplash.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNotificationPanel.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmLogin.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaUtente.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneUtenti.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWizardMaskCamera.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive2Cam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive3Cam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine2Cam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine3Cam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLogDettaglio.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglieCam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4Dettaglio.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1Dettaglio.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2Dettaglio.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3Dettaglio.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaDiagnostica.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine5Cam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine1Cam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLog.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaMain.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive1Cam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgPrintCheck.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2Lato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgControlloTop3D.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgBuchiLato3D.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDistanzaLato3D.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgRakeDimensioniLato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioniLato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioni.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgAltezza.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSbordamento.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgIntegrita.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditDispositivoScarto.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Utilities.UCHWndCtrlManager.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.FormScegliImgLog.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepGMM_1.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatoreGMM.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2Lato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2Lato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_6.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloNastro.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloTop3D.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardBuchiLato3D.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDistanzaLato3D.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamentoPrintCheck.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainVariationPrintCheck.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamentoPrintCheck.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardPrintCheck.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardRakeDimensioneLato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDispositivoScarto.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatore.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCrepe.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensioneLato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDisegni.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAltezza.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardSbordamento.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensione.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardIntegrita.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAcq.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCentraggio.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicettaCam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglie.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLog.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicetta.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive5Cam.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaRicette.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaView.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Properties.Resources.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNumericUpDown.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSfasamento.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgCrepe.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditCentraggio.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDisegni.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditExpoGain.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditSoglia.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_1.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_5.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_4.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_3.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_2.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepBuchiLato3D.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita4.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRakeDimensioneLato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita3.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDispositivoScarto.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreModalita.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreTrain.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepCrepe.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensioneLato.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDisegni.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloNastro.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDistanzaLato3D.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione1.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione2.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita2.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAltezza.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSbordamento.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepImageRef.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensione.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRoiMain.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamento.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAcq.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamento.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainClassificatore.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWait.resources
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.GenerateResource.Cache
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CoreCompileInputs.cache
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.exe
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.pdb
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe.config
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.pdb
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\EasyModbus.dll
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.dll
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.dll
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.pdb
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll.config
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.pdb
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.pdb
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\halcondotnetxl.xml
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csprojAssemblyReference.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormNumericInput.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormStringInput.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.NotificationPanelDgv.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti3.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogSingolo.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti5.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTabControl.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMaiuscola.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMinuscola.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraNumerica.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBarBase.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBar.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormCopiaFormato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormEsitoControlloNastro.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormInfo.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormRicette.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaTurno.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneTurni.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormMasterGMM.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPrincipale.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormAddFormato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormImpostazioni.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPassword.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSalvaFoto.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSplash.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNotificationPanel.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmLogin.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaUtente.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneUtenti.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWizardMaskCamera.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive2Cam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive3Cam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine2Cam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine3Cam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLogDettaglio.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglieCam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4Dettaglio.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1Dettaglio.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2Dettaglio.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3Dettaglio.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaDiagnostica.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine5Cam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine1Cam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLog.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaMain.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive1Cam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgPrintCheck.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2Lato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgControlloTop3D.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgBuchiLato3D.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDistanzaLato3D.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgRakeDimensioniLato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioniLato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioni.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgAltezza.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSbordamento.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgIntegrita.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditDispositivoScarto.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Utilities.UCHWndCtrlManager.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.FormScegliImgLog.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepGMM_1.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatoreGMM.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2Lato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2Lato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_6.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloNastro.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloTop3D.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardBuchiLato3D.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDistanzaLato3D.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamentoPrintCheck.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainVariationPrintCheck.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamentoPrintCheck.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardPrintCheck.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardRakeDimensioneLato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDispositivoScarto.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatore.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCrepe.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensioneLato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDisegni.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAltezza.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardSbordamento.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensione.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardIntegrita.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAcq.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCentraggio.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicettaCam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglie.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLog.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicetta.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive5Cam.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaRicette.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaView.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Properties.Resources.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNumericUpDown.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSfasamento.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgCrepe.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditCentraggio.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDisegni.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditExpoGain.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditSoglia.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_1.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_5.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_4.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_3.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_2.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepBuchiLato3D.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita4.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRakeDimensioneLato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita3.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDispositivoScarto.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreModalita.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreTrain.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepCrepe.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensioneLato.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDisegni.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloNastro.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDistanzaLato3D.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione1.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione2.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita2.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAltezza.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSbordamento.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepImageRef.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensione.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRoiMain.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamento.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAcq.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamento.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainClassificatore.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWait.resources
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.GenerateResource.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CoreCompileInputs.cache
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CopyComplete
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.exe
+C:\Users\Samuele\Desktop\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\EasyModbus.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.dll
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\bin\Debug\halcondotnetxl.xml
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormNumericInput.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormStringInput.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.NotificationPanelDgv.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti3.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogSingolo.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti5.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTabControl.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMaiuscola.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMinuscola.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraNumerica.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBarBase.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBar.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormCopiaFormato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormEsitoControlloNastro.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormInfo.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormRicette.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaTurno.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneTurni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormMasterGMM.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPrincipale.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormAddFormato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormImpostazioni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPassword.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSalvaFoto.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSplash.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNotificationPanel.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmLogin.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaUtente.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneUtenti.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWizardMaskCamera.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive2Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive3Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine2Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine3Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLogDettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglieCam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4Dettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1Dettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2Dettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3Dettaglio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaDiagnostica.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine5Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine1Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLog.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaMain.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive1Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2Lato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgControlloTop3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgBuchiLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDistanzaLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgRakeDimensioniLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioniLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgAltezza.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSbordamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgIntegrita.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditDispositivoScarto.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Utilities.UCHWndCtrlManager.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.FormScegliImgLog.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepGMM_1.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatoreGMM.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2Lato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2Lato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_6.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloNastro.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloTop3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardBuchiLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDistanzaLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamentoPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainVariationPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamentoPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardPrintCheck.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardRakeDimensioneLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDispositivoScarto.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCrepe.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensioneLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDisegni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAltezza.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardSbordamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensione.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardIntegrita.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAcq.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCentraggio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicettaCam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglie.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLog.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicetta.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive5Cam.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaRicette.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaView.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNumericUpDown.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSfasamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgCrepe.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditCentraggio.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDisegni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditExpoGain.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditSoglia.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_1.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_5.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_4.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_3.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepBuchiLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita4.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRakeDimensioneLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita3.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDispositivoScarto.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreModalita.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreTrain.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepCrepe.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensioneLato.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDisegni.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloNastro.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDistanzaLato3D.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione1.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita2.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAltezza.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSbordamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepImageRef.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensione.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRoiMain.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAcq.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamento.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainClassificatore.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWait.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CopyComplete
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.exe
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\Nuova cartella\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.pdb
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe.config
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.pdb
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\EasyModbus.dll
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.dll
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.dll
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.pdb
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll.config
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.pdb
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.pdb
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csprojAssemblyReference.cache
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormNumericInput.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormStringInput.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.NotificationPanelDgv.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti3.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogSingolo.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti5.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTabControl.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMaiuscola.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMinuscola.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraNumerica.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBarBase.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBar.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormCopiaFormato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormEsitoControlloNastro.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormInfo.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormRicette.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaTurno.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneTurni.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormMasterGMM.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPrincipale.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormAddFormato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormImpostazioni.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPassword.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSalvaFoto.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSplash.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNotificationPanel.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmLogin.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaUtente.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneUtenti.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWizardMaskCamera.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive2Cam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive3Cam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine2Cam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine3Cam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLogDettaglio.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglieCam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4Dettaglio.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1Dettaglio.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2Dettaglio.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3Dettaglio.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaDiagnostica.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine5Cam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine1Cam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLog.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaMain.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive1Cam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgPrintCheck.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2Lato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgControlloTop3D.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgBuchiLato3D.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDistanzaLato3D.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgRakeDimensioniLato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioniLato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioni.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgAltezza.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSbordamento.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgIntegrita.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditDispositivoScarto.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Utilities.UCHWndCtrlManager.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.FormScegliImgLog.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepGMM_1.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatoreGMM.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2Lato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2Lato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_6.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloNastro.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloTop3D.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardBuchiLato3D.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDistanzaLato3D.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamentoPrintCheck.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainVariationPrintCheck.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamentoPrintCheck.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardPrintCheck.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardRakeDimensioneLato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDispositivoScarto.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatore.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCrepe.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensioneLato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDisegni.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAltezza.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardSbordamento.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensione.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardIntegrita.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAcq.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCentraggio.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicettaCam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglie.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLog.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicetta.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive5Cam.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaRicette.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaView.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Properties.Resources.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNumericUpDown.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSfasamento.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgCrepe.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditCentraggio.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDisegni.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditExpoGain.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditSoglia.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_1.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_5.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_4.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_3.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_2.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepBuchiLato3D.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita4.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRakeDimensioneLato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita3.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDispositivoScarto.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreModalita.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreTrain.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepCrepe.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensioneLato.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDisegni.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloNastro.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDistanzaLato3D.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione1.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione2.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita2.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAltezza.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSbordamento.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepImageRef.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensione.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRoiMain.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamento.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAcq.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamento.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainClassificatore.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWait.resources
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.GenerateResource.cache
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CoreCompileInputs.cache
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CopyComplete
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.exe
+C:\Users\Samuele\Desktop\22-22 Tecnopack Ottobre 23\20231031_modificato_QVLEGS_Sorgenti\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.pdb
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\halcondotnet.dll
+C:\QUALIVISION\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\halcondotnet.xml
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe.config
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.exe
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\QVLEGS.pdb
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\EasyModbus.dll
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.dll
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.dll
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.pdb
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ClientEEIP.dll.config
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\TSWizards.pdb
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\ViewROI.pdb
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\bin\Debug\halcondotnet.xml
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormNumericInput.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormStringInput.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.NotificationPanelDgv.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti3.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogSingolo.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCLogMulti5.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTabControl.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMaiuscola.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraMinuscola.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTastieraNumerica.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBarBase.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCTrackBar.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormCopiaFormato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormEsitoControlloNastro.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormInfo.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormRicette.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaTurno.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneTurni.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormMasterGMM.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPrincipale.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormAddFormato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormImpostazioni.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormPassword.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSalvaFoto.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormSplash.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNotificationPanel.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmLogin.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmAggiungiModificaUtente.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FrmGestioneUtenti.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWizardMaskCamera.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive2Cam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive3Cam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine2Cam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine3Cam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLogDettaglio.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglieCam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4Dettaglio.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat4.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1Dettaglio.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2Dettaglio.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3Dettaglio.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaDiagnostica.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine5Cam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine1Cam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLog.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaMain.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaOnLine.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive1Cam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgPrintCheck.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2Lato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore2.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgControlloTop3D.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgBuchiLato3D.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDistanzaLato3D.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgRakeDimensioniLato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioniLato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDimensioni.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgColore.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgAltezza.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSbordamento.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgIntegrita.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditDispositivoScarto.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Utilities.UCHWndCtrlManager.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.FormScegliImgLog.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepGMM_1.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatoreGMM.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2Lato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2Lato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore2.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_6.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloNastro.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardControlloTop3D.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardBuchiLato3D.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDistanzaLato3D.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamentoPrintCheck.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainVariationPrintCheck.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamentoPrintCheck.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardPrintCheck.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardRakeDimensioneLato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDispositivoScarto.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardClassificatore.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCrepe.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardColore.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensioneLato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDisegni.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAltezza.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardSbordamento.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardDimensione.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardIntegrita.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardAcq.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardCentraggio.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicettaCam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat3.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat2.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewStat1.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewSoglie.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.SottoPagine.UCPaginaViewLog.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaEditRicetta.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaLive5Cam.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaRicette.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Pagine.UCPaginaView.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Properties.Resources.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCNumericUpDown.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgSfasamento.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgCrepe.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgMacchie.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditCentraggio.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgDisegni.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditExpoGain.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditSoglia.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore2.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_1.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_5.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_4.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_3.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloTop3D_2.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepBuchiLato3D.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita4.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRakeDimensioneLato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita3.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDispositivoScarto.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreModalita.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColoreTrain.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepCrepe.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepColore.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensioneLato.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDisegni.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepControlloNastro.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDistanzaLato3D.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione1.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSegmentazione2.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita2.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAltezza.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepSbordamento.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepImageRef.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepDimensione.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepRoiMain.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTestAllineamento.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepAcq.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepIntegrita.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainAllineamento.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepTrainClassificatore.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.FormWait.resources
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.csproj.CopyComplete
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.exe
+C:\Users\Alessandro\Desktop\Nuova cartella (3)\SRC\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.pdb
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\bin\Debug\halcondotnet.xml
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.UCEditAlgoritmo.UCEditAlgBuchi.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepMacchie.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardMacchie.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.UCStepBuchi.resources
+C:\Users\Alessandro\Desktop\PROGETTI\TECNOPACK\src\dev\2222\QVLEGS_Sorgenti\QVLEGS\obj\Debug\QVLEGS.Wizard.WizardBuchi.resources
