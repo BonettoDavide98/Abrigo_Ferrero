@@ -21,6 +21,9 @@ namespace QVLEGSCOG2362.Algoritmi
 
             iconicList = workingList;
             result = res;
+
+            //??
+            ((IDisposable)image).Dispose();
         }
 
         protected void DisposeBase()

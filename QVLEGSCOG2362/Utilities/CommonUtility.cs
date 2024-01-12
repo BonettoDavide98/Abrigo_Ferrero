@@ -247,6 +247,14 @@ namespace QVLEGSCOG2362.Utilities
                         cogWndCntrl.StaticGraphics.Add(cogGraphic, "default");
                 }
             }
+            
+            try
+            {
+                dipObjList.Dispose();
+            } catch
+            {
+
+            }
         }
 
         public static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)

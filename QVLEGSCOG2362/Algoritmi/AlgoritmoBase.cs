@@ -176,6 +176,8 @@ namespace QVLEGSCOG2362.Algoritmi
                 res.ElapsedTime = sw.ElapsedMilliseconds;
 
                 inputAlg?.Dispose();
+                //??
+                ((IDisposable)image).Dispose();
                 //regionMain?.Dispose();
             }
         }
@@ -242,6 +244,8 @@ namespace QVLEGSCOG2362.Algoritmi
                 res.ElapsedTime = sw.ElapsedMilliseconds;
 
                 inputAlg?.Dispose();
+                //??
+                ((IDisposable)image).Dispose();
                 //regionMain?.Dispose();
             }
         }
@@ -308,6 +312,8 @@ namespace QVLEGSCOG2362.Algoritmi
                 res.ElapsedTime = sw.ElapsedMilliseconds;
 
                 inputAlg?.Dispose();
+                //??
+                ((IDisposable)image).Dispose();
                 //regionMain?.Dispose();
             }
         }

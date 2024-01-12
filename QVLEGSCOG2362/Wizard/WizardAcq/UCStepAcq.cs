@@ -149,7 +149,7 @@ namespace QVLEGSCOG2362.Wizard
                 if (image != null)
                 {
                     this.hWndCtrlManager.DisplayModelGraphics(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
-                    this.algoritmoWizard.SetWizardImage(image);
+                    this.algoritmoWizard.SetWizardImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
                 }
             }
             catch (Exception ex)
@@ -158,7 +158,8 @@ namespace QVLEGSCOG2362.Wizard
             }
             finally
             {
-                //image?.Dispose();
+                //??
+                ((IDisposable)image).Dispose();
             }
         }
 

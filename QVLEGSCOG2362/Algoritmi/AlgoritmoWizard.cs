@@ -44,7 +44,7 @@ namespace QVLEGSCOG2362.Algoritmi
         
         public void ResetWizardImage()
         {
-            //this.imgWizard?.Dispose();
+            ((IDisposable)this.imgWizard)?.Dispose();
             this.imgWizard = null;
         }
 
@@ -52,6 +52,9 @@ namespace QVLEGSCOG2362.Algoritmi
         {
             if (image != null)
                 this.imgWizard = image.CopyBase(CogImageCopyModeConstants.CopyPixels);
+
+            //??
+            ((IDisposable)image).Dispose();
         }
 
         public ICogImage GetWizardImage()
@@ -76,6 +79,8 @@ namespace QVLEGSCOG2362.Algoritmi
         public void SetImageRefMain(ICogImage image)
         {
             this.parametri.ImageRef = image.CopyBase(CogImageCopyModeConstants.CopyPixels);
+            //??
+            ((IDisposable)image).Dispose();
         }
 
         public void SetWizardAcqComplete()

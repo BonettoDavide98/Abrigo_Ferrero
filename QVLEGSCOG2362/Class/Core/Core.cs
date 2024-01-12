@@ -119,6 +119,8 @@ namespace QVLEGSCOG2362.Class
                         graficiSoglieManager.AddData(result.StatisticheObj.Misure);
                 }
             }
+            
+            ((IDisposable)hImage).Dispose();
         }
 
         private void CoreOnNewImageForRegolazioni(ICogImage image)
@@ -137,12 +139,16 @@ namespace QVLEGSCOG2362.Class
                 {
                     ExceptionManager.AddException(ex);
                 }
+
+                //??
+                ((IDisposable)image).Dispose();
             };
 
             if (this.taskCoreOnNewImageForRegolazioni == null)
                 this.taskCoreOnNewImageForRegolazioni = Task.Run(action);   //Task.Factory.StartNew(action, TaskCreationOptions.PreferFairness);
             else
                 this.taskCoreOnNewImageForRegolazioni = this.taskCoreOnNewImageForRegolazioni.ContinueWith(k => action());
+
         }
 
         public override void Run()
@@ -269,7 +275,7 @@ namespace QVLEGSCOG2362.Class
                                     CoreOnNewImageForRegolazioni(imgGrabTmp.CopyBase(CogImageCopyModeConstants.CopyPixels));
                                 }
 
-                                //imgGrabTmp?.Dispose();
+                                ((IDisposable)imgGrabTmp)?.Dispose();
                                 //if (impCam.CorrezioneAngolo != 0)
                                 //    imageRotate?.Dispose();
                             }

@@ -205,6 +205,8 @@ namespace QVLEGSCOG2362.Algoritmi
                 result = res;
 
                 inputAlg?.Dispose();
+                //??
+                ((IDisposable)image).Dispose();
                 //regionMain?.Dispose();
             }
         }

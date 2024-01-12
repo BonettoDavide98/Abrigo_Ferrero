@@ -77,7 +77,7 @@ namespace QVLEGSCOG2362.Utilities
             {
                 if (this.image != null)
                 {
-                    ret.SetImage(this.image);
+                    ret.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
                 }
 
                 if (this.staticGraphics != null)
@@ -127,7 +127,7 @@ namespace QVLEGSCOG2362.Utilities
 
         public void DisposeStaticGraphics()
         {
-            ((IDisposable)this.staticGraphics).Dispose();
+            //((IDisposable)this.staticGraphics).Dispose();
             this.staticGraphics = null;
         }
 

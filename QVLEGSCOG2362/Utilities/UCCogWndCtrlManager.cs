@@ -146,6 +146,8 @@ namespace QVLEGSCOG2362
                 ICogImage image = iconicVarListMemo.GetImage();
                 if (image != null)
                     ret = image.CopyBase(CogImageCopyModeConstants.CopyPixels);
+                //??
+                ((IDisposable)image).Dispose();
             }
             return ret;
         }

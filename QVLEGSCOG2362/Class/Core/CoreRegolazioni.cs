@@ -86,6 +86,8 @@ namespace QVLEGSCOG2362.Class
                     RaiseNewImageToDisplayEvent(iconicVarList, result);
                 }
             }
+
+            ((IDisposable)hImage).Dispose();
         }
 
         public override void Run()

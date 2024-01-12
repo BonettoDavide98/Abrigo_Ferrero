@@ -448,8 +448,6 @@ namespace QVLEGSCOG2362.Class
                     }
                     else
                         this.actionForDisplay?.Invoke(iconicVarListToSend, resultToSend);
-
-                    //GC.Collect();
                 }
             }
             catch (Exception)
