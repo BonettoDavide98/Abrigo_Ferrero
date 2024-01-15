@@ -1,5 +1,6 @@
 ﻿using Cognex.VisionPro;
 using System;
+using System.Collections;
 
 namespace QVLEGSCOG2362.Algoritmi
 {
@@ -91,6 +92,35 @@ namespace QVLEGSCOG2362.Algoritmi
         {
             this.parametri.WizardAcqCompleto = true;
         }
+
+        #region ACETATO
+
+        public void SetAlgAcetatoEnable(bool enable)
+        {
+            this.parametri.AcetatoParam.AbilitaControllo = enable;
+        }
+
+        public Utilities.ObjectToDisplay TestWizardAcetato(ICogImage image, out DataType.ElaborateResult res)
+        {
+            Utilities.ObjectToDisplay workingList = new Utilities.ObjectToDisplay();
+            res = new DataType.ElaborateResult(this.parametri.Template.IsCircle);
+
+            TestWizardBaseDelegate del = (ClassInputAlgoritmi inputAlg, ref DataType.ElaborateResult res1, ref Utilities.ObjectToDisplay workingList1) =>
+            {
+                return TestAcetato(inputAlg, this.parametri.AcetatoParam, true, ref res1, ref workingList1);
+            };
+
+            TestWizardAcetatoBase(image, del, out workingList, out res);
+
+            return workingList;
+        }
+
+        public void SetWizardAcetatoComplete()
+        {
+            this.parametri.AcetatoParam.WizardCompleto = true;
+        }
+
+        #endregion ACETATO
 
 
         //Implement IDisposable.

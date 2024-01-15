@@ -38,7 +38,7 @@ namespace QVLEGSCOG2362.DataType
         //public int TEST_DIMENSIONE_LATO_KO { get; set; }
         //public int TEST_RAKE_DIMENSIONE_LATO_KO { get; set; }
         //public int TEST_TOP_3D_KO { get; set; }
-        //public int TEST_BUCHI_LATO_3D_KO { get; set; }
+        //public int TEST_Acetato_LATO_3D_KO { get; set; }
         //public int CNT_KO_CAM1 { get; set; }
         //public int CNT_KO_CAM2 { get; set; }
         //public int CNT_KO_CAM3 { get; set; }
@@ -80,7 +80,7 @@ namespace QVLEGSCOG2362.DataType
         //    //ret.TEST_DIMENSIONE_LATO_KO = a.TEST_DIMENSIONE_LATO_OK == false ? 1 : 0;
         //    //ret.TEST_RAKE_DIMENSIONE_LATO_KO = a.TEST_RAKE_DIMENSIONE_LATO_OK == false ? 1 : 0;
         //    //ret.TEST_TOP_3D_KO = a.TEST_TOP_3D_OK == false ? 1 : 0;
-        //    //ret.TEST_BUCHI_LATO_3D_KO = a.TEST_BUCHI_LATO_3D_OK == false ? 1 : 0;
+        //    //ret.TEST_Acetato_LATO_3D_KO = a.TEST_Acetato_LATO_3D_OK == false ? 1 : 0;
 
         //    return ret;
         //}
@@ -122,7 +122,7 @@ namespace QVLEGSCOG2362.DataType
             //ret.TEST_DIMENSIONE_LATO_KO = a.TEST_DIMENSIONE_LATO_KO + b.TEST_DIMENSIONE_LATO_KO;
             //ret.TEST_RAKE_DIMENSIONE_LATO_KO = a.TEST_RAKE_DIMENSIONE_LATO_KO + b.TEST_RAKE_DIMENSIONE_LATO_KO;
             //ret.TEST_TOP_3D_KO = a.TEST_TOP_3D_KO + b.TEST_TOP_3D_KO;
-            //ret.TEST_BUCHI_LATO_3D_KO = a.TEST_BUCHI_LATO_3D_KO + b.TEST_BUCHI_LATO_3D_KO;
+            //ret.TEST_Acetato_LATO_3D_KO = a.TEST_Acetato_LATO_3D_KO + b.TEST_Acetato_LATO_3D_KO;
             //ret.CNT_KO_CAM1 = a.CNT_KO_CAM1 + b.CNT_KO_CAM1;
             //ret.CNT_KO_CAM2 = a.CNT_KO_CAM2 + b.CNT_KO_CAM2;
             //ret.CNT_KO_CAM3 = a.CNT_KO_CAM3 + b.CNT_KO_CAM3;

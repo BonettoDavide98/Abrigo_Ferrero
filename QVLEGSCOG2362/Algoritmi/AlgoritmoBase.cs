@@ -83,7 +83,7 @@ namespace QVLEGSCOG2362.Algoritmi
             {
                 for (int i = 0; i < res.TestiOutAlgoritmi.Count; i++)
                 {
-                    workingList.AddStaticGraphics(res.TestiOutAlgoritmi[i].Item1, res.TestiOutAlgoritmi[i].Item2, 60 + (i * 20), 10, 16, true);
+                    workingList.AddStaticGraphics(res.TestiOutAlgoritmi[i].Item1, res.TestiOutAlgoritmi[i].Item2, 60 + (i * 20), 10, 36, true);
                 }
             }
             catch (System.Exception) { }
@@ -95,7 +95,7 @@ namespace QVLEGSCOG2362.Algoritmi
             {
                 for (int i = 0; i < res.TestiRagioneScarto.Count; i++)
                 {
-                    workingList.AddStaticGraphics(res.TestiRagioneScarto[i], CogColorConstants.Red, 60 + (i * 20), 10, 16, true);
+                    workingList.AddStaticGraphics(res.TestiRagioneScarto[i], CogColorConstants.Red, 60 + (i * 20), 10, 36, true);
                 }
             }
             catch (System.Exception) { }
@@ -133,7 +133,7 @@ namespace QVLEGSCOG2362.Algoritmi
 
 
 
-        protected delegate bool TestWizardBaseDelegate(ClassInputAlgoritmi inputAlg, ref DataType.ElaborateResult res, ref ArrayList workingList);
+        protected delegate bool TestWizardBaseDelegate(ClassInputAlgoritmi inputAlg, ref DataType.ElaborateResult res, ref Utilities.ObjectToDisplay workingList);
 
         protected void TestWizardAcqBase(ICogImage image, TestWizardBaseDelegate foo, out Utilities.ObjectToDisplay workingList, out DataType.ElaborateResult res)
         {

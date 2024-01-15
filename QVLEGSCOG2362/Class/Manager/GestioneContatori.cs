@@ -202,7 +202,7 @@ namespace QVLEGSCOG2362.Class
                     //tmp.TEST_DIMENSIONE_LATO_OK = AndAll(o.Select(k => k.TEST_DIMENSIONE_LATO_OK).ToList());
                     //tmp.TEST_RAKE_DIMENSIONE_LATO_OK = AndAll(o.Select(k => k.TEST_RAKE_DIMENSIONE_LATO_OK).ToList());
                     //tmp.TEST_TOP_3D_OK = AndAll(o.Select(k => k.TEST_TOP_3D_OK).ToList());
-                    //tmp.TEST_BUCHI_LATO_3D_OK = AndAll(o.Select(k => k.TEST_BUCHI_LATO_3D_OK).ToList());
+                    //tmp.TEST_Acetato_LATO_3D_OK = AndAll(o.Select(k => k.TEST_Acetato_LATO_3D_OK).ToList());
 
                     DataType.StatisticheObjContatori s = tmp;
 

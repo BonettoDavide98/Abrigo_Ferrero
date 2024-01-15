@@ -16,6 +16,8 @@ namespace QVLEGSCOG2362
 
         private bool enableMiddleMoveScroll;
 
+        private bool showAnnotations = true;
+
         //private bool resizeDone = false;
 
         public UCCogWndCtrlManager()
@@ -96,8 +98,11 @@ namespace QVLEGSCOG2362
             this.resultMemo = result;
 
             //CheckForResize(otd);
+            if (!showAnnotations)
+                otd.ClearStaticGraphics();
 
             CommonUtility.DisplayRegolazioni(otd, cogRecordDisplay1);
+
             if (result != null)
                 CommonUtility.DisplayResult(result, cogRecordDisplay1);
         }
@@ -149,18 +154,38 @@ namespace QVLEGSCOG2362
 
         private void btnZoomPiu_Click(object sender, EventArgs e)
         {
-            cogRecordDisplay1.Zoom = cogRecordDisplay1.Zoom * 2;
+            try
+            {
+                cogRecordDisplay1.Zoom = cogRecordDisplay1.Zoom * 2;
+            }
+            catch
+            {
+
+            }
         }
 
         private void btnZoomMeno_Click(object sender, EventArgs e)
         {
-            cogRecordDisplay1.Zoom = cogRecordDisplay1.Zoom / 2;
+            try
+            {
+                cogRecordDisplay1.Zoom = cogRecordDisplay1.Zoom / 2;
+            }
+            catch
+            {
+
+            }
         }
 
         private void btnResetZoom_Click(object sender, EventArgs e)
         {
-            cogRecordDisplay1.Fit();
-            Console.WriteLine(cogRecordDisplay1.Zoom);
+            try
+            {
+                cogRecordDisplay1.Fit();
+            }
+            catch
+            {
+
+            }
         }
 
         private void chbMuovi_CheckedChanged(object sender, EventArgs e)
@@ -183,6 +208,10 @@ namespace QVLEGSCOG2362
 
         private void chbAnnotazioni_CheckedChanged(object sender, EventArgs e)
         {
+            showAnnotations = chbAnnotazioni.Checked;
+
+            if(!chbAnnotazioni.Checked)
+                cogRecordDisplay1.StaticGraphics.Clear();
             //this.mView.ShowOnlyImages = !chbAnnotazioni.Checked;
             //this.mView.repaint();
 

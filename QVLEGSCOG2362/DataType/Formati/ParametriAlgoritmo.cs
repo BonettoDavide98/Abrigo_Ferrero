@@ -63,6 +63,8 @@ namespace QVLEGSCOG2362.DataType
 
         //[Browsable(false)]
         //public Rectangle1Param RoiMain { get; set; }
+        [Browsable(false)]
+        public AcetatoParam AcetatoParam { get; set; }
 
         [Browsable(false)]
         public double AltezzaRoiSfondo { get; set; }
@@ -95,6 +97,8 @@ namespace QVLEGSCOG2362.DataType
         {
             this.Expo = 1000;
             this.Gain = 1;
+
+            this.AcetatoParam = new AcetatoParam();
 
             this.RigheVaschettaSegmentazione = 1;
             this.ColonneVaschettaSegmentazione = 1;

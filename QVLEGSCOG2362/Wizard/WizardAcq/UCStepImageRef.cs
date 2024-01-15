@@ -109,8 +109,7 @@ namespace QVLEGSCOG2362.Wizard
             }
             finally
             {
-                //??
-                ((IDisposable)image).Dispose();
+                ((IDisposable)image)?.Dispose();
             }
         }
 

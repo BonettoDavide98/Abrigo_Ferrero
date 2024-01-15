@@ -55,8 +55,8 @@
             this.tlpPageRakeV = new System.Windows.Forms.TableLayoutPanel();
             this.tabPageTop3D = new System.Windows.Forms.TabPage();
             this.tlpPageTop3D = new System.Windows.Forms.TableLayoutPanel();
-            this.tabPageBuchiLato3D = new System.Windows.Forms.TabPage();
-            this.tlpPageBuchiLato3D = new System.Windows.Forms.TableLayoutPanel();
+            this.tabPageAcetatoLato3D = new System.Windows.Forms.TabPage();
+            this.tlpPageAcetatoLato3D = new System.Windows.Forms.TableLayoutPanel();
             this.tabPageTopLatoAltezza = new System.Windows.Forms.TabPage();
             this.tlpPageTopLatoAltezza = new System.Windows.Forms.TableLayoutPanel();
             this.flpMenu = new System.Windows.Forms.FlowLayoutPanel();
@@ -71,7 +71,7 @@
             this.btnPageRakeH = new System.Windows.Forms.Button();
             this.btnPageRakeV = new System.Windows.Forms.Button();
             this.btnPageTop3D = new System.Windows.Forms.Button();
-            this.btnPageBuchiLato3D = new System.Windows.Forms.Button();
+            this.btnPageAcetatoLato3D = new System.Windows.Forms.Button();
             this.btnPageTopLatoAltezza = new System.Windows.Forms.Button();
             this.ucTabControl1.SuspendLayout();
             this.tabPageNN.SuspendLayout();
@@ -86,7 +86,7 @@
             this.tabPageRakeH.SuspendLayout();
             this.tabPageRakeV.SuspendLayout();
             this.tabPageTop3D.SuspendLayout();
-            this.tabPageBuchiLato3D.SuspendLayout();
+            this.tabPageAcetatoLato3D.SuspendLayout();
             this.tabPageTopLatoAltezza.SuspendLayout();
             this.flpMenu.SuspendLayout();
             this.SuspendLayout();
@@ -110,7 +110,7 @@
             this.ucTabControl1.Controls.Add(this.tabPageRakeH);
             this.ucTabControl1.Controls.Add(this.tabPageRakeV);
             this.ucTabControl1.Controls.Add(this.tabPageTop3D);
-            this.ucTabControl1.Controls.Add(this.tabPageBuchiLato3D);
+            this.ucTabControl1.Controls.Add(this.tabPageAcetatoLato3D);
             this.ucTabControl1.Controls.Add(this.tabPageTopLatoAltezza);
             this.ucTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucTabControl1.HideTab = true;
@@ -444,31 +444,31 @@
             this.tlpPageTop3D.Size = new System.Drawing.Size(1249, 800);
             this.tlpPageTop3D.TabIndex = 5;
             // 
-            // tabPageBuchiLato3D
+            // tabPageAcetatoLato3D
             // 
-            this.tabPageBuchiLato3D.AutoScroll = true;
-            this.tabPageBuchiLato3D.Controls.Add(this.tlpPageBuchiLato3D);
-            this.tabPageBuchiLato3D.Location = new System.Drawing.Point(4, 22);
-            this.tabPageBuchiLato3D.Name = "tabPageBuchiLato3D";
-            this.tabPageBuchiLato3D.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageBuchiLato3D.Size = new System.Drawing.Size(1624, 621);
-            this.tabPageBuchiLato3D.TabIndex = 13;
-            this.tabPageBuchiLato3D.Text = "tabPageBuchiLato3D";
-            this.tabPageBuchiLato3D.UseVisualStyleBackColor = true;
+            this.tabPageAcetatoLato3D.AutoScroll = true;
+            this.tabPageAcetatoLato3D.Controls.Add(this.tlpPageAcetatoLato3D);
+            this.tabPageAcetatoLato3D.Location = new System.Drawing.Point(4, 22);
+            this.tabPageAcetatoLato3D.Name = "tabPageAcetatoLato3D";
+            this.tabPageAcetatoLato3D.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageAcetatoLato3D.Size = new System.Drawing.Size(1624, 621);
+            this.tabPageAcetatoLato3D.TabIndex = 13;
+            this.tabPageAcetatoLato3D.Text = "tabPageAcetatoLato3D";
+            this.tabPageAcetatoLato3D.UseVisualStyleBackColor = true;
             // 
-            // tlpPageBuchiLato3D
+            // tlpPageAcetatoLato3D
             // 
-            this.tlpPageBuchiLato3D.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tlpPageAcetatoLato3D.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tlpPageBuchiLato3D.ColumnCount = 1;
-            this.tlpPageBuchiLato3D.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpPageBuchiLato3D.Location = new System.Drawing.Point(3, 3);
-            this.tlpPageBuchiLato3D.Name = "tlpPageBuchiLato3D";
-            this.tlpPageBuchiLato3D.RowCount = 1;
-            this.tlpPageBuchiLato3D.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpPageBuchiLato3D.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 800F));
-            this.tlpPageBuchiLato3D.Size = new System.Drawing.Size(1266, 800);
-            this.tlpPageBuchiLato3D.TabIndex = 4;
+            this.tlpPageAcetatoLato3D.ColumnCount = 1;
+            this.tlpPageAcetatoLato3D.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpPageAcetatoLato3D.Location = new System.Drawing.Point(3, 3);
+            this.tlpPageAcetatoLato3D.Name = "tlpPageAcetatoLato3D";
+            this.tlpPageAcetatoLato3D.RowCount = 1;
+            this.tlpPageAcetatoLato3D.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpPageAcetatoLato3D.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 800F));
+            this.tlpPageAcetatoLato3D.Size = new System.Drawing.Size(1266, 800);
+            this.tlpPageAcetatoLato3D.TabIndex = 4;
             // 
             // tabPageTopLatoAltezza
             // 
@@ -513,7 +513,7 @@
             this.flpMenu.Controls.Add(this.btnPageRakeH);
             this.flpMenu.Controls.Add(this.btnPageRakeV);
             this.flpMenu.Controls.Add(this.btnPageTop3D);
-            this.flpMenu.Controls.Add(this.btnPageBuchiLato3D);
+            this.flpMenu.Controls.Add(this.btnPageAcetatoLato3D);
             this.flpMenu.Controls.Add(this.btnPageTopLatoAltezza);
             this.flpMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.flpMenu.Location = new System.Drawing.Point(0, 0);
@@ -707,21 +707,21 @@
             this.btnPageTop3D.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPageTop3D.UseVisualStyleBackColor = false;
             // 
-            // btnPageBuchiLato3D
+            // btnPageAcetatoLato3D
             // 
-            this.btnPageBuchiLato3D.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnPageBuchiLato3D.BackColor = System.Drawing.Color.Gainsboro;
-            this.btnPageBuchiLato3D.FlatAppearance.BorderSize = 0;
-            this.btnPageBuchiLato3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPageBuchiLato3D.Image = global::QVLEGSCOG2362.Properties.Resources.img_dimensioni_32;
-            this.btnPageBuchiLato3D.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPageBuchiLato3D.Location = new System.Drawing.Point(154, 69);
-            this.btnPageBuchiLato3D.Name = "btnPageBuchiLato3D";
-            this.btnPageBuchiLato3D.Size = new System.Drawing.Size(145, 60);
-            this.btnPageBuchiLato3D.TabIndex = 101;
-            this.btnPageBuchiLato3D.Text = "BTN_BUCHI_LATO_3D";
-            this.btnPageBuchiLato3D.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnPageBuchiLato3D.UseVisualStyleBackColor = false;
+            this.btnPageAcetatoLato3D.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnPageAcetatoLato3D.BackColor = System.Drawing.Color.Gainsboro;
+            this.btnPageAcetatoLato3D.FlatAppearance.BorderSize = 0;
+            this.btnPageAcetatoLato3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPageAcetatoLato3D.Image = global::QVLEGSCOG2362.Properties.Resources.img_dimensioni_32;
+            this.btnPageAcetatoLato3D.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPageAcetatoLato3D.Location = new System.Drawing.Point(154, 69);
+            this.btnPageAcetatoLato3D.Name = "btnPageAcetatoLato3D";
+            this.btnPageAcetatoLato3D.Size = new System.Drawing.Size(145, 60);
+            this.btnPageAcetatoLato3D.TabIndex = 101;
+            this.btnPageAcetatoLato3D.Text = "BTN_Acetato_LATO_3D";
+            this.btnPageAcetatoLato3D.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPageAcetatoLato3D.UseVisualStyleBackColor = false;
             // 
             // btnPageTopLatoAltezza
             // 
@@ -761,7 +761,7 @@
             this.tabPageRakeH.ResumeLayout(false);
             this.tabPageRakeV.ResumeLayout(false);
             this.tabPageTop3D.ResumeLayout(false);
-            this.tabPageBuchiLato3D.ResumeLayout(false);
+            this.tabPageAcetatoLato3D.ResumeLayout(false);
             this.tabPageTopLatoAltezza.ResumeLayout(false);
             this.flpMenu.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -805,10 +805,10 @@
         private System.Windows.Forms.TabPage tabPageColore2;
         private System.Windows.Forms.TableLayoutPanel tlpPageColore2;
         private System.Windows.Forms.Button btnPageTop3D;
-        private System.Windows.Forms.Button btnPageBuchiLato3D;
+        private System.Windows.Forms.Button btnPageAcetatoLato3D;
         private System.Windows.Forms.TabPage tabPageTop3D;
-        private System.Windows.Forms.TabPage tabPageBuchiLato3D;
-        private System.Windows.Forms.TableLayoutPanel tlpPageBuchiLato3D;
+        private System.Windows.Forms.TabPage tabPageAcetatoLato3D;
+        private System.Windows.Forms.TableLayoutPanel tlpPageAcetatoLato3D;
         private System.Windows.Forms.TableLayoutPanel tlpPageTop3D;
         private System.Windows.Forms.Button btnPageTopLatoAltezza;
         private System.Windows.Forms.TabPage tabPageTopLatoAltezza;

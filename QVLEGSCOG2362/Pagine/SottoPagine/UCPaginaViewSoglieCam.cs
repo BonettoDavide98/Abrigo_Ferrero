@@ -57,7 +57,7 @@ namespace QVLEGSCOG2362.Pagine.SottoPagine
                 //testTlp.Add("TEST_RAKE_DIMENSIONE_LATO_H_4", tlpPageRakeH);
                 //testTlp.Add("TEST_TOP_3D_AREA_CENTRO", tlpPageTop3D);
                 //testTlp.Add("TEST_TOP_3D_AREA_DISALLINEAMENTO", tlpPageTop3D);
-                //testTlp.Add("TEST_BUCHI_LATO_3D_AREA_MAX", tlpPageBuchiLato3D);
+                //testTlp.Add("TEST_Acetato_LATO_3D_AREA_MAX", tlpPageAcetatoLato3D);
                 //testTlp.Add("TEST_DIMENSIONE_ALTEZZA", tlpPageTopLatoAltezza);
 
                 foreach (var item in testTlp)
@@ -108,7 +108,7 @@ namespace QVLEGSCOG2362.Pagine.SottoPagine
                 btnPageRakeH.Visible = false;
                 btnPageRakeV.Visible = false;
                 btnPageTop3D.Visible = false;
-                btnPageBuchiLato3D.Visible = false;
+                btnPageAcetatoLato3D.Visible = false;
                 btnPageTopLatoAltezza.Visible = false;
 
                 TabPage nextSelected = null;
@@ -203,10 +203,10 @@ namespace QVLEGSCOG2362.Pagine.SottoPagine
                     //    if (nextSelected == null) nextSelected = tabPageTop3D;
                     //}
 
-                    //if (parametri.Template.AlgBuchiLato3DEnable && parametri.BuchiLato3DParam.AbilitaControllo)
+                    //if (parametri.Template.AlgAcetatoLato3DEnable && parametri.AcetatoLato3DParam.AbilitaControllo)
                     //{
-                    //    btnPageBuchiLato3D.Visible = true;
-                    //    if (nextSelected == null) nextSelected = tabPageBuchiLato3D;
+                    //    btnPageAcetatoLato3D.Visible = true;
+                    //    if (nextSelected == null) nextSelected = tabPageAcetatoLato3D;
                     //}
 
                     ////// TOP LATO
@@ -246,7 +246,7 @@ namespace QVLEGSCOG2362.Pagine.SottoPagine
             btnPageRakeV.Text = linguaManager.GetTranslation("BTN_RAKE_V");
             label1.Text = linguaManager.GetTranslation("LBL_NN_SOGLIE");
             btnPageTop3D.Text = linguaManager.GetTranslation("BTN_TOP_3D");
-            btnPageBuchiLato3D.Text = linguaManager.GetTranslation("BTN_BUCHI_LATO_3D");
+            btnPageAcetatoLato3D.Text = linguaManager.GetTranslation("BTN_Acetato_LATO_3D");
             btnPageTopLatoAltezza.Text = linguaManager.GetTranslation("BTN_TOP_LATO_ALTEZZA");
 
             foreach (var item in this.ucEdit)

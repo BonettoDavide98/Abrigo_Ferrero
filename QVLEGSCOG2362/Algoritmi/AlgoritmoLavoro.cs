@@ -301,7 +301,7 @@ namespace QVLEGSCOG2362.Algoritmi
                 , "TEST_RAKE_DIMENSIONE_LATO_H_3"
                 , "TEST_RAKE_DIMENSIONE_LATO_H_4"
                 , "TEST_DIMENSIONE_ALTEZZA"
-                , "TEST_BUCHI_LATO_3D_AREA_MAX"
+                , "TEST_Acetato_LATO_3D_AREA_MAX"
             };
         }
 
@@ -315,7 +315,7 @@ namespace QVLEGSCOG2362.Algoritmi
                 case "TEST_INTEGRITA_AREA":
                 case "TEST_DISEGNI_MACCHIE_GROSSE_AREA_MAX":
                 case "TEST_DISEGNI_PRESENZA_AREA":
-                case "TEST_BUCHI_LATO_3D_AREA_MAX":
+                case "TEST_Acetato_LATO_3D_AREA_MAX":
                     ret = 0.5;
                     break;
 

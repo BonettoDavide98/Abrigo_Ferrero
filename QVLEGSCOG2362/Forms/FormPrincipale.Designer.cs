@@ -334,7 +334,6 @@
             this.btnStazione3.Text = "3";
             this.btnStazione3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnStazione3.UseVisualStyleBackColor = false;
-            this.btnStazione3.Visible = false;
             this.btnStazione3.Click += new System.EventHandler(this.btnStazione3_Click);
             // 
             // btnStazione2

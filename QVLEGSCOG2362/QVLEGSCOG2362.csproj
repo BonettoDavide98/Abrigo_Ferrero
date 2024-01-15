@@ -565,6 +565,7 @@
     <Compile Include="Controls\UCLogMulti3.Designer.cs">
       <DependentUpon>UCLogMulti3.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataType\Formati\AcetatoParam.cs" />
     <Compile Include="Forms\FormInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -868,6 +869,12 @@
     <Compile Include="Pagine\UCPaginaLive.Designer.cs">
       <DependentUpon>UCPaginaLive.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCEditAlgoritmo\UCEditAlgAcetato.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCEditAlgoritmo\UCEditAlgAcetato.Designer.cs">
+      <DependentUpon>UCEditAlgAcetato.cs</DependentUpon>
+    </Compile>
     <Compile Include="Utilities\UCCogWndCtrlManager.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -879,6 +886,18 @@
     </Compile>
     <Compile Include="Wizard\FormScegliImgLog.Designer.cs">
       <DependentUpon>FormScegliImgLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\WizardAcetato\UCStepAcetato.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardAcetato\UCStepAcetato.Designer.cs">
+      <DependentUpon>UCStepAcetato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\WizardAcetato\WizardAcetato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardAcetato\WizardAcetato.Designer.cs">
+      <DependentUpon>WizardAcetato.cs</DependentUpon>
     </Compile>
     <Compile Include="Wizard\WizardAcq\WizardAcq.cs">
       <SubType>Form</SubType>

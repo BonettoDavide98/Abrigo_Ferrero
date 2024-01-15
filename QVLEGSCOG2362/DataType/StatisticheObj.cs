@@ -64,7 +64,7 @@ namespace QVLEGSCOG2362.DataType
         //public double? TEST_RAKE_DIMENSIONE_LATO_H_2 { get; set; }
         //public double? TEST_RAKE_DIMENSIONE_LATO_H_3 { get; set; }
         //public double? TEST_RAKE_DIMENSIONE_LATO_H_4 { get; set; }
-        //public double? TEST_BUCHI_LATO_3D_AREA_MAX { get; set; }
+        //public double? TEST_Acetato_LATO_3D_AREA_MAX { get; set; }
 
         public List<ObjMisura> Misure { get; set; }
         public void AddMisura(string nome, double valore)
@@ -85,7 +85,7 @@ namespace QVLEGSCOG2362.DataType
         //public bool? TEST_DIMENSIONE_LATO_OK { get; set; }
         //public bool? TEST_RAKE_DIMENSIONE_LATO_OK { get; set; }
         //public bool? TEST_TOP_3D_OK { get; set; }
-        //public bool? TEST_BUCHI_LATO_3D_OK { get; set; }
+        //public bool? TEST_Acetato_LATO_3D_OK { get; set; }
 
         public List<ObjContatore> Contatori { get; set; }
         public void AddObjContatore(string nome, bool valore)
@@ -122,7 +122,7 @@ namespace QVLEGSCOG2362.DataType
         //    ret.TEST_DIMENSIONE_LATO_OK = AndAll(o.Select(k => k.TEST_DIMENSIONE_LATO_OK).ToList());
         //    ret.TEST_RAKE_DIMENSIONE_LATO_OK = AndAll(o.Select(k => k.TEST_RAKE_DIMENSIONE_LATO_OK).ToList());
         //    ret.TEST_TOP_3D_OK = AndAll(o.Select(k => k.TEST_TOP_3D_OK).ToList());
-        //    ret.TEST_BUCHI_LATO_3D_OK = AndAll(o.Select(k => k.TEST_BUCHI_LATO_3D_OK).ToList());
+        //    ret.TEST_Acetato_LATO_3D_OK = AndAll(o.Select(k => k.TEST_Acetato_LATO_3D_OK).ToList());
 
         //    return ret;
         //}

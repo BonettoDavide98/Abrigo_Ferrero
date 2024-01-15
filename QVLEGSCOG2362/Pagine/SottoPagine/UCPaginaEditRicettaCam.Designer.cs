@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.ucEditExpoGain1 = new QVLEGSCOG2362.UCEditAlgoritmo.UCEditExpoGain();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblDirNastro = new System.Windows.Forms.Label();
+            this.ucEditExpoGain1 = new QVLEGSCOG2362.UCEditAlgoritmo.UCEditExpoGain();
+            this.ucEditAlgAcetato1 = new QVLEGSCOG2362.UCEditAlgoritmo.UCEditAlgAcetato();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -47,39 +48,15 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.ucEditExpoGain1, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.ucEditAlgAcetato1, 1, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(760, 248);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(960, 248);
             this.tableLayoutPanel1.TabIndex = 44;
-            // 
-            // ucEditExpoGain1
-            // 
-            this.ucEditExpoGain1.Location = new System.Drawing.Point(33, 3);
-            this.ucEditExpoGain1.Name = "ucEditExpoGain1";
-            this.ucEditExpoGain1.Size = new System.Drawing.Size(716, 70);
-            this.ucEditExpoGain1.TabIndex = 42;
             // 
             // panel1
             // 
@@ -126,6 +103,20 @@
             this.lblDirNastro.Text = "LBL_DIR_NASTRO";
             this.lblDirNastro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // ucEditExpoGain1
+            // 
+            this.ucEditExpoGain1.Location = new System.Drawing.Point(33, 3);
+            this.ucEditExpoGain1.Name = "ucEditExpoGain1";
+            this.ucEditExpoGain1.Size = new System.Drawing.Size(716, 70);
+            this.ucEditExpoGain1.TabIndex = 42;
+            // 
+            // ucEditAlgAcetato1
+            // 
+            this.ucEditAlgAcetato1.Location = new System.Drawing.Point(33, 79);
+            this.ucEditAlgAcetato1.Name = "ucEditAlgAcetato1";
+            this.ucEditAlgAcetato1.Size = new System.Drawing.Size(924, 133);
+            this.ucEditAlgAcetato1.TabIndex = 43;
+            // 
             // UCPaginaEditRicettaCam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -152,5 +143,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblDirNastro;
+        private UCEditAlgoritmo.UCEditAlgAcetato ucEditAlgAcetato1;
     }
 }

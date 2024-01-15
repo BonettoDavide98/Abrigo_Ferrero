@@ -18,7 +18,7 @@
                     AlgColoreEnable = false,
                     AlgColore2Enable = false,
                     AlgPrintCheckEnable = true,
-                    AlgBuchiEnable = true,
+                    AlgAcetatoEnable = true,
                     AlgMacchieEnable = true,
 
                     AlgSbordamentoEnable = true,
@@ -29,7 +29,7 @@
                     AlgControlloTop3DEnable = true,
 
                     AlgDistanzaLato3DEnable = false,
-                    AlgBuchiLato3DEnable = true,
+                    AlgAcetatoLato3DEnable = true,
                 };
             }
         }
@@ -49,7 +49,7 @@
                     AlgColoreEnable = false,
                     AlgColore2Enable = false,
                     AlgPrintCheckEnable = true,
-                    AlgBuchiEnable = true,
+                    AlgAcetatoEnable = true,
                     AlgMacchieEnable = true,
 
                     AlgSbordamentoEnable = true,
@@ -60,7 +60,7 @@
                     AlgControlloTop3DEnable = true,
 
                     AlgDistanzaLato3DEnable = false,
-                    AlgBuchiLato3DEnable = true,
+                    AlgAcetatoLato3DEnable = true,
                 };
             }
         }
@@ -85,7 +85,7 @@
         public bool AlgColoreEnable { get; set; }
         public bool AlgColore2Enable { get; set; }
         public bool AlgPrintCheckEnable { get; set; }
-        public bool AlgBuchiEnable { get; set; }
+        public bool AlgAcetatoEnable { get; set; }
         public bool AlgMacchieEnable { get; set; }
 
         public bool AlgSbordamentoEnable { get; set; }
@@ -96,6 +96,6 @@
         public bool AlgControlloTop3DEnable { get; set; }
 
         public bool AlgDistanzaLato3DEnable { get; set; }
-        public bool AlgBuchiLato3DEnable { get; set; }
+        public bool AlgAcetatoLato3DEnable { get; set; }
     }
 }

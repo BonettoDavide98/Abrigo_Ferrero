@@ -85,10 +85,9 @@ namespace QVLEGSCOG2362
 
                 this.comunicazioneManager = new Class.ComunicazioneManager(schedaIO, this.impostazioni);
 
-                int numStazioni = GetNumStazioni(this.impostazioni);
-                //int numStazioni = 1;
+                //int numStazioni = GetNumStazioni(this.impostazioni);
+                int numStazioni = 3;
                 int numCamere = GetNumCamereTot(this.impostazioni);
-                //int numCamere = 1;
 
                 Dictionary<string, ICogFrameGrabber> camereSN = null;
 

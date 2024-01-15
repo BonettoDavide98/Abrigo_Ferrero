@@ -67,6 +67,7 @@ namespace QVLEGSCOG2362.Pagine
             int cnt = 1;
 
             ucEditExpoGain1.Init(cnt++, appManager, idCamera, this.impostazioni, simpleDirtyTracker, linguaManager, repaintLock);
+            ucEditAlgAcetato1.Init(cnt++, appManager, idCamera, this.impostazioni, simpleDirtyTracker, linguaManager, repaintLock);
 
             ucEditExpoGain1.OnComplete += Uc_OnComplete;
         }
@@ -76,6 +77,7 @@ namespace QVLEGSCOG2362.Pagine
             lblDirNastro.Text = linguaManager.GetTranslation("LBL_DIR_NASTRO");
 
             ucEditExpoGain1.Translate(linguaManager);
+            ucEditAlgAcetato1.Translate(linguaManager);
         }
 
         public void CaricaRicetta(string idFormato)
@@ -109,6 +111,8 @@ namespace QVLEGSCOG2362.Pagine
 
                 System.Diagnostics.Debug.WriteLine(string.Format("  - 4 = {0} ms", sw.ElapsedMilliseconds)); sw.Restart();
 
+                ucEditAlgAcetato1.SetAlgoritmo(this.algoritmoWizard);
+
                 // ------------------------------------------------------
                 if (parametri.Template != null)
                 {
@@ -116,11 +120,11 @@ namespace QVLEGSCOG2362.Pagine
 
                     if (this.impostazioniCamera.TipoCamera == DataType.TipoCamera.Acetato)
                     {
-
+                        ucEditAlgAcetato1.Visible = true;
                     }
                     else if (this.impostazioniCamera.TipoCamera == DataType.TipoCamera.DL)
                     {
-
+                        ucEditAlgAcetato1.Visible = false;
                     }
 
                     SetDimGrigliaControlli();
