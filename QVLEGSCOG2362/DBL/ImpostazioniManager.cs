@@ -168,17 +168,17 @@ namespace QVLEGSCOG2362.DBL
             if (!string.IsNullOrWhiteSpace(sImpostazioniCamera3))
                 ret.ImpostazioniCamera3 = DataType.Extension.DeSerializeStringAsT<DataType.ImpostazioniCamera>(sImpostazioniCamera3);
 
-            string sImpostazioniCamera4 = GetValueString(dictionary, "ImpostazioniCamera4");
-            if (!string.IsNullOrWhiteSpace(sImpostazioniCamera4))
-                ret.ImpostazioniCamera4 = DataType.Extension.DeSerializeStringAsT<DataType.ImpostazioniCamera>(sImpostazioniCamera4);
+            //string sImpostazioniCamera4 = GetValueString(dictionary, "ImpostazioniCamera4");
+            //if (!string.IsNullOrWhiteSpace(sImpostazioniCamera4))
+            //    ret.ImpostazioniCamera4 = DataType.Extension.DeSerializeStringAsT<DataType.ImpostazioniCamera>(sImpostazioniCamera4);
 
-            string sImpostazioniCamera5 = GetValueString(dictionary, "ImpostazioniCamera5");
-            if (!string.IsNullOrWhiteSpace(sImpostazioniCamera5))
-                ret.ImpostazioniCamera5 = DataType.Extension.DeSerializeStringAsT<DataType.ImpostazioniCamera>(sImpostazioniCamera5);
+            //string sImpostazioniCamera5 = GetValueString(dictionary, "ImpostazioniCamera5");
+            //if (!string.IsNullOrWhiteSpace(sImpostazioniCamera5))
+            //    ret.ImpostazioniCamera5 = DataType.Extension.DeSerializeStringAsT<DataType.ImpostazioniCamera>(sImpostazioniCamera5);
 
-            string sImpostazioniCamera6 = GetValueString(dictionary, "ImpostazioniCamera6");
-            if (!string.IsNullOrWhiteSpace(sImpostazioniCamera6))
-                ret.ImpostazioniCamera6 = DataType.Extension.DeSerializeStringAsT<DataType.ImpostazioniCamera>(sImpostazioniCamera6);
+            //string sImpostazioniCamera6 = GetValueString(dictionary, "ImpostazioniCamera6");
+            //if (!string.IsNullOrWhiteSpace(sImpostazioniCamera6))
+            //    ret.ImpostazioniCamera6 = DataType.Extension.DeSerializeStringAsT<DataType.ImpostazioniCamera>(sImpostazioniCamera6);
 
             ret.IpGocator = GetValueString(dictionary, "IpGocator");
 
@@ -266,9 +266,9 @@ namespace QVLEGSCOG2362.DBL
             dict.Add("ImpostazioniCamera1", DataType.Extension.SerializeAsString(impostazioni.ImpostazioniCamera1));
             dict.Add("ImpostazioniCamera2", DataType.Extension.SerializeAsString(impostazioni.ImpostazioniCamera2));
             dict.Add("ImpostazioniCamera3", DataType.Extension.SerializeAsString(impostazioni.ImpostazioniCamera3));
-            dict.Add("ImpostazioniCamera4", DataType.Extension.SerializeAsString(impostazioni.ImpostazioniCamera4));
-            dict.Add("ImpostazioniCamera5", DataType.Extension.SerializeAsString(impostazioni.ImpostazioniCamera5));
-            dict.Add("ImpostazioniCamera6", DataType.Extension.SerializeAsString(impostazioni.ImpostazioniCamera6));
+            //dict.Add("ImpostazioniCamera4", DataType.Extension.SerializeAsString(impostazioni.ImpostazioniCamera4));
+            //dict.Add("ImpostazioniCamera5", DataType.Extension.SerializeAsString(impostazioni.ImpostazioniCamera5));
+            //dict.Add("ImpostazioniCamera6", DataType.Extension.SerializeAsString(impostazioni.ImpostazioniCamera6));
             dict.Add("IpGocator", impostazioni.IpGocator);
 
             dict.Add("PLC_1_IP", impostazioni.PLC_1_IP);

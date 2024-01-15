@@ -1,4 +1,5 @@
 ﻿using Cognex.VisionPro;
+using QVLEGSCOG2362.DataType;
 using QVLEGSCOG2362.Utilities;
 using System;
 using System.Drawing;
@@ -9,10 +10,9 @@ namespace QVLEGSCOG2362
     public partial class UCCogWndCtrlManager : UserControl
     {
 
-        //private Impostazioni config = null;
+        private Impostazioni config = null;
 
         private int prevW, prevH = 0;
-        private bool resize = false;
 
         private bool enableMiddleMoveScroll;
 
@@ -31,8 +31,10 @@ namespace QVLEGSCOG2362
 
 
 
-        public void Init(bool enableMiddleMoveScroll, bool showMenu, bool showStringMessage)
+        public void Init(bool enableMiddleMoveScroll, bool showMenu, bool showStringMessage, Impostazioni config)
         {
+            this.config = config;
+
             this.enableMiddleMoveScroll = enableMiddleMoveScroll;
 
             btnOpenMenu.BringToFront();
@@ -40,9 +42,7 @@ namespace QVLEGSCOG2362
 
             btnOpenMenu.Visible = showMenu;
 
-            panel.Resize += Panel_Resize;
-
-            CheckForResize(null);
+            //CheckForResize(null);
             if (showMenu)
                 SetMoveVisible(false);
         }
@@ -51,34 +51,29 @@ namespace QVLEGSCOG2362
         private DataType.ElaborateResult resultMemo = null;
 
 
-        private void CheckForResize(ObjectToDisplay otd)
-        {
-            if (otd != null)
-            {
-                ICogImage image = otd.GetImage();
-                if (image != null)
-                {
-                    int w = 1280, h = 1024;
+        //private void CheckForResize(ObjectToDisplay otd)
+        //{
+        //    if (otd != null)
+        //    {
+        //        ICogImage image = otd.GetImage();
+        //        if (image != null)
+        //        {
+        //            int w = 1280, h = 1024;
 
-                    if (image != null)
-                    {
-                        h = image.Height;
-                        w = image.Width;
-                    }
+        //            if (image != null)
+        //            {
+        //                h = image.Height;
+        //                w = image.Width;
+        //            }
 
-                    if (!(prevW == w && prevH == h) || this.resize)
-                    {
-                        this.resize = false;
-                        //this.cogWindowControl.BeginInvoke(new MethodInvoker(() => { FitImage(w, h); }));
-                    }
-                }
-            }
-        }
-
-        private void Panel_Resize(object sender, EventArgs e)
-        {
-            this.resize = true;
-        }
+        //            if (!(prevW == w && prevH == h) || this.resize)
+        //            {
+        //                this.resize = false;
+        //                this.cogRecordDisplay1.BeginInvoke(new MethodInvoker(() => { FitImage(w, h); }));
+        //            }
+        //        }
+        //    }
+        //}
 
         public void GetSetupOutputCamera(out ObjectToDisplay objectToDisplay, out DataType.ElaborateResult result)
         {
@@ -100,7 +95,7 @@ namespace QVLEGSCOG2362
             this.iconicVarListMemo = otd;
             this.resultMemo = result;
 
-            CheckForResize(otd);
+            //CheckForResize(otd);
 
             CommonUtility.DisplayRegolazioni(otd, cogRecordDisplay1);
             if (result != null)
@@ -146,22 +141,26 @@ namespace QVLEGSCOG2362
                 ICogImage image = iconicVarListMemo.GetImage();
                 if (image != null)
                     ret = image.CopyBase(CogImageCopyModeConstants.CopyPixels);
-                //??
-                ((IDisposable)image).Dispose();
+
+                ((IDisposable)image)?.Dispose();
             }
             return ret;
         }
 
         private void btnZoomPiu_Click(object sender, EventArgs e)
         {
+            cogRecordDisplay1.Zoom = cogRecordDisplay1.Zoom * 2;
         }
 
         private void btnZoomMeno_Click(object sender, EventArgs e)
         {
+            cogRecordDisplay1.Zoom = cogRecordDisplay1.Zoom / 2;
         }
 
         private void btnResetZoom_Click(object sender, EventArgs e)
         {
+            cogRecordDisplay1.Fit();
+            Console.WriteLine(cogRecordDisplay1.Zoom);
         }
 
         private void chbMuovi_CheckedChanged(object sender, EventArgs e)
@@ -197,32 +196,32 @@ namespace QVLEGSCOG2362
 
         private void btnSalva_Click(object sender, EventArgs e)
         {
-            //ICogImage img = null;
-            //try
-            //{
-            //    img = GetImage();
-            //    if (img != null)
-            //    {
-            //        DateTime d = DateTime.Now;
+            ICogImage img = null;
+            try
+            {
+                img = GetImage();
+                if (img != null)
+                {
+                    DateTime d = DateTime.Now;
 
-            //        string path = System.IO.Path.Combine(this.config.PathDatiBase, "IMG_SAVE", "MANUAL");
+                    string path = System.IO.Path.Combine(this.config.PathDatiBase, "IMG_SAVE", "MANUAL");
 
-            //        if (!System.IO.Directory.Exists(path))
-            //            System.IO.Directory.CreateDirectory(path);
+                    if (!System.IO.Directory.Exists(path))
+                        System.IO.Directory.CreateDirectory(path);
 
-            //        string fileName = System.IO.Path.Combine(path, string.Format("{0}.tif", d.ToString("yyyyMMdd HH mm ss.fff")));
+                    string fileName = System.IO.Path.Combine(path, string.Format("{0}.tif", d.ToString("yyyyMMdd HH mm ss.fff")));
 
-            //        img.WriteImage("tiff", 255, fileName);
-            //    }
-            //}
-            //catch (Exception)
-            //{
-            //    //throw;
-            //}
-            //finally
-            //{
-            //    img?.Dispose();
-            //}
+                    img.ToBitmap().Save(fileName, System.Drawing.Imaging.ImageFormat.Tiff);
+                }
+            }
+            catch (Exception)
+            {
+                //throw;
+            }
+            finally
+            {
+                ((IDisposable)img)?.Dispose();
+            }
         }
 
         private void SetMoveVisible(bool state)

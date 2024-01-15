@@ -74,11 +74,11 @@ namespace QVLEGSCOG2362.Utilities
                 {
                     if (arr.GetStaticGraphics()[i] != null)
                     {
-                        arr.DisposeStaticGraphics();
                         arr.GetStaticGraphics()[i] = null;
                     }
                 }
             }
+            arr.DisposeStaticGraphics();
         }
 
         public static ArrayList CloneArrayList(ArrayList arr)
@@ -240,6 +240,8 @@ namespace QVLEGSCOG2362.Utilities
             if (dipObjList != null && dipObjList.GetImage() != null)
             {
                 cogWndCntrl.Image = dipObjList.GetImage();
+
+                cogWndCntrl.StaticGraphics.Clear();
 
                 for (int i = 0; i < dipObjList.GetStaticGraphics().Count; i++)
                 {

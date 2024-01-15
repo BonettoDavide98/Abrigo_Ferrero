@@ -31,15 +31,15 @@ namespace QVLEGSCOG2362.Pagine
             this.idStazione = idStazione;
             this.repaintLock = repaintLock;
 
-            this.hWndCtrlManagerCamera1 = new Utilities.CogWndCtrlManager(panelCamera1, false, false);
+            this.hWndCtrlManagerCamera1 = new Utilities.CogWndCtrlManager(panelCamera1, false, false, impostazioni);
 
-            this.hWndCtrlManagerCamera2 = new Utilities.CogWndCtrlManager(panelCamera2, false, false);
+            this.hWndCtrlManagerCamera2 = new Utilities.CogWndCtrlManager(panelCamera2, false, false, impostazioni);
 
-            this.hWndCtrlManagerCamera3 = new Utilities.CogWndCtrlManager(panelCamera3, false, false);
+            this.hWndCtrlManagerCamera3 = new Utilities.CogWndCtrlManager(panelCamera3, false, false, impostazioni);
 
-            this.hWndCtrlManagerCamera4 = new Utilities.CogWndCtrlManager(panelCamera4, false, false);
+            this.hWndCtrlManagerCamera4 = new Utilities.CogWndCtrlManager(panelCamera4, false, false, impostazioni);
 
-            this.hWndCtrlManagerCamera5 = new Utilities.CogWndCtrlManager(panelCamera5, false, false);
+            this.hWndCtrlManagerCamera5 = new Utilities.CogWndCtrlManager(panelCamera5, false, false, impostazioni);
         }
 
         public void Translate(DBL.LinguaManager linguaManager)

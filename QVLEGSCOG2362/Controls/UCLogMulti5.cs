@@ -41,11 +41,11 @@ namespace QVLEGSCOG2362
             lblCam4.Text = linguaManager.GetTranslation("BTN_CAM_4");
             lblCam5.Text = linguaManager.GetTranslation("BTN_CAM_5");
 
-            this.hWndCtrlManager1 = new Utilities.CogWndCtrlManager(panelImage1, false, false, false);
-            this.hWndCtrlManager2 = new Utilities.CogWndCtrlManager(panelImage2, false, false, false);
-            this.hWndCtrlManager3 = new Utilities.CogWndCtrlManager(panelImage3, false, false, false);
-            this.hWndCtrlManager4 = new Utilities.CogWndCtrlManager(panelImage4, false, false, false);
-            this.hWndCtrlManager5 = new Utilities.CogWndCtrlManager(panelImage5, false, false, false);
+            this.hWndCtrlManager1 = new Utilities.CogWndCtrlManager(panelImage1, false, false, false, impostazioni);
+            this.hWndCtrlManager2 = new Utilities.CogWndCtrlManager(panelImage2, false, false, false, impostazioni);
+            this.hWndCtrlManager3 = new Utilities.CogWndCtrlManager(panelImage3, false, false, false, impostazioni);
+            this.hWndCtrlManager4 = new Utilities.CogWndCtrlManager(panelImage4, false, false, false, impostazioni);
+            this.hWndCtrlManager5 = new Utilities.CogWndCtrlManager(panelImage5, false, false, false, impostazioni);
 
             lblRagioneScarto1.Text = string.Empty;
             lblRagioneScarto2.Text = string.Empty;

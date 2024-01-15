@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Diagnostics;
+using ViDi2;
 
 namespace QVLEGSCOG2362.Algoritmi
 {
@@ -19,6 +20,11 @@ namespace QVLEGSCOG2362.Algoritmi
 
         protected DataType.ParametriAlgoritmo parametri = null;
 
+        //PROVA INTRODUZIONE ViDi Suite
+        protected static ViDi2.Runtime.IControl control = null;
+        protected static IWorkspace workspace = null;
+        protected static IStream streamCAM1 = null;
+        protected static IStream streamCAM2 = null;
 
 
         public AlgoritmoBase(int idCamera, int idStazione, DataType.Impostazioni impostazioni, DBL.LinguaManager linguaManager)
@@ -39,17 +45,24 @@ namespace QVLEGSCOG2362.Algoritmi
                 case 2:
                     this.impostazioniCamera = this.impostazioni.ImpostazioniCamera3;
                     break;
-                case 3:
-                    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera4;
-                    break;
-                case 4:
-                    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera5;
-                    break;
-                case 5:
-                    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera6;
-                    break;
+                //case 3:
+                //    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera4;
+                //    break;
+                //case 4:
+                //    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera5;
+                //    break;
+                //case 5:
+                //    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera6;
+                //    break;
             }
 
+            if(control == null)
+            {
+                control = new ViDi2.Runtime.Local.Control();
+                workspace = control.Workspaces.Add("Ferrero_Abrigo_GRID_FAST", impostazioni.PathDatiBase + @"\ViDi_SUITE_RUNTIMES\Ferrero_Abrigo_GRID_FAST.vrws");
+                streamCAM1 = workspace.Streams["CAM1"];
+                streamCAM2 = workspace.Streams["CAM2"];
+            }
         }
 
         public virtual void SetParametri(DataType.ParametriAlgoritmo param)
@@ -73,7 +86,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     workingList.AddStaticGraphics(res.TestiOutAlgoritmi[i].Item1, res.TestiOutAlgoritmi[i].Item2, 60 + (i * 20), 10, 16, true);
                 }
             }
-            catch (Exception) { }
+            catch (System.Exception) { }
         }
 
         protected void AddTestiRagioneScarto(DataType.ElaborateResult res, ref Utilities.ObjectToDisplay workingList)
@@ -85,38 +98,38 @@ namespace QVLEGSCOG2362.Algoritmi
                     workingList.AddStaticGraphics(res.TestiRagioneScarto[i], CogColorConstants.Red, 60 + (i * 20), 10, 16, true);
                 }
             }
-            catch (Exception) { }
+            catch (System.Exception) { }
         }
 
-        protected double CalibraFrom_mm2ToPx(double val)
-        {
-            return Math.Round(val * this.impostazioniCamera.KConvPX_mm * this.impostazioniCamera.KConvPX_mm, 1);
-        }
+        //protected double CalibraFrom_mm2ToPx(double val)
+        //{
+        //    return Math.Round(val * this.impostazioniCamera.KConvPX_mm * this.impostazioniCamera.KConvPX_mm, 1);
+        //}
 
-        protected double CalibraFrom_mmToPx(double val)
-        {
-            return Math.Round(val * this.impostazioniCamera.KConvPX_mm, 1);
-        }
+        //protected double CalibraFrom_mmToPx(double val)
+        //{
+        //    return Math.Round(val * this.impostazioniCamera.KConvPX_mm, 1);
+        //}
 
-        protected double CalibraFromPxTo_mm2(double val)
-        {
-            return Math.Round(val / this.impostazioniCamera.KConvPX_mm / this.impostazioniCamera.KConvPX_mm, 1);
-        }
+        //protected double CalibraFromPxTo_mm2(double val)
+        //{
+        //    return Math.Round(val / this.impostazioniCamera.KConvPX_mm / this.impostazioniCamera.KConvPX_mm, 1);
+        //}
 
-        protected double CalibraFromPxTo_mm(double val)
-        {
-            return Math.Round(val / this.impostazioniCamera.KConvPX_mm, 1);
-        }
+        //protected double CalibraFromPxTo_mm(double val)
+        //{
+        //    return Math.Round(val / this.impostazioniCamera.KConvPX_mm, 1);
+        //}
 
-        protected double CalibraFromPxTo_mm_W(double val)
-        {
-            return Math.Round(val / this.impostazioniCamera.KConvPX_mm_W, 1);
-        }
+        //protected double CalibraFromPxTo_mm_W(double val)
+        //{
+        //    return Math.Round(val / this.impostazioniCamera.KConvPX_mm_W, 1);
+        //}
 
-        protected double CalibraFromPxTo_mm_H(double val)
-        {
-            return Math.Round(val / this.impostazioniCamera.KConvPX_mm_H, 1);
-        }
+        //protected double CalibraFromPxTo_mm_H(double val)
+        //{
+        //    return Math.Round(val / this.impostazioniCamera.KConvPX_mm_H, 1);
+        //}
 
 
 
@@ -164,7 +177,7 @@ namespace QVLEGSCOG2362.Algoritmi
                 //    res.Success = foo(inputAlg, ref res, ref workingList);
                 //}
             }
-            catch (Exception)
+            catch (System.Exception)
             {
             }
             finally
@@ -176,9 +189,8 @@ namespace QVLEGSCOG2362.Algoritmi
                 res.ElapsedTime = sw.ElapsedMilliseconds;
 
                 inputAlg?.Dispose();
-                //??
+
                 ((IDisposable)image).Dispose();
-                //regionMain?.Dispose();
             }
         }
 
@@ -232,7 +244,7 @@ namespace QVLEGSCOG2362.Algoritmi
                 //    }
                 //}
             }
-            catch (Exception)
+            catch (System.Exception)
             {
             }
             finally
@@ -244,9 +256,8 @@ namespace QVLEGSCOG2362.Algoritmi
                 res.ElapsedTime = sw.ElapsedMilliseconds;
 
                 inputAlg?.Dispose();
-                //??
+
                 ((IDisposable)image).Dispose();
-                //regionMain?.Dispose();
             }
         }
 
@@ -258,12 +269,13 @@ namespace QVLEGSCOG2362.Algoritmi
             res = new DataType.ElaborateResult(this.parametri.Template.IsCircle);
 
             ClassInputAlgoritmi inputAlg = null;
-            //HRegion regionMain = null;
 
             try
             {
                 // oggetti da visualizzare
                 workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
+
+
 
                 //if (this.hClassLUTTappeto == null)
                 //{
@@ -300,7 +312,7 @@ namespace QVLEGSCOG2362.Algoritmi
                 //    }
                 //}
             }
-            catch (Exception)
+            catch (System.Exception)
             {
             }
             finally
@@ -312,9 +324,8 @@ namespace QVLEGSCOG2362.Algoritmi
                 res.ElapsedTime = sw.ElapsedMilliseconds;
 
                 inputAlg?.Dispose();
-                //??
+
                 ((IDisposable)image).Dispose();
-                //regionMain?.Dispose();
             }
         }
 

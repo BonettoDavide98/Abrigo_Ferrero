@@ -365,9 +365,9 @@ namespace QVLEGSCOG2362
             if (impostazioni.ImpostazioniCamera1.Attiva) tmp.Add(0, impostazioni.ImpostazioniCamera1.IdStazione);
             if (impostazioni.ImpostazioniCamera2.Attiva) tmp.Add(1, impostazioni.ImpostazioniCamera2.IdStazione);
             if (impostazioni.ImpostazioniCamera3.Attiva) tmp.Add(2, impostazioni.ImpostazioniCamera3.IdStazione);
-            if (impostazioni.ImpostazioniCamera4.Attiva) tmp.Add(3, impostazioni.ImpostazioniCamera4.IdStazione);
-            if (impostazioni.ImpostazioniCamera5.Attiva) tmp.Add(4, impostazioni.ImpostazioniCamera5.IdStazione);
-            if (impostazioni.ImpostazioniCamera6.Attiva) tmp.Add(5, impostazioni.ImpostazioniCamera6.IdStazione);
+            //if (impostazioni.ImpostazioniCamera4.Attiva) tmp.Add(3, impostazioni.ImpostazioniCamera4.IdStazione);
+            //if (impostazioni.ImpostazioniCamera5.Attiva) tmp.Add(4, impostazioni.ImpostazioniCamera5.IdStazione);
+            //if (impostazioni.ImpostazioniCamera6.Attiva) tmp.Add(5, impostazioni.ImpostazioniCamera6.IdStazione);
 
             return tmp.Select(k => k.Value).Distinct().Count();
         }
@@ -379,9 +379,9 @@ namespace QVLEGSCOG2362
             if (impostazioni.ImpostazioniCamera1.Attiva) tmp.Add(0, impostazioni.ImpostazioniCamera1.IdStazione);
             if (impostazioni.ImpostazioniCamera2.Attiva) tmp.Add(1, impostazioni.ImpostazioniCamera2.IdStazione);
             if (impostazioni.ImpostazioniCamera3.Attiva) tmp.Add(2, impostazioni.ImpostazioniCamera3.IdStazione);
-            if (impostazioni.ImpostazioniCamera4.Attiva) tmp.Add(3, impostazioni.ImpostazioniCamera4.IdStazione);
-            if (impostazioni.ImpostazioniCamera5.Attiva) tmp.Add(4, impostazioni.ImpostazioniCamera5.IdStazione);
-            if (impostazioni.ImpostazioniCamera6.Attiva) tmp.Add(5, impostazioni.ImpostazioniCamera6.IdStazione);
+            //if (impostazioni.ImpostazioniCamera4.Attiva) tmp.Add(3, impostazioni.ImpostazioniCamera4.IdStazione);
+            //if (impostazioni.ImpostazioniCamera5.Attiva) tmp.Add(4, impostazioni.ImpostazioniCamera5.IdStazione);
+            //if (impostazioni.ImpostazioniCamera6.Attiva) tmp.Add(5, impostazioni.ImpostazioniCamera6.IdStazione);
 
             return tmp.Count();
         }

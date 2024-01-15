@@ -51,29 +51,29 @@ namespace QVLEGSCOG2362.Pagine.SottoPagine
                     lblPercUltimaOraCam3.Visible = false;
                 }
 
-                if (!(this.impostazioni.ImpostazioniCamera4.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera4.Attiva))
-                {
-                    lblCamDescr4.Visible = false;
-                    lblPercTurnoPrecedenteCam4.Visible = false;
-                    lblPercTurnoAttualeCam4.Visible = false;
-                    lblPercUltimaOraCam4.Visible = false;
-                }
+                //if (!(this.impostazioni.ImpostazioniCamera4.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera4.Attiva))
+                //{
+                //    lblCamDescr4.Visible = false;
+                //    lblPercTurnoPrecedenteCam4.Visible = false;
+                //    lblPercTurnoAttualeCam4.Visible = false;
+                //    lblPercUltimaOraCam4.Visible = false;
+                //}
 
-                if (!(this.impostazioni.ImpostazioniCamera5.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera5.Attiva))
-                {
-                    lblCamDescr5.Visible = false;
-                    lblPercTurnoPrecedenteCam5.Visible = false;
-                    lblPercTurnoAttualeCam5.Visible = false;
-                    lblPercUltimaOraCam5.Visible = false;
-                }
+                //if (!(this.impostazioni.ImpostazioniCamera5.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera5.Attiva))
+                //{
+                //    lblCamDescr5.Visible = false;
+                //    lblPercTurnoPrecedenteCam5.Visible = false;
+                //    lblPercTurnoAttualeCam5.Visible = false;
+                //    lblPercUltimaOraCam5.Visible = false;
+                //}
 
-                if (!(this.impostazioni.ImpostazioniCamera6.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera6.Attiva))
-                {
-                    lblCamDescr6.Visible = false;
-                    lblPercTurnoPrecedenteCam6.Visible = false;
-                    lblPercTurnoAttualeCam6.Visible = false;
-                    lblPercUltimaOraCam6.Visible = false;
-                }
+                //if (!(this.impostazioni.ImpostazioniCamera6.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera6.Attiva))
+                //{
+                //    lblCamDescr6.Visible = false;
+                //    lblPercTurnoPrecedenteCam6.Visible = false;
+                //    lblPercTurnoAttualeCam6.Visible = false;
+                //    lblPercUltimaOraCam6.Visible = false;
+                //}
 
                 RefreshGrafico();
 
@@ -157,41 +157,41 @@ namespace QVLEGSCOG2362.Pagine.SottoPagine
                     DisplayPerc(lblPercUltimaOraCam3, perScartoUltimaOraCam);
                 }
 
-                //CAM 4
-                if (this.impostazioni.ImpostazioniCamera4.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera4.Attiva)
-                {
-                    perScartoTurnoPrecedenteCam = GetPercScarto(dtTurnoPrecedente, "CNT_KO_CAM4");
-                    perScartoTurnoAttualeCam = GetPercScarto(dtTurnoAttuale, "CNT_KO_CAM4");
-                    perScartoUltimaOraCam = GetPercScarto(dtUltimaOra, "CNT_KO_CAM4");
+                ////CAM 4
+                //if (this.impostazioni.ImpostazioniCamera4.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera4.Attiva)
+                //{
+                //    perScartoTurnoPrecedenteCam = GetPercScarto(dtTurnoPrecedente, "CNT_KO_CAM4");
+                //    perScartoTurnoAttualeCam = GetPercScarto(dtTurnoAttuale, "CNT_KO_CAM4");
+                //    perScartoUltimaOraCam = GetPercScarto(dtUltimaOra, "CNT_KO_CAM4");
 
-                    DisplayPerc(lblPercTurnoPrecedenteCam4, perScartoTurnoPrecedenteCam);
-                    DisplayPerc(lblPercTurnoAttualeCam4, perScartoTurnoAttualeCam);
-                    DisplayPerc(lblPercUltimaOraCam4, perScartoUltimaOraCam);
-                }
+                //    DisplayPerc(lblPercTurnoPrecedenteCam4, perScartoTurnoPrecedenteCam);
+                //    DisplayPerc(lblPercTurnoAttualeCam4, perScartoTurnoAttualeCam);
+                //    DisplayPerc(lblPercUltimaOraCam4, perScartoUltimaOraCam);
+                //}
 
-                //CAM 5
-                if (this.impostazioni.ImpostazioniCamera5.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera5.Attiva)
-                {
-                    perScartoTurnoPrecedenteCam = GetPercScarto(dtTurnoPrecedente, "CNT_KO_CAM5");
-                    perScartoTurnoAttualeCam = GetPercScarto(dtTurnoAttuale, "CNT_KO_CAM5");
-                    perScartoUltimaOraCam = GetPercScarto(dtUltimaOra, "CNT_KO_CAM5");
+                ////CAM 5
+                //if (this.impostazioni.ImpostazioniCamera5.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera5.Attiva)
+                //{
+                //    perScartoTurnoPrecedenteCam = GetPercScarto(dtTurnoPrecedente, "CNT_KO_CAM5");
+                //    perScartoTurnoAttualeCam = GetPercScarto(dtTurnoAttuale, "CNT_KO_CAM5");
+                //    perScartoUltimaOraCam = GetPercScarto(dtUltimaOra, "CNT_KO_CAM5");
 
-                    DisplayPerc(lblPercTurnoPrecedenteCam5, perScartoTurnoPrecedenteCam);
-                    DisplayPerc(lblPercTurnoAttualeCam5, perScartoTurnoAttualeCam);
-                    DisplayPerc(lblPercUltimaOraCam5, perScartoUltimaOraCam);
-                }
+                //    DisplayPerc(lblPercTurnoPrecedenteCam5, perScartoTurnoPrecedenteCam);
+                //    DisplayPerc(lblPercTurnoAttualeCam5, perScartoTurnoAttualeCam);
+                //    DisplayPerc(lblPercUltimaOraCam5, perScartoUltimaOraCam);
+                //}
 
-                //CAM 6
-                if (this.impostazioni.ImpostazioniCamera6.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera6.Attiva)
-                {
-                    perScartoTurnoPrecedenteCam = GetPercScarto(dtTurnoPrecedente, "CNT_KO_CAM6");
-                    perScartoTurnoAttualeCam = GetPercScarto(dtTurnoAttuale, "CNT_KO_CAM6");
-                    perScartoUltimaOraCam = GetPercScarto(dtUltimaOra, "CNT_KO_CAM6");
+                ////CAM 6
+                //if (this.impostazioni.ImpostazioniCamera6.IdStazione == this.idStazione && this.impostazioni.ImpostazioniCamera6.Attiva)
+                //{
+                //    perScartoTurnoPrecedenteCam = GetPercScarto(dtTurnoPrecedente, "CNT_KO_CAM6");
+                //    perScartoTurnoAttualeCam = GetPercScarto(dtTurnoAttuale, "CNT_KO_CAM6");
+                //    perScartoUltimaOraCam = GetPercScarto(dtUltimaOra, "CNT_KO_CAM6");
 
-                    DisplayPerc(lblPercTurnoPrecedenteCam6, perScartoTurnoPrecedenteCam);
-                    DisplayPerc(lblPercTurnoAttualeCam6, perScartoTurnoAttualeCam);
-                    DisplayPerc(lblPercUltimaOraCam6, perScartoUltimaOraCam);
-                }
+                //    DisplayPerc(lblPercTurnoPrecedenteCam6, perScartoTurnoPrecedenteCam);
+                //    DisplayPerc(lblPercTurnoAttualeCam6, perScartoTurnoAttualeCam);
+                //    DisplayPerc(lblPercUltimaOraCam6, perScartoUltimaOraCam);
+                //}
             }
             catch (Exception ex)
             {

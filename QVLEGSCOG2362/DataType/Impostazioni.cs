@@ -52,12 +52,12 @@ namespace QVLEGSCOG2362.DataType
         [Category("Camera")]
         public ImpostazioniCamera ImpostazioniCamera3 { get; set; }
         [Category("Camera")]
-        public ImpostazioniCamera ImpostazioniCamera4 { get; set; }
-        [Category("Camera")]
-        public ImpostazioniCamera ImpostazioniCamera5 { get; set; }
-        [Category("Camera")]
-        public ImpostazioniCamera ImpostazioniCamera6 { get; set; }
-        [Category("Camera")]
+        //public ImpostazioniCamera ImpostazioniCamera4 { get; set; }
+        //[Category("Camera")]
+        //public ImpostazioniCamera ImpostazioniCamera5 { get; set; }
+        //[Category("Camera")]
+        //public ImpostazioniCamera ImpostazioniCamera6 { get; set; }
+        //[Category("Camera")]
         public string IpGocator { get; set; }
 
 
@@ -191,9 +191,9 @@ namespace QVLEGSCOG2362.DataType
             this.ImpostazioniCamera1 = new ImpostazioniCamera();
             this.ImpostazioniCamera2 = new ImpostazioniCamera();
             this.ImpostazioniCamera3 = new ImpostazioniCamera();
-            this.ImpostazioniCamera4 = new ImpostazioniCamera();
-            this.ImpostazioniCamera5 = new ImpostazioniCamera();
-            this.ImpostazioniCamera6 = new ImpostazioniCamera();            
+            //this.ImpostazioniCamera4 = new ImpostazioniCamera();
+            //this.ImpostazioniCamera5 = new ImpostazioniCamera();
+            //this.ImpostazioniCamera6 = new ImpostazioniCamera();            
         }
 
     }

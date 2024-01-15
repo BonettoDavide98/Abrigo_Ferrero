@@ -53,7 +53,7 @@ namespace QVLEGSCOG2362
         public void Init(DataType.Impostazioni impostazioni, object repaintLock)
         {
             this.repaintLock = repaintLock;
-            this.hWndCtrlManager = new Utilities.CogWndCtrlManager(panelImage, false, false, false);
+            this.hWndCtrlManager = new Utilities.CogWndCtrlManager(panelImage, false, false, false, impostazioni);
             //this.hWndCtrlManager.cogRecordDisplay.HMouseDown += HWindowControl_HMouseDown;
         }
 

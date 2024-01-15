@@ -30,7 +30,7 @@ namespace QVLEGSCOG2362.Wizard
                 this.repaintLock = repaintLock;
                 this.modifica = modifica;
 
-                this.hWndCtrlManager = new Utilities.CogWndCtrlManager(panelContainer);
+                this.hWndCtrlManager = new Utilities.CogWndCtrlManager(panelContainer, impostazioni);
 
                 Object2Form(this.algoritmoWizard.GetAlgoritmoParam());
 

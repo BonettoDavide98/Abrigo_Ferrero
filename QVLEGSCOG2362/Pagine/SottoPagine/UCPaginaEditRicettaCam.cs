@@ -41,15 +41,15 @@ namespace QVLEGSCOG2362.Pagine
                 case 2:
                     this.impostazioniCamera = this.impostazioni.ImpostazioniCamera3;
                     break;
-                case 3:
-                    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera4;
-                    break;
-                case 4:
-                    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera5;
-                    break;
-                case 5:
-                    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera6;
-                    break;
+                //case 3:
+                //    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera4;
+                //    break;
+                //case 4:
+                //    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera5;
+                //    break;
+                //case 5:
+                //    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera6;
+                //    break;
             }
 
             string fileName = System.IO.Path.Combine(impostazioni.PathDatiBase, "RES", string.Format("ImgPosCam{0}.jpg", idCamera + 1));

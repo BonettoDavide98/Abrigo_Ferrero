@@ -229,9 +229,9 @@ namespace QVLEGSCOG2362.Class
                     case 0: impCam = impostazioni.ImpostazioniCamera1; break;
                     case 1: impCam = impostazioni.ImpostazioniCamera2; break;
                     case 2: impCam = impostazioni.ImpostazioniCamera3; break;
-                    case 3: impCam = impostazioni.ImpostazioniCamera4; break;
-                    case 4: impCam = impostazioni.ImpostazioniCamera5; break;
-                    case 5: impCam = impostazioni.ImpostazioniCamera6; break;
+                    //case 3: impCam = impostazioni.ImpostazioniCamera4; break;
+                    //case 4: impCam = impostazioni.ImpostazioniCamera5; break;
+                    //case 5: impCam = impostazioni.ImpostazioniCamera6; break;
                     default: break;
                 }
 
@@ -617,6 +617,10 @@ namespace QVLEGSCOG2362.Class
                 if (cntMaxCtrl == 0)
                     return;
 
+                //TODO : Implement properly
+                if (iconicVarList == null || iconicVarList.Count() < 1)
+                    return;
+
                 Utilities.ObjectToDisplay[] iconicVarListClone = iconicVarList.Select(k => k.Clone()).ToArray();
                 this.iconicVarListAll.Add(iconicVarListClone);
                 this.resultAll.Add(result);
@@ -799,17 +803,17 @@ namespace QVLEGSCOG2362.Class
                 if (impostazioni.ImpostazioniCamera3.IdStazione == idStazione)
                     ret.Add(2);
 
-            if (impostazioni.ImpostazioniCamera4.Attiva)
-                if (impostazioni.ImpostazioniCamera4.IdStazione == idStazione)
-                    ret.Add(3);
+            //if (impostazioni.ImpostazioniCamera4.Attiva)
+            //    if (impostazioni.ImpostazioniCamera4.IdStazione == idStazione)
+            //        ret.Add(3);
 
-            if (impostazioni.ImpostazioniCamera5.Attiva)
-                if (impostazioni.ImpostazioniCamera5.IdStazione == idStazione)
-                    ret.Add(4);
+            //if (impostazioni.ImpostazioniCamera5.Attiva)
+            //    if (impostazioni.ImpostazioniCamera5.IdStazione == idStazione)
+            //        ret.Add(4);
 
-            if (impostazioni.ImpostazioniCamera6.Attiva)
-                if (impostazioni.ImpostazioniCamera6.IdStazione == idStazione)
-                    ret.Add(5);
+            //if (impostazioni.ImpostazioniCamera6.Attiva)
+            //    if (impostazioni.ImpostazioniCamera6.IdStazione == idStazione)
+            //        ret.Add(5);
 
             return ret;
         }

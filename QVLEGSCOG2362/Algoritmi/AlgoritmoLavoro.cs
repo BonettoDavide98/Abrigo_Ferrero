@@ -3,6 +3,8 @@ using System;
 using System.Collections;
 using System.Diagnostics;
 using System.Text;
+using System.Threading.Tasks;
+using ViDi2;
 
 namespace QVLEGSCOG2362.Algoritmi
 {
@@ -124,7 +126,7 @@ namespace QVLEGSCOG2362.Algoritmi
 
                 }
             }
-            catch (Exception)
+            catch (System.Exception)
             {
                 res.Success = false;
                 //throw;
@@ -168,6 +170,7 @@ namespace QVLEGSCOG2362.Algoritmi
             Stopwatch sw = Stopwatch.StartNew();
 
             ClassInputAlgoritmi inputAlg = null;
+            ISample sample = null;
 
             //DISPLAY
             //HRegion regionMain = null;
@@ -176,6 +179,24 @@ namespace QVLEGSCOG2362.Algoritmi
             {
                 workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
 
+                if(idStazione == 0)
+                {
+
+                } else
+                {
+                    using(IImage iimage = new FormsImage(image.ToBitmap()))
+                    {
+                        if (idCamera == 1)
+                        {
+                            sample = streamCAM1.Tools["Classify"].Process(iimage);
+                        }
+                        else if (idCamera == 2)
+                        {
+                            sample = streamCAM2.Tools["Classify"].Process(iimage);
+                        }
+                    }
+                }
+
                 if (caricamentoParametri)
                 {
                     //Se sto caricando i parametri do OK
@@ -183,10 +204,47 @@ namespace QVLEGSCOG2362.Algoritmi
                 }
                 else
                 {
+                    res.Success = true;
 
+                    IGreenView greenView = null;
+                    for(int i = 0; i < sample.Markings["Classify"].Views.Count; i++)
+                    {
+                        greenView = sample.Markings["Classify"].Views[i] as IGreenView;
+
+                        if(i == 0 || i == 5 || i == 10)
+                        {
+                            if (greenView.BestTag.Name != "Raffaello_OK")
+                            {
+                                res.Success = false;
+                                res.TestiRagioneScarto.Add("RAFFAELLO KO AT " + i);
+                                break;
+                            }
+                        }
+                        else if (i == 4 || i == 9 || i == 14)
+                        {
+                            if (greenView.BestTag.Name != "Rondnoir_OK")
+                            {
+                                res.Success = false;
+                                res.TestiRagioneScarto.Add("RONDNOIR KO AT " + i);
+                                break;
+                            }
+                        }
+                        else
+                        {
+                            if (greenView.BestTag.Name != "Rocher_OK")
+                            {
+                                res.Success = false;
+                                res.TestiRagioneScarto.Add("ROCHER KO AT " + i);
+                                break;
+                            }
+                        }
+                    }
+
+                    if (res.Success)
+                        res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>("OK", CogColorConstants.Green));
                 }
             }
-            catch (Exception)
+            catch (System.Exception)
             {
                 res.Success = false;
                 //throw;
@@ -197,6 +255,7 @@ namespace QVLEGSCOG2362.Algoritmi
                 res.DescrizioneTempi = sbTempi.ToString();
 
                 AddTestiRagioneScarto(res, ref workingList);
+                AddTestiOutAlgoritmi(res, ref workingList);
 
                 res.StatisticheObj.AddObjContatore("ALG_OK", res.Success);
                 res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Success);
@@ -205,9 +264,8 @@ namespace QVLEGSCOG2362.Algoritmi
                 result = res;
 
                 inputAlg?.Dispose();
-                //??
                 ((IDisposable)image).Dispose();
-                //regionMain?.Dispose();
+                sample.Dispose();
             }
         }
 
@@ -309,7 +367,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     break;
 
                 default:
-                    throw new Exception("SOGLIA INESISTENTE");
+                    throw new System.Exception("SOGLIA INESISTENTE");
                     break;
             }
 
@@ -325,7 +383,7 @@ namespace QVLEGSCOG2362.Algoritmi
                 switch (key)
                 {
                     default:
-                        throw new Exception("SOGLIA INESISTENTE");
+                        throw new System.Exception("SOGLIA INESISTENTE");
                         break;
 
                 }
@@ -341,7 +399,7 @@ namespace QVLEGSCOG2362.Algoritmi
                 switch (key)
                 {
                     default:
-                        throw new Exception("SOGLIA INESISTENTE");
+                        throw new System.Exception("SOGLIA INESISTENTE");
                         break;
                 }
             }

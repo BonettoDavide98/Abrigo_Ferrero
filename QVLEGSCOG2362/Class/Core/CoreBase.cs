@@ -73,9 +73,9 @@ namespace QVLEGSCOG2362.Class
                 case 0: this.impCam = this.config.ImpostazioniCamera1; break;
                 case 1: this.impCam = this.config.ImpostazioniCamera2; break;
                 case 2: this.impCam = this.config.ImpostazioniCamera3; break;
-                case 3: this.impCam = this.config.ImpostazioniCamera4; break;
-                case 4: this.impCam = this.config.ImpostazioniCamera5; break;
-                case 5: this.impCam = this.config.ImpostazioniCamera6; break;
+                //case 3: this.impCam = this.config.ImpostazioniCamera4; break;
+                //case 4: this.impCam = this.config.ImpostazioniCamera5; break;
+                //case 5: this.impCam = this.config.ImpostazioniCamera6; break;
                 default: break;
             }
         }

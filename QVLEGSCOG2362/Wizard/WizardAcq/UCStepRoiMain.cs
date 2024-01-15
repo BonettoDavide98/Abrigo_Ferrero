@@ -32,7 +32,7 @@ namespace QVLEGSCOG2362.Wizard
                 this.linguaManager = linguaManager;
                 this.repaintLock = repaintLock;
 
-                this.hWndCtrlManager = new Utilities.CogWndCtrlManager(panelContainer);
+                this.hWndCtrlManager = new Utilities.CogWndCtrlManager(panelContainer, impostazioni);
                 //this.hWndCtrlManager.SetOnRoiUpdate(OnRoiUpdate);
 
                 if (modifica)

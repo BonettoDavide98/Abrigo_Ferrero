@@ -27,7 +27,7 @@ namespace QVLEGSCOG2362.Pagine
             this.idStazione = idStazione;
             this.repaintLock = repaintLock;
 
-            this.hWndCtrlManagerCamera1 = new Utilities.CogWndCtrlManager(panelCamera1, false, false);
+            this.hWndCtrlManagerCamera1 = new Utilities.CogWndCtrlManager(panelCamera1, false, false, impostazioni);
         }
 
         public void Translate(DBL.LinguaManager linguaManager)

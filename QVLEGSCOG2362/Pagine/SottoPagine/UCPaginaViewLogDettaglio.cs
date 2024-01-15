@@ -38,7 +38,7 @@ namespace QVLEGSCOG2362.Pagine.SottoPagine
 
             this.cntMaxCtrl = this.impostazioni.NumeroErrori;
 
-            this.hWndCtrlManager = new Utilities.CogWndCtrlManager(panelImage, true, true);
+            this.hWndCtrlManager = new Utilities.CogWndCtrlManager(panelImage, true, true, impostazioni);
 
             this.logCtrlSingolo = new UCLogSingolo[this.cntMaxCtrl];
             this.logCtrlMulti3 = new UCLogMulti3[this.cntMaxCtrl];

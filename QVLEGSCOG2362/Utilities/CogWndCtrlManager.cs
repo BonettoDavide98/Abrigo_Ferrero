@@ -1,4 +1,5 @@
 ﻿using Cognex.VisionPro;
+using QVLEGSCOG2362.DataType;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -11,18 +12,20 @@ namespace QVLEGSCOG2362.Utilities
 
         private Panel panel = null;
 
+        private Impostazioni config = null;
+
         private UCCogWndCtrlManager ucCogWndCtrlManager = null;
 
-        public CogWndCtrlManager(Panel panel) : this(panel, true, true) { }
+        public CogWndCtrlManager(Panel panel, Impostazioni config) : this(panel, true, true, config) { }
 
-        public CogWndCtrlManager(Panel panel, bool enableMiddleMoveScroll, bool showMenu) : this(panel, true, true, true) { }
+        public CogWndCtrlManager(Panel panel, bool enableMiddleMoveScroll, bool showMenu, Impostazioni config) : this(panel, true, true, true, config) { }
 
-        public CogWndCtrlManager(Panel panel, bool enableMiddleMoveScroll, bool showMenu, bool showStringMessage)
+        public CogWndCtrlManager(Panel panel, bool enableMiddleMoveScroll, bool showMenu, bool showStringMessage, Impostazioni config)
         {
             this.panel = panel;
 
             ucCogWndCtrlManager = new UCCogWndCtrlManager();
-            ucCogWndCtrlManager.Init(enableMiddleMoveScroll, showMenu, showStringMessage);
+            ucCogWndCtrlManager.Init(enableMiddleMoveScroll, showMenu, showStringMessage, config);
             panel.Controls.Add(this.ucCogWndCtrlManager);
 
             ucCogWndCtrlManager.Dock = DockStyle.Fill;

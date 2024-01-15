@@ -46,24 +46,25 @@ namespace QVLEGSCOG2362.Utilities
         {
             staticGraphics.Add(cogGraphic);
         }
-        public void AddStaticGraphics(string text, CogColorConstants color, int row, int column)
+        public void AddStaticGraphics(string text, CogColorConstants color, int y, int x)
         {
-            AddStaticGraphics(text, color, row, column, 18, true);
+            AddStaticGraphics(text, color, y, x, 18, true);
         }
 
-        public void AddStaticGraphics(string text, CogColorConstants color, int row, int column, int fontSize)
+        public void AddStaticGraphics(string text, CogColorConstants color, int y, int x, int fontSize)
         {
-            AddStaticGraphics(text, color, row, column, fontSize, false);
+            AddStaticGraphics(text, color, y, x, fontSize, false);
         }
 
-        public void AddStaticGraphics(string text, CogColorConstants color, int row, int column, int fontSize, bool isStringMessage)
+        public void AddStaticGraphics(string text, CogColorConstants color, int y, int x, int fontSize, bool isStringMessage)
         {
             CogGraphicLabel cgl = new CogGraphicLabel();
 
             cgl.Text = text;
             cgl.Color = color;
-            cgl.Y = row;
-            cgl.X = column;
+            cgl.Y = (staticGraphics.Count * 60) + y;
+            cgl.Alignment = CogGraphicLabelAlignmentConstants.BaselineLeft;
+            cgl.X = x;
             cgl.Font = new System.Drawing.Font("Arial", fontSize);
 
             AddStaticGraphics(cgl);
