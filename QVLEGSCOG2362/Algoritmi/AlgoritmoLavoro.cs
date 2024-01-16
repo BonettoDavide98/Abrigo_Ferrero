@@ -128,11 +128,11 @@ namespace QVLEGSCOG2362.Algoritmi
                         if(this.parametri.WizardAcetatoCompleto)
                         {
                             sw.Restart();
-                            ok = TestAcetato(inputAlg, this.parametri.AcetatoParam, false, ref res, ref workingList);
-                            res.Success &= ok;
-                            res.StatisticheObj.AddObjContatore("TEST_ACETATO_OK", ok);
+                            bool results = TestAcetato(inputAlg, this.parametri.AcetatoParam, false, ref res, ref workingList);
+                            res.StatisticheObj.AddObjContatore("TEST_ACETATO_OK", res.Result1);
+                            res.StatisticheObj.AddObjContatore("TEST_ACETATO_OK", res.Result2);
                             sbTempi.AppendLine();
-                            sbTempi.AppendFormat("{0:00000}ms - TestACetato", sw.ElapsedMilliseconds);
+                            sbTempi.AppendFormat("{0:00000}ms - TestAcetato", sw.ElapsedMilliseconds);
                         }
                     }
                 }
@@ -144,20 +144,14 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                if (!res.Success)
-                {
-                    res.Result1 = true;
-                    res.Result2 = res.Success;
-                }
-
                 //workingList.Add(new Utilities.ObjectToDisplay(res.Success ? "OK" : "KO", res.Success ? COLORE_ANN_OK : COLORE_ANN_KO, 10, 10, 30));
 
                 AddTestiRagioneScarto(res, ref workingList);
 
                 res.DescrizioneTempi = sbTempi.ToString();
 
-                res.StatisticheObj.AddObjContatore("ALG_OK", res.Success);
-                res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Success);
+                //res.StatisticheObj.AddObjContatore("ALG_OK", res.Success);
+                //res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Success);
 
                 iconicList = workingList;
                 result = res;
