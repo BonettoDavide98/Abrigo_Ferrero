@@ -163,7 +163,7 @@ namespace QVLEGSCOG2362.Algoritmi
         public void AlgoritmoLavoroFunctionDL(ICogImage image, out Utilities.ObjectToDisplay iconicList, out DataType.ElaborateResult result)
         {
             Utilities.ObjectToDisplay workingList = new Utilities.ObjectToDisplay();
-            DataType.ElaborateResult res = new DataType.ElaborateResult(this.parametri == null ? null : this.parametri.Template?.IsCircle) { Success = true };
+            DataType.ElaborateResult res = new DataType.ElaborateResult(false);
             res.StatisticheObj.IdStazione = this.idStazione;
             res.StatisticheObj.IdCamera = this.idCamera;
             res.StatisticheObj.IdFormato = this.idFormato;
@@ -172,80 +172,46 @@ namespace QVLEGSCOG2362.Algoritmi
 
             StringBuilder sbTempi = new StringBuilder();
             Stopwatch sw = Stopwatch.StartNew();
+            bool ok = false;
 
             ClassInputAlgoritmi inputAlg = null;
-            ISample sample = null;
-
-            //DISPLAY
-            //HRegion regionMain = null;
 
             try
             {
-                workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
-
-                if(idStazione == 0)
+                if (image != null)
                 {
+                    workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
+                    inputAlg = new ClassInputAlgoritmi(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
+                    ((IDisposable)image)?.Dispose();
+                    image = null;
 
-                } else
-                {
-                    using(IImage iimage = new FormsImage(image.ToBitmap()))
+                    if (caricamentoParametri)
                     {
-                        if (idCamera == 1)
+                        res.Success = true;
+                    }
+                    else if (this.parametri == null)
+                    {
+                        res.Success = false;
+                        res.TestiRagioneScarto.Add(linguaManager.GetTranslation("MSG_PARAMETRI_KO"));
+                    }
+                    else if (this.parametri.WizardAcqCompleto == false)
+                    {
+                        res.Success = false;
+                        res.TestiRagioneScarto.Add(linguaManager.GetTranslation("MSG_ACQ_WIZARD_KO"));
+                    }
+                    else
+                    {
+                        res.Success = true;
+
+                        if (this.parametri.WizardDLCompleto)
                         {
-                            sample = streamCAM1.Tools["Classify"].Process(iimage);
-                        }
-                        else if (idCamera == 2)
-                        {
-                            sample = streamCAM2.Tools["Classify"].Process(iimage);
+                            sw.Restart();
+                            res.Success = TestDL(inputAlg, this.parametri.DLParam, false, ref res, ref workingList);
+                            res.StatisticheObj.AddObjContatore("TEST_DL_OK", res.Success);
+                            sbTempi.AppendLine();
+                            sbTempi.AppendFormat("{0:00000}ms - TestDL", sw.ElapsedMilliseconds);
                         }
                     }
-                }
-
-                if (caricamentoParametri)
-                {
-                    //Se sto caricando i parametri do OK
-                    res.Success = true;
-                }
-                else
-                {
-                    res.Success = true;
-
-                    IGreenView greenView = null;
-                    for(int i = 0; i < sample.Markings["Classify"].Views.Count; i++)
-                    {
-                        greenView = sample.Markings["Classify"].Views[i] as IGreenView;
-
-                        if(i == 0 || i == 5 || i == 10)
-                        {
-                            if (greenView.BestTag.Name != "Raffaello_OK")
-                            {
-                                res.Success = false;
-                                res.TestiRagioneScarto.Add("RAFFAELLO KO AT " + i);
-                                break;
-                            }
-                        }
-                        else if (i == 4 || i == 9 || i == 14)
-                        {
-                            if (greenView.BestTag.Name != "Rondnoir_OK")
-                            {
-                                res.Success = false;
-                                res.TestiRagioneScarto.Add("RONDNOIR KO AT " + i);
-                                break;
-                            }
-                        }
-                        else
-                        {
-                            if (greenView.BestTag.Name != "Rocher_OK")
-                            {
-                                res.Success = false;
-                                res.TestiRagioneScarto.Add("ROCHER KO AT " + i);
-                                break;
-                            }
-                        }
-                    }
-
-                    if (res.Success)
-                        res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>("OK", CogColorConstants.Green));
                 }
             }
             catch (System.Exception)
@@ -256,20 +222,18 @@ namespace QVLEGSCOG2362.Algoritmi
             finally
             {
                 //workingList.Add(new Utilities.ObjectToDisplay(res.Success ? "OK" : "KO", res.Success ? COLORE_ANN_OK : COLORE_ANN_KO, 10, 10, 30));
-                res.DescrizioneTempi = sbTempi.ToString();
 
                 AddTestiRagioneScarto(res, ref workingList);
-                AddTestiOutAlgoritmi(res, ref workingList);
 
-                res.StatisticheObj.AddObjContatore("ALG_OK", res.Success);
-                res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Success);
+                res.DescrizioneTempi = sbTempi.ToString();
+
+                //res.StatisticheObj.AddObjContatore("ALG_OK", res.Success);
+                //res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Success);
 
                 iconicList = workingList;
                 result = res;
 
                 inputAlg?.Dispose();
-                ((IDisposable)image).Dispose();
-                sample.Dispose();
             }
         }
 

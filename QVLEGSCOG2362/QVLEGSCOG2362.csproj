@@ -565,6 +565,7 @@
     <Compile Include="Controls\UCLogMulti3.Designer.cs">
       <DependentUpon>UCLogMulti3.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataType\Formati\DLParam.cs" />
     <Compile Include="DataType\Formati\AcetatoParam.cs" />
     <Compile Include="Forms\FormInfo.cs">
       <SubType>Form</SubType>
@@ -869,6 +870,12 @@
     <Compile Include="Pagine\UCPaginaLive.Designer.cs">
       <DependentUpon>UCPaginaLive.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCEditAlgoritmo\UCEditAlgDL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCEditAlgoritmo\UCEditAlgDL.Designer.cs">
+      <DependentUpon>UCEditAlgDL.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCEditAlgoritmo\UCEditAlgAcetato.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -1028,6 +1035,18 @@
       <DependentUpon>FormWait.cs</DependentUpon>
     </Compile>
     <Compile Include="WaitForm\WaitManager.cs" />
+    <Compile Include="Wizard\WizardDL\UCStepDL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardDL\UCStepDL.Designer.cs">
+      <DependentUpon>UCStepDL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\WizardDL\WizardDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardDL\WizardDL.Designer.cs">
+      <DependentUpon>WizardDL.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Controls\FormNumericInput.resx">
       <DependentUpon>FormNumericInput.cs</DependentUpon>
     </EmbeddedResource>
@@ -1238,6 +1257,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WaitForm\FormWait.resx">
       <DependentUpon>FormWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\WizardDL\UCStepDL.resx">
+      <DependentUpon>UCStepDL.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="packages.config" />

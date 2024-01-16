@@ -132,9 +132,24 @@ namespace QVLEGSCOG2362.Wizard
             {
                 if(this.lastTestImage != null)
                     image = this.lastTestImage.CopyBase(CogImageCopyModeConstants.CopyPixels);
+                
+                DataType.AcetatoParam param = this.algoritmoWizard.GetAlgoritmoParam().AcetatoParam;
+                for(int i = 0; i < cogWndCtrlManager.cogRecordDisplay.InteractiveGraphics.Count; i++)
+                {
+                    try
+                    {
+                        CogRectangle rect = (CogRectangle)cogWndCtrlManager.cogRecordDisplay.InteractiveGraphics[i];
 
+                        if (rect.Color == CogColorConstants.Green)
+                            param.SetRectangleSX(rect);
+                        else if (rect.Color == CogColorConstants.Red)
+                            param.SetRectangleDX(rect);
+                    } catch
+                    {
+
+                    }
+                }
                 EseguiStep(image);
-
             }
             catch (Exception ex)
             {

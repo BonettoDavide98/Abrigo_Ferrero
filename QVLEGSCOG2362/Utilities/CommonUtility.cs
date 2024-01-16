@@ -242,11 +242,18 @@ namespace QVLEGSCOG2362.Utilities
                 cogWndCntrl.Image = dipObjList.GetImage();
 
                 cogWndCntrl.StaticGraphics.Clear();
+                cogWndCntrl.InteractiveGraphics.Clear();
 
                 for (int i = 0; i < dipObjList.GetStaticGraphics().Count; i++)
                 {
                     foreach (ICogGraphic cogGraphic in dipObjList.GetStaticGraphics())
                         cogWndCntrl.StaticGraphics.Add(cogGraphic, "default");
+                }
+
+                for (int i = 0; i < dipObjList.GetInteractiveGraphics().Count; i++)
+                {
+                    foreach (ICogGraphicInteractive cogGraphic in dipObjList.GetInteractiveGraphics())
+                        cogWndCntrl.InteractiveGraphics.Add(cogGraphic, "defaultInteractive", false);
                 }
             }
             

@@ -35,6 +35,7 @@
             this.lblDirNastro = new System.Windows.Forms.Label();
             this.ucEditExpoGain1 = new QVLEGSCOG2362.UCEditAlgoritmo.UCEditExpoGain();
             this.ucEditAlgAcetato1 = new QVLEGSCOG2362.UCEditAlgoritmo.UCEditAlgAcetato();
+            this.ucEditAlgDL1 = new QVLEGSCOG2362.UCEditAlgoritmo.UCEditAlgDL();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -49,13 +50,15 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.ucEditExpoGain1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.ucEditAlgAcetato1, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.ucEditAlgDL1, 1, 2);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(960, 248);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(960, 374);
             this.tableLayoutPanel1.TabIndex = 44;
             // 
             // panel1
@@ -117,6 +120,13 @@
             this.ucEditAlgAcetato1.Size = new System.Drawing.Size(924, 133);
             this.ucEditAlgAcetato1.TabIndex = 43;
             // 
+            // ucEditAlgDL1
+            // 
+            this.ucEditAlgDL1.Location = new System.Drawing.Point(33, 218);
+            this.ucEditAlgDL1.Name = "ucEditAlgDL1";
+            this.ucEditAlgDL1.Size = new System.Drawing.Size(924, 133);
+            this.ucEditAlgDL1.TabIndex = 44;
+            // 
             // UCPaginaEditRicettaCam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -144,5 +154,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblDirNastro;
         private UCEditAlgoritmo.UCEditAlgAcetato ucEditAlgAcetato1;
+        private UCEditAlgoritmo.UCEditAlgDL ucEditAlgDL1;
     }
 }

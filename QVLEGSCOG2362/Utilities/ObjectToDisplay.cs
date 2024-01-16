@@ -10,16 +10,19 @@ namespace QVLEGSCOG2362.Utilities
         private bool disposed = false; // to detect redundant calls
 
         private List<ICogGraphic> staticGraphics = null;
+        private List<ICogGraphicInteractive> interactiveGraphics = null;
         private ICogImage image = null;
 
         public ObjectToDisplay()
         {
             staticGraphics = new List<ICogGraphic>();
+            interactiveGraphics = new List<ICogGraphicInteractive>();
         }
         public ObjectToDisplay(ICogImage image)
         {
             this.image = image;
             staticGraphics = new List<ICogGraphic>();
+            interactiveGraphics = new List<ICogGraphicInteractive>();
         }
 
         public void SetImage(ICogImage image)
@@ -37,9 +40,19 @@ namespace QVLEGSCOG2362.Utilities
             this.staticGraphics = staticGraphics;
         }
 
+        public void SetInteractiveGraphics(List<ICogGraphicInteractive> interactiveGraphics)
+        {
+            this.interactiveGraphics = interactiveGraphics;
+        }
+
         public List<ICogGraphic> GetStaticGraphics()
         {
             return staticGraphics;
+        }
+
+        public List<ICogGraphicInteractive> GetInteractiveGraphics()
+        {
+            return interactiveGraphics;
         }
 
         public void AddStaticGraphics(ICogGraphic cogGraphic)
@@ -70,9 +83,19 @@ namespace QVLEGSCOG2362.Utilities
             AddStaticGraphics(cgl);
         }
 
+        public void AddInteractiveGraphics(ICogGraphicInteractive cogGraphic)
+        {
+            interactiveGraphics.Add(cogGraphic);
+        }
+
         public void ClearStaticGraphics()
         {
             staticGraphics.Clear();
+        }
+
+        public void ClearInteractiveGraphics()
+        {
+            interactiveGraphics.Clear();
         }
 
         public ObjectToDisplay Clone()
@@ -89,6 +112,11 @@ namespace QVLEGSCOG2362.Utilities
                 if (this.staticGraphics != null)
                 {
                     ret.SetStaticGraphics(this.staticGraphics);
+                }
+
+                if(this.interactiveGraphics != null)
+                {
+                    ret.SetInteractiveGraphics(this.interactiveGraphics);
                 }
             }
             catch (Exception) { }

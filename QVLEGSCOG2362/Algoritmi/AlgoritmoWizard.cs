@@ -1,4 +1,6 @@
 ﻿using Cognex.VisionPro;
+using QVLEGSCOG2362.DataType;
+using QVLEGSCOG2362.Utilities;
 using System;
 using System.Collections;
 
@@ -121,6 +123,35 @@ namespace QVLEGSCOG2362.Algoritmi
         }
 
         #endregion ACETATO
+
+        #region DL
+
+        public void SetAlgDLEnable(bool enable)
+        {
+            this.parametri.DLParam.AbilitaControllo = enable;
+        }
+
+        public Utilities.ObjectToDisplay TestWizardDL(ICogImage image, out DataType.ElaborateResult res)
+        {
+            Utilities.ObjectToDisplay workingList = new Utilities.ObjectToDisplay();
+            res = new DataType.ElaborateResult(this.parametri.Template.IsCircle);
+
+            TestWizardBaseDelegate del = (ClassInputAlgoritmi inputAlg, ref DataType.ElaborateResult res1, ref Utilities.ObjectToDisplay workingList1) =>
+            {
+                return TestDL(inputAlg, this.parametri.DLParam, true, ref res1, ref workingList1);
+            };
+
+            TestWizardDLBase(image, del, out workingList, out res);
+
+            return workingList;
+        }
+
+        public void SetWizardDLComplete()
+        {
+            this.parametri.WizardDLCompleto = true;
+        }
+
+        #endregion DL
 
 
         //Implement IDisposable.
