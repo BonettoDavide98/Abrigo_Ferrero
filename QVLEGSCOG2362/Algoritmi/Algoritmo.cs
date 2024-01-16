@@ -1,4 +1,6 @@
 ﻿using Cognex.VisionPro;
+using Cognex.VisionPro.Blob;
+using Cognex.VisionPro.ImageProcessing;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -21,9 +23,8 @@ namespace QVLEGSCOG2362.Algoritmi
 
             iconicList = workingList;
             result = res;
-
-            //??
-            ((IDisposable)image).Dispose();
+            
+            ((IDisposable)image)?.Dispose();
         }
 
         #region ACETATO
@@ -32,11 +33,8 @@ namespace QVLEGSCOG2362.Algoritmi
         {
             bool ret = false;
 
-            //HRegion regionLavoro = null;
-            ICogImage imageReduced = null;
-            //HRegion regionErrore = null;
-            //HRegion regionConnection = null;
-            //HRegion regionSelected = null;
+            CogBlobTool blobTool = new CogBlobTool();
+            CogImageConvertTool imageConvertTool = new CogImageConvertTool();
 
             try
             {
@@ -46,38 +44,43 @@ namespace QVLEGSCOG2362.Algoritmi
                 }
                 else
                 {
-                    //regionLavoro = GetCorniceRegion2(inputAlg.RegionThresholdCioccolato, CalibraFrom_mmToPx(param.DistanzaBordo));
-                    //imageReduced = inputAlg.ImageV.ReduceDomain(regionLavoro);
-                    //regionErrore = imageReduced.Threshold(0.0, param.Threshold);
-                    //regionConnection = regionErrore.Connection();
-                    //regionSelected = regionConnection.SelectShape("area", "and", CalibraFrom_mm2ToPx(param.AreaMinDifetto), double.MaxValue);
+                    imageConvertTool.InputImage = inputAlg.Img;
+                    imageConvertTool.Run();
 
-                    //double area = regionSelected.CountObj() > 0 ? regionSelected.Area.TupleMax().D : 0.0;
-                    //double area_mm = CalibraFromPxTo_mm2(area);
+                    blobTool.InputImage = imageConvertTool.OutputImage;
+                    blobTool.RunParams.ConnectivityMinPixels = param.AreaMinDifetto;
+                    blobTool.RunParams.SegmentationParams.SetSegmentationHardFixedThreshold(100, CogBlobSegmentationPolarityConstants.LightBlobs);
 
-                    //ret = area_mm < param.AreaMinDifetto;
+                    blobTool.Run();
 
-                    //res.TestiOutAlgoritmi.Add(new Tuple<string, string>(string.Format(linguaManager.GetTranslation("MSG_OUT_Acetato_AREA"), area_mm, param.AreaMinDifetto), ret ? "green" : "red"));
+                    ret = blobTool.Results.GetBlobIDs(true).Length == 0;
 
-                    //if (isWizard)
-                    //{
-                    //    workingList.Add(new Utilities.ObjectToDisplay(regionLavoro.Clone(), "blue", 2));
-                    //    workingList.Add(new Utilities.ObjectToDisplay(regionSelected.Clone(), "red", 2) { DrawMode = "fill" });
-                    //}
+                    if (isWizard)
+                        workingList.SetImage(blobTool.Results.CreateBlobImage());
 
-                    //if (!ret)
-                    //{
-                    //    res.TestiRagioneScarto.Add(linguaManager.GetTranslation("MSG_ERRORE_Acetato"));
-                    //}
+                    double areaTot = 0;
+                    foreach(CogBlobResult blobResult in blobTool.Results.GetBlobs())
+                    {
+                        areaTot += blobResult.Area;
+
+                        if(isWizard)
+                            workingList.AddStaticGraphics(blobResult.CreateResultGraphics(CogBlobResultGraphicConstants.All));
+                    }
+
+                    res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA {0} {1}"), areaTot, param.AreaMinDifetto), ret ? CogColorConstants.Green : CogColorConstants.Red));
+
+                    if (!ret)
+                        res.TestiRagioneScarto.Add(linguaManager.GetTranslation("MSG_ERRORE_ACETATO"));
                 }
+            }
+            catch(Exception ex)
+            {
+                throw ex;
             }
             finally
             {
-                //regionLavoro?.Dispose();
-                //imageReduced?.Dispose();
-                //regionErrore?.Dispose();
-                //regionConnection?.Dispose();
-                //regionSelected?.Dispose();
+                imageConvertTool?.Dispose();
+                blobTool?.Dispose();
             }
             return ret;
         }

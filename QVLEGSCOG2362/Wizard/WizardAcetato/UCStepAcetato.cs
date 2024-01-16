@@ -130,10 +130,9 @@ namespace QVLEGSCOG2362.Wizard
             ICogImage image = null;
             try
             {
-                if (this.lastTestImage != null)
-                {
+                if(this.lastTestImage != null)
                     image = this.lastTestImage.CopyBase(CogImageCopyModeConstants.CopyPixels);
-                }
+
                 EseguiStep(image);
 
             }
@@ -166,7 +165,9 @@ namespace QVLEGSCOG2362.Wizard
             try
             {
                 image = this.core.GetLastGrabImage();
-                EseguiStep(image);
+
+                if (image != null)
+                    EseguiStep(image);
             }
             catch (Exception ex)
             {
@@ -205,17 +206,16 @@ namespace QVLEGSCOG2362.Wizard
             try
             {
                 DataType.AcetatoParam param = this.algoritmoWizard.GetAlgoritmoParam().AcetatoParam;
-                param.DistanzaBordo = (double)nudDistanzaBordo.Value;
-                param.Threshold = (double)nudThreshold.Value;
-                param.AreaMinDifetto = (double)nudAreaMinDifetto.Value;
+                param.DistanzaBordo = (int)nudDistanzaBordo.Value;
+                param.Threshold = (int)nudThreshold.Value;
+                param.AreaMinDifetto = (int)nudAreaMinDifetto.Value;
 
                 ICogImage image = null;
                 try
                 {
-                    if(lastTestImage != null)
-                    {
+                    if(this.lastTestImage != null)
                         image = this.lastTestImage.CopyBase(CogImageCopyModeConstants.CopyPixels);
-                    }
+                    
                     EseguiStep(image);
                 }
                 catch (Exception ex)

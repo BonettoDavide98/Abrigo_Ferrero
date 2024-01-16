@@ -202,47 +202,43 @@ namespace QVLEGSCOG2362.Algoritmi
             res = new DataType.ElaborateResult(this.parametri.Template.IsCircle);
 
             ClassInputAlgoritmi inputAlg = null;
-            //HRegion regionMain = null;
 
             try
             {
-                // oggetti da visualizzare
-                workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
+                if (this.parametri == null)
+                {
+                    res.Success = false;
+                    res.TestiRagioneScarto.Add("MSG_PARAMETRI_KO");
+                }
+                else
+                {
+                    workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
 
-                //if (this.hClassLUTTappeto == null)
-                //{
-                //    res.Success = false;
-                //    res.TestiRagioneScarto.Add("MSG_GMM_KO");
-                //}
-                //else if (this.parametri == null)
-                //{
-                //    res.Success = false;
-                //    res.TestiRagioneScarto.Add("MSG_PARAMETRI_KO");
-                //}
-                //else
-                //{
-                //    regionMain = new HRegion();
-                //    regionMain.GenRectangle1(this.parametri.RoiMain.Row1, this.parametri.RoiMain.Column1, this.parametri.RoiMain.Row2, this.parametri.RoiMain.Column2);
+                    inputAlg = new ClassInputAlgoritmi(image);
 
-                //    workingList.Add(new Utilities.ObjectToDisplay(regionMain.Clone(), "blue", 2) { DrawMode = "margin" });
+                    res.Success = foo(inputAlg, ref res, ref workingList);
+                    //regionMain = new HRegion();
+                    //regionMain.GenRectangle1(this.parametri.RoiMain.Row1, this.parametri.RoiMain.Column1, this.parametri.RoiMain.Row2, this.parametri.RoiMain.Column2);
 
-                //    inputAlg = CreaClassInputAlgoritmiAlto(this.parametri, image, regionMain);
+                    //workingList.Add(new Utilities.ObjectToDisplay(regionMain.Clone(), "blue", 2) { DrawMode = "margin" });
 
-                //    if (Centraggio(image, inputAlg.RegionBiscotto, regionMain, this.parametri.AllineamentoParam, false, out double row, out double col, out double angle, ref res, ref workingList))
-                //    {
-                //        workingList.Add(new Utilities.ObjectToDisplay(inputAlg.RegionBiscotto.Clone(), "green", 2) { DrawMode = "margin" });
+                    //inputAlg = CreaClassInputAlgoritmiAlto(this.parametri, image, regionMain);
 
-                //        inputAlg.Row = row;
-                //        inputAlg.Col = col;
-                //        inputAlg.Angle = angle;
+                    //if (Centraggio(image, inputAlg.RegionBiscotto, regionMain, this.parametri.AllineamentoParam, false, out double row, out double col, out double angle, ref res, ref workingList))
+                    //{
+                    //    workingList.Add(new Utilities.ObjectToDisplay(inputAlg.RegionBiscotto.Clone(), "green", 2) { DrawMode = "margin" });
 
-                //        res.Success = foo(inputAlg, ref res, ref workingList);
-                //    }
-                //    else
-                //    {
-                //        res.TestiOutAlgoritmi.Add(new Tuple<string, string>(linguaManager.GetTranslation("MSG_CENTRAGGIO_KO"), "red"));
-                //    }
-                //}
+                    //    inputAlg.Row = row;
+                    //    inputAlg.Col = col;
+                    //    inputAlg.Angle = angle;
+
+                    //    res.Success = foo(inputAlg, ref res, ref workingList);
+                    //}
+                    //else
+                    //{
+                    //    res.TestiOutAlgoritmi.Add(new Tuple<string, string>(linguaManager.GetTranslation("MSG_CENTRAGGIO_KO"), "red"));
+                    //}
+                }
             }
             catch (System.Exception)
             {
@@ -273,9 +269,6 @@ namespace QVLEGSCOG2362.Algoritmi
             try
             {
                 // oggetti da visualizzare
-                workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
-
-
 
                 //if (this.hClassLUTTappeto == null)
                 //{
@@ -335,9 +328,12 @@ namespace QVLEGSCOG2362.Algoritmi
 
             public DataType.TemplateFormato Template { get; set; }
 
+            public ICogImage Img { get; set; }
 
-            public ClassInputAlgoritmi()
+
+            public ClassInputAlgoritmi(ICogImage img)
             {
+                Img = img;
             }
 
             private bool disposed = false;

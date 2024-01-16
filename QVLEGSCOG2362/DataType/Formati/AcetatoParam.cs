@@ -16,17 +16,17 @@ namespace QVLEGSCOG2362.DataType
         public bool AbilitaControllo { get; set; }
 
         [Browsable(false)]
-        public double DistanzaBordo { get; set; }
+        public int DistanzaBordo { get; set; }
         [Browsable(false)]
-        public double Threshold { get; set; }
+        public int Threshold { get; set; }
         [Browsable(false)]
-        public double AreaMinDifetto { get; set; }
+        public int AreaMinDifetto { get; set; }
 
         public AcetatoParam()
         {
             this.DistanzaBordo = 4;
-            this.Threshold = 45;
-            this.AreaMinDifetto = 2;
+            this.Threshold = 100;
+            this.AreaMinDifetto = 200;
         }
 
         private bool disposed = false;
