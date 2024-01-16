@@ -7,10 +7,6 @@ namespace QVLEGSCOG2362.DataType
     [TypeConverter(typeof(ExpandableObjectConverter))]
     public class AcetatoParam : IDisposable
     {
-
-        [Browsable(false)]
-        [Category("CAT_GENERAL")]
-        public bool WizardCompleto { get; set; }
         [Browsable(false)]
         [Category("CAT_GENERAL")]
         public bool AbilitaControllo { get; set; }

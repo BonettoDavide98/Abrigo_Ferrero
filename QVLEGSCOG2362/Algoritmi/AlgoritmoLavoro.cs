@@ -85,7 +85,7 @@ namespace QVLEGSCOG2362.Algoritmi
         public void AlgoritmoLavoroFunctionAcetato(ICogImage image, out Utilities.ObjectToDisplay iconicList, out DataType.ElaborateResult result)
         {
             Utilities.ObjectToDisplay workingList = new Utilities.ObjectToDisplay();
-            DataType.ElaborateResult res = new DataType.ElaborateResult(this.parametri == null ? null : this.parametri.Template?.IsCircle) { Success = true, Result1 = true, Result2 = true };
+            DataType.ElaborateResult res = new DataType.ElaborateResult(false);
             res.StatisticheObj.IdStazione = this.idStazione;
             res.StatisticheObj.IdCamera = this.idCamera;
             res.StatisticheObj.IdFormato = this.idFormato;
@@ -94,36 +94,47 @@ namespace QVLEGSCOG2362.Algoritmi
 
             StringBuilder sbTempi = new StringBuilder();
             Stopwatch sw = Stopwatch.StartNew();
+            bool ok = false;
 
             ClassInputAlgoritmi inputAlg = null;
-            //HRegion regionMain = null;
 
             try
             {
-                workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
-
-
                 if (image != null)
                 {
-                    if (image is IDisposable)
+                    workingList.SetImage(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
+                    inputAlg = new ClassInputAlgoritmi(image.CopyBase(CogImageCopyModeConstants.CopyPixels));
+                    ((IDisposable)image)?.Dispose();
+                    image = null;
+
+                    if (caricamentoParametri)
                     {
-                        ((IDisposable)image).Dispose();
-                        image = null;
+                        res.Success = true;
                     }
+                    else if (this.parametri == null)
+                    {
+                        res.Success = false;
+                        res.TestiRagioneScarto.Add(linguaManager.GetTranslation("MSG_PARAMETRI_KO"));
+                    }
+                    else if (this.parametri.WizardAcqCompleto == false)
+                    {
+                        res.Success = false;
+                        res.TestiRagioneScarto.Add(linguaManager.GetTranslation("MSG_ACQ_WIZARD_KO"));
+                    }
+                    else
+                    {
+                        res.Success = true;
 
-                }
-
-
-
-
-                if (caricamentoParametri)
-                {
-                    //Se sto caricando i parametri do OK
-                    res.Success = true;
-                }
-                else
-                {
-
+                        if(this.parametri.WizardAcetatoCompleto)
+                        {
+                            sw.Restart();
+                            ok = TestAcetato(inputAlg, this.parametri.AcetatoParam, false, ref res, ref workingList);
+                            res.Success &= ok;
+                            res.StatisticheObj.AddObjContatore("TEST_ACETATO_OK", ok);
+                            sbTempi.AppendLine();
+                            sbTempi.AppendFormat("{0:00000}ms - TestACetato", sw.ElapsedMilliseconds);
+                        }
+                    }
                 }
             }
             catch (System.Exception)
@@ -133,7 +144,7 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                if (res.Success == false && res.Result1 == true && res.Result2 == true)
+                if (!res.Success)
                 {
                     res.Result1 = true;
                     res.Result2 = res.Success;
@@ -152,7 +163,6 @@ namespace QVLEGSCOG2362.Algoritmi
                 result = res;
 
                 inputAlg?.Dispose();
-                //regionMain?.Dispose();
             }
         }
 

@@ -20,6 +20,8 @@ namespace QVLEGSCOG2362.DataType
 
         [Browsable(false)]
         public bool WizardAcqCompleto { get; set; }
+        [Browsable(false)]
+        public bool WizardAcetatoCompleto { get; set; }
 
         [Browsable(false)]
         public double Expo { get; set; }

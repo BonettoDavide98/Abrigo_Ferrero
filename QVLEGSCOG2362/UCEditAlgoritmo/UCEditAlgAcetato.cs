@@ -72,7 +72,7 @@ namespace QVLEGSCOG2362.UCEditAlgoritmo
                 //this.Enabled = parametri.WizardAcqCompleto && parametri.AllineamentoParam.WizardCompleto;
 
                 btnNew.Enabled = true;
-                if (parametri.AcetatoParam.WizardCompleto)
+                if (parametri.WizardAcetatoCompleto)
                 {
                     lblParametri.Text = linguaManager.GetTranslation("MSG_WIZARD_COMPLETO");
                     completo = true;

@@ -63,8 +63,8 @@ namespace QVLEGSCOG2362.Algoritmi
                     {
                         areaTot += blobResult.Area;
 
-                        if(isWizard)
-                            workingList.AddStaticGraphics(blobResult.CreateResultGraphics(CogBlobResultGraphicConstants.All));
+                        //if(isWizard)
+                        //    workingList.AddStaticGraphics(blobResult.CreateResultGraphics(CogBlobResultGraphicConstants.All));
                     }
 
                     res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA {0} {1}"), areaTot, param.AreaMinDifetto), ret ? CogColorConstants.Green : CogColorConstants.Red));

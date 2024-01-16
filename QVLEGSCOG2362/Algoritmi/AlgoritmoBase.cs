@@ -182,7 +182,8 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                workingList.AddStaticGraphics(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red, 10, 10, 30);
+                res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red));
+                //workingList.AddStaticGraphics(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red, 10, 10, 30);
 
                 AddTestiOutAlgoritmi(res, ref workingList);
 
@@ -217,27 +218,6 @@ namespace QVLEGSCOG2362.Algoritmi
                     inputAlg = new ClassInputAlgoritmi(image);
 
                     res.Success = foo(inputAlg, ref res, ref workingList);
-                    //regionMain = new HRegion();
-                    //regionMain.GenRectangle1(this.parametri.RoiMain.Row1, this.parametri.RoiMain.Column1, this.parametri.RoiMain.Row2, this.parametri.RoiMain.Column2);
-
-                    //workingList.Add(new Utilities.ObjectToDisplay(regionMain.Clone(), "blue", 2) { DrawMode = "margin" });
-
-                    //inputAlg = CreaClassInputAlgoritmiAlto(this.parametri, image, regionMain);
-
-                    //if (Centraggio(image, inputAlg.RegionBiscotto, regionMain, this.parametri.AllineamentoParam, false, out double row, out double col, out double angle, ref res, ref workingList))
-                    //{
-                    //    workingList.Add(new Utilities.ObjectToDisplay(inputAlg.RegionBiscotto.Clone(), "green", 2) { DrawMode = "margin" });
-
-                    //    inputAlg.Row = row;
-                    //    inputAlg.Col = col;
-                    //    inputAlg.Angle = angle;
-
-                    //    res.Success = foo(inputAlg, ref res, ref workingList);
-                    //}
-                    //else
-                    //{
-                    //    res.TestiOutAlgoritmi.Add(new Tuple<string, string>(linguaManager.GetTranslation("MSG_CENTRAGGIO_KO"), "red"));
-                    //}
                 }
             }
             catch (System.Exception)
@@ -245,7 +225,7 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                workingList.AddStaticGraphics(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red, 10, 10, 30);
+                //workingList.AddStaticGraphics(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red, 10, 10, 30);
 
                 AddTestiOutAlgoritmi(res, ref workingList);
 
@@ -253,7 +233,7 @@ namespace QVLEGSCOG2362.Algoritmi
 
                 inputAlg?.Dispose();
 
-                ((IDisposable)image).Dispose();
+                ((IDisposable)image)?.Dispose();
             }
         }
 

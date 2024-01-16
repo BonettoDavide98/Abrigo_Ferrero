@@ -117,7 +117,7 @@ namespace QVLEGSCOG2362.Algoritmi
 
         public void SetWizardAcetatoComplete()
         {
-            this.parametri.AcetatoParam.WizardCompleto = true;
+            this.parametri.WizardAcetatoCompleto = true;
         }
 
         #endregion ACETATO
