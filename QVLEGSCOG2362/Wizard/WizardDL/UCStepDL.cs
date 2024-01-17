@@ -1,4 +1,5 @@
 ﻿using Cognex.VisionPro;
+using Cognex.VisionPro.ImageFile;
 using System;
 using System.Collections;
 using System.Windows.Forms;
@@ -54,10 +55,35 @@ namespace QVLEGSCOG2362.Wizard
                 lblDistanzaBordo.Text = linguaManager.GetTranslation("LBL_CERTAINTY_THRESHOLD");
 
                 propertyGrid1.Visible = Class.LoginLogoutManager.GetUserLoggedStato() <= DataType.Livello.LivelloUtente.Amministratore && impostazioni.AbilitaVistaAvanzata;
+
+                LoadDeafultPhoto();
             }
             catch (Exception ex)
             {
                 Class.ExceptionManager.AddException(ex);
+            }
+        }
+
+        private void LoadDeafultPhoto()
+        {
+            CogImageFileTool imageFileTool = null;
+
+            try
+            {
+                imageFileTool = new CogImageFileTool();
+                imageFileTool.Operator.Open(this.impostazioni.PathDatiBase + @"\IMG_SAVE\DEFAULT\UCStepDL.tif", CogImageFileModeConstants.Read);
+                imageFileTool.Run();
+
+                cogWndCtrlManager.cogRecordDisplay.Image = imageFileTool.OutputImage;
+                lastTestImage = imageFileTool.OutputImage;
+            }
+            catch
+            {
+                MessageBox.Show("MSG_MISSING_DEFAULT_PHOTO");
+            }
+            finally
+            {
+                imageFileTool?.Dispose();
             }
         }
 

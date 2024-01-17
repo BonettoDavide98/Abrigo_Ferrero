@@ -144,9 +144,28 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                //workingList.Add(new Utilities.ObjectToDisplay(res.Success ? "OK" : "KO", res.Success ? COLORE_ANN_OK : COLORE_ANN_KO, 10, 10, 30));
-
                 AddTestiRagioneScarto(res, ref workingList);
+                AddTestiOutAlgoritmi(res, ref workingList);
+
+                workingList.AddStaticGraphics(new CogGraphicLabel()
+                {
+                    Text = res.Result1 ? "OK" : "KO",
+                    Font = new System.Drawing.Font("Arial", 36),
+                    Color = res.Result1 ? CogColorConstants.Green : CogColorConstants.Red,
+                    X = 0,
+                    Y = 0,
+                    Alignment = CogGraphicLabelAlignmentConstants.TopLeft
+                });
+
+                workingList.AddStaticGraphics(new CogGraphicLabel()
+                {
+                    Text = res.Result2 ? "OK" : "KO",
+                    Font = new System.Drawing.Font("Arial", 36),
+                    Color = res.Result2 ? CogColorConstants.Green : CogColorConstants.Red,
+                    X = workingList.GetImage().Width / 2,
+                    Y = 0,
+                    Alignment = CogGraphicLabelAlignmentConstants.TopLeft
+                });
 
                 res.DescrizioneTempi = sbTempi.ToString();
 
@@ -221,7 +240,17 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                //workingList.Add(new Utilities.ObjectToDisplay(res.Success ? "OK" : "KO", res.Success ? COLORE_ANN_OK : COLORE_ANN_KO, 10, 10, 30));
+                //res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red));
+
+                workingList.AddStaticGraphics(new CogGraphicLabel()
+                {
+                    Text = res.Success ? "OK" : "KO",
+                    Font = new System.Drawing.Font("Arial", 36),
+                    Color = res.Success ? CogColorConstants.Green : CogColorConstants.Red,
+                    X = 0,
+                    Y = 0,
+                    Alignment = CogGraphicLabelAlignmentConstants.TopLeft
+                });
 
                 AddTestiRagioneScarto(res, ref workingList);
 

@@ -8,10 +8,6 @@ namespace QVLEGSCOG2362.Algoritmi
 {
     public class AlgoritmoBase
     {
-
-        protected const string COLORE_ANN_OK = "green";
-        protected const string COLORE_ANN_KO = "red";
-
         protected int idCamera = -1;
         protected int idStazione = -1;
         protected DataType.Impostazioni impostazioni = null;
@@ -39,15 +35,6 @@ namespace QVLEGSCOG2362.Algoritmi
                 case 2:
                     this.impostazioniCamera = this.impostazioni.ImpostazioniCamera3;
                     break;
-                //case 3:
-                //    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera4;
-                //    break;
-                //case 4:
-                //    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera5;
-                //    break;
-                //case 5:
-                //    this.impostazioniCamera = this.impostazioni.ImpostazioniCamera6;
-                //    break;
             }
         }
 
@@ -179,10 +166,6 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                //workingList.AddStaticGraphics(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red, 10, 10, 30);
-
-                AddTestiOutAlgoritmi(res, ref workingList);
-
                 res.ElapsedTime = sw.ElapsedMilliseconds;
 
                 inputAlg?.Dispose();
@@ -221,7 +204,7 @@ namespace QVLEGSCOG2362.Algoritmi
             }
             finally
             {
-                //workingList.AddStaticGraphics(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red, 10, 10, 30);
+                res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(res.Success ? "OK" : "KO", res.Success ? CogColorConstants.Green : CogColorConstants.Red));
 
                 AddTestiOutAlgoritmi(res, ref workingList);
 

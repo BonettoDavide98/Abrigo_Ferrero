@@ -30,9 +30,7 @@ namespace QVLEGSCOG2362
             btnOpenMenu.Visible = false;
             panelMenu.Visible = true;
         }
-
-
-
+        
         public void Init(bool enableMiddleMoveScroll, bool showMenu, bool showStringMessage, Impostazioni config)
         {
             this.config = config;
@@ -47,6 +45,8 @@ namespace QVLEGSCOG2362
             //CheckForResize(null);
             if (showMenu)
                 SetMoveVisible(false);
+
+            cogRecordDisplay1.AutoFit = true;
         }
 
         private ObjectToDisplay iconicVarListMemo = null;
@@ -156,6 +156,7 @@ namespace QVLEGSCOG2362
         {
             try
             {
+                cogRecordDisplay1.AutoFit = false;
                 cogRecordDisplay1.Zoom = cogRecordDisplay1.Zoom * 2;
             }
             catch
@@ -168,6 +169,7 @@ namespace QVLEGSCOG2362
         {
             try
             {
+                cogRecordDisplay1.AutoFit = false;
                 cogRecordDisplay1.Zoom = cogRecordDisplay1.Zoom / 2;
             }
             catch
@@ -180,6 +182,7 @@ namespace QVLEGSCOG2362
         {
             try
             {
+                cogRecordDisplay1.AutoFit = true;
                 cogRecordDisplay1.Fit();
             }
             catch

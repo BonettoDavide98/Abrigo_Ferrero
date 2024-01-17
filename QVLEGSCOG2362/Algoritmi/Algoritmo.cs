@@ -88,23 +88,17 @@ namespace QVLEGSCOG2362.Algoritmi
 
                     ret1 = blobTool.Results.GetBlobIDs(true).Length == 0;
 
-                    //if (isWizard)
-                    //    workingList.SetImage(blobTool.Results.CreateBlobImage());
-
                     double areaTot1 = 0;
                     foreach(CogBlobResult blobResult in blobTool.Results.GetBlobs())
                     {
                         areaTot1 += blobResult.Area;
 
-                        //if(isWizard)
-                        //    workingList.AddStaticGraphics(blobResult.CreateResultGraphics(CogBlobResultGraphicConstants.All));
+                        if (isWizard)
+                            workingList.AddStaticGraphics(blobResult.CreateResultGraphics(CogBlobResultGraphicConstants.All));
                     }
 
                     res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_1 {0} {1}"), areaTot1, param.AreaMinDifetto), ret1 ? CogColorConstants.Green : CogColorConstants.Red));
-
-                    if (!ret1)
-                        res.TestiRagioneScarto.Add(linguaManager.GetTranslation("MSG_ERRORE_ACETATO"));
-
+                    
                     //VASSOIO DX
                     CogRectangle rectDX = new CogRectangle()
                     {
@@ -126,22 +120,16 @@ namespace QVLEGSCOG2362.Algoritmi
 
                     ret2 = blobTool.Results.GetBlobIDs(true).Length == 0;
 
-                    //if (isWizard)
-                    //    workingList.SetImage(blobTool.Results.CreateBlobImage());
-
                     double areaTot2 = 0;
                     foreach (CogBlobResult blobResult in blobTool.Results.GetBlobs())
                     {
                         areaTot2 += blobResult.Area;
 
-                        //if(isWizard)
-                        //    workingList.AddStaticGraphics(blobResult.CreateResultGraphics(CogBlobResultGraphicConstants.All));
+                        if (isWizard)
+                            workingList.AddStaticGraphics(blobResult.CreateResultGraphics(CogBlobResultGraphicConstants.All));
                     }
 
                     res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_1 {0} {1}"), areaTot2, param.AreaMinDifetto), ret2 ? CogColorConstants.Green : CogColorConstants.Red));
-
-                    if (!ret2)
-                        res.TestiRagioneScarto.Add(linguaManager.GetTranslation("MSG_ERRORE_ACETATO"));
                 }
             }
             catch(System.Exception ex)
@@ -157,7 +145,7 @@ namespace QVLEGSCOG2362.Algoritmi
             return ret = ret1 & ret2;
         }
 
-        #endregion ACETATO
+        #endregion
 
         #region DL
 
@@ -228,7 +216,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     }
                 }
 
-                res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_OK")), ret ? CogColorConstants.Green : CogColorConstants.Red));
+                //res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_OK")), ret ? CogColorConstants.Green : CogColorConstants.Red));
 
                 if (!ret)
                     res.TestiRagioneScarto.Add(linguaManager.GetTranslation("MSG_ERRORE_DL"));
@@ -246,7 +234,7 @@ namespace QVLEGSCOG2362.Algoritmi
             return ret;
         }
 
-        #endregion DL
+        #endregion
 
         protected void DisposeBase()
         {

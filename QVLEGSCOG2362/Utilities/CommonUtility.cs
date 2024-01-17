@@ -233,13 +233,23 @@ namespace QVLEGSCOG2362.Utilities
             {
                 dummy = string.Format("{0} TIMEOUT", dummy);
             }
+
+            cogWndCntrl.StaticGraphics.Add(new CogGraphicLabel()
+            {
+                Text = "t. elaborazione: " + dummy,
+                Font = new System.Drawing.Font("Arial", 20),
+                Color = CogColorConstants.Yellow,
+                X = 0,
+                Y = cogWndCntrl.Image.Height,
+                Alignment = CogGraphicLabelAlignmentConstants.BottomLeft
+            }, "timeDisplay");
         }
 
         public static void DisplayRegolazioni(ObjectToDisplay dipObjList, CogRecordDisplay cogWndCntrl)
         {
             if (dipObjList != null && dipObjList.GetImage() != null)
             {
-                cogWndCntrl.Image = dipObjList.GetImage();
+                cogWndCntrl.Image = dipObjList.GetImage().CopyBase(CogImageCopyModeConstants.CopyPixels);
 
                 cogWndCntrl.StaticGraphics.Clear();
                 cogWndCntrl.InteractiveGraphics.Clear();
@@ -255,14 +265,8 @@ namespace QVLEGSCOG2362.Utilities
                     foreach (ICogGraphicInteractive cogGraphic in dipObjList.GetInteractiveGraphics())
                         cogWndCntrl.InteractiveGraphics.Add(cogGraphic, "defaultInteractive", false);
                 }
-            }
-            
-            try
-            {
-                dipObjList.Dispose();
-            } catch
-            {
 
+                dipObjList?.Dispose();
             }
         }
 

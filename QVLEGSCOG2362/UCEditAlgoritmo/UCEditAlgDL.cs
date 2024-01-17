@@ -68,8 +68,8 @@ namespace QVLEGSCOG2362.UCEditAlgoritmo
             {
                 DataType.ParametriAlgoritmo parametri = this.algoritmoWizard.GetAlgoritmoParam();
 
-                //Se non ho fatto il wizard acq e quello di allineamento non sono abilitato
-                //this.Enabled = parametri.WizardAcqCompleto && parametri.AllineamentoParam.WizardCompleto;
+                //Se non ho fatto il wizard acq non sono abilitato
+                this.Enabled = parametri.WizardAcqCompleto;
 
                 btnNew.Enabled = true;
                 if (parametri.WizardDLCompleto)
