@@ -1,8 +1,7 @@
 ﻿using Cognex.VisionPro;
+using Cognex.VisionPro.Display;
 using Cognex.VisionPro.ImageFile;
 using System;
-using System.Collections;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace QVLEGSCOG2362.Wizard
@@ -60,6 +59,7 @@ namespace QVLEGSCOG2362.Wizard
                 propertyGrid1.Visible = Class.LoginLogoutManager.GetUserLoggedStato() <= DataType.Livello.LivelloUtente.Amministratore && impostazioni.AbilitaVistaAvanzata;
 
                 LoadDeafultPhoto();
+                EseguiStep(lastTestImage.CopyBase(CogImageCopyModeConstants.CopyPixels));
             }
             catch (Exception ex)
             {
@@ -148,6 +148,13 @@ namespace QVLEGSCOG2362.Wizard
                 Utilities.ObjectToDisplay otd = this.algoritmoWizard.TestWizardAcetato(image, out DataType.ElaborateResult res);
                 this.cogWndCtrlManager.DisplaySetupOutputCamera(otd, res);
             }
+
+            ((IDisposable)image)?.Dispose();
+        }
+
+        public CogInteractiveGraphicsContainer GetROIs()
+        {
+            return cogWndCtrlManager.cogRecordDisplay.InteractiveGraphics;
         }
 
         #region Eventi form
@@ -167,9 +174,9 @@ namespace QVLEGSCOG2362.Wizard
                     {
                         CogRectangle rect = (CogRectangle)cogWndCtrlManager.cogRecordDisplay.InteractiveGraphics[i];
 
-                        if (rect.Color == CogColorConstants.Green)
+                        if (rect.Color == CogColorConstants.Magenta)
                             param.SetRectangleSX(rect);
-                        else if (rect.Color == CogColorConstants.Red)
+                        else if (rect.Color == CogColorConstants.Cyan)
                             param.SetRectangleDX(rect);
                     } catch
                     {

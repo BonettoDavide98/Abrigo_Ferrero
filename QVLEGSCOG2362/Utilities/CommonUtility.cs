@@ -8,7 +8,6 @@ namespace QVLEGSCOG2362.Utilities
 {
     public static class CommonUtility
     {
-
         private static string timeElaborationPattern = "T. analisi: {0} ms";
 
         public static bool TryParseDouble(string sValue, out double value)
@@ -98,131 +97,6 @@ namespace QVLEGSCOG2362.Utilities
             return ret;
         }
 
-        //public static void DisplayResult(ElaborateResult result, HWindowControl hWndCntrl, object repaintLock)
-        //{
-        //    lock (repaintLock)
-        //    {
-        //        double ratio = (double)hWndCntrl.ImagePart.Height / (double)hWndCntrl.Height;
-
-        //        hWndCntrl.HalconWindow.SetColor("yellow");
-        //        hWndCntrl.HalconWindow.SetTposition((int)(hWndCntrl.ImagePart.Height - 20 * ratio), 10);
-
-        //        string dummy = string.Format(timeElaborationPattern, result.ElapsedTime.ToString("F1", CultureInfo.InvariantCulture));
-
-        //        if (result.InTimeout)
-        //        {
-        //            dummy = string.Format("{0} TIMEOUT", dummy);
-        //        }
-
-        //        hWndCntrl.HalconWindow.SetFont("Arial-Bold-16");
-        //        hWndCntrl.HalconWindow.WriteString(dummy);
-        //        hWndCntrl.HalconWindow.SetDraw("margin");
-        //    }
-        //}
-
-        //public static void DisplayRegolazioni(ArrayList dipObjList, HWndCtrl mView, HWindowControl hWndCntrl, object repaintLock)
-        //{
-        //    if (dipObjList != null && dipObjList.Count > 0)
-        //    {
-        //        lock (repaintLock)
-        //        {
-
-        //            mView.clearList();
-        //            mView.changeGraphicSettings(GraphicsContext.GC_LINESTYLE, new HTuple());
-
-        //            for (int i = 0; i < dipObjList.Count; i++)
-        //            {
-
-        //                ObjectToDisplay obj = (ObjectToDisplay)dipObjList[i];
-        //                HObject iconicVar = obj.IconicVar;
-        //                try
-        //                {
-        //                    if (iconicVar != null)
-        //                    {
-        //                        if (!(iconicVar is ICogImage))
-        //                        {
-        //                            mView.changeGraphicSettings(GraphicsContext.GC_DRAWMODE, obj.DrawMode);
-        //                            if (int.TryParse(obj.IconicColor, out int tmp))
-        //                                mView.changeGraphicSettings(GraphicsContext.GC_COLORED, tmp);
-        //                            else
-        //                                mView.changeGraphicSettings(GraphicsContext.GC_COLOR, obj.IconicColor);
-        //                            mView.changeGraphicSettings(GraphicsContext.GC_LINEWIDTH, obj.IconicLineWidth);
-        //                        }
-
-        //                        // chiamare dopo changeGraphicSettings
-        //                        mView.addIconicVar(iconicVar);
-        //                    }
-        //                    else if (obj.StrToDisplay.Length > 0)
-        //                    {
-        //                        if ((mView.ShowStringMessage && obj.IsStringMessage) || !obj.IsStringMessage)
-        //                        {
-        //                            HTextEntry entry = new HTextEntry(string.Format("Arial-Bold-{0}", obj.FontSize), obj.Row, obj.Column, obj.IconicColor, obj.StrToDisplay);
-        //                            mView.addTextVar(entry);
-        //                        }
-
-        //                    }
-        //                }
-        //                catch (Exception ex)
-        //                {
-        //                    Console.WriteLine("Eccezione RegolazioniCtrlInspect DisplayRegolazioniInspect");
-        //                    Console.WriteLine(ex.Message);
-        //                }
-        //            }
-
-        //            mView.repaint();
-
-        //            /*
-        //            for (int i = 0; i < dipObjList.Count; i++)
-        //            {
-        //                ObjectToDisplay obj = (ObjectToDisplay)dipObjList[i];
-        //                if (obj.IconicVar != null)
-        //                {
-        //                    //obj.IconicVar.Dispose();
-        //                }
-        //                else
-        //                {
-        //                    if (obj.StrToDisplay.Length > 0)
-        //                    {
-        //                        hWndCntrl.HalconWindow.SetFont(string.Format("Arial-Bold-{0}", obj.FontSize));
-        //                        hWndCntrl.HalconWindow.SetTposition(obj.Row, obj.Column);
-        //                        hWndCntrl.HalconWindow.SetColor(obj.IconicColor);
-        //                        hWndCntrl.HalconWindow.WriteString(obj.StrToDisplay);
-        //                    }
-        //                    else
-        //                    {
-        //                        switch (obj.DispObjectType)
-        //                        {
-        //                            case "Line":
-        //                                hWndCntrl.HalconWindow.SetColor(obj.IconicColor);
-        //                                hWndCntrl.HalconWindow.SetLineWidth(obj.IconicLineWidth);
-        //                                hWndCntrl.HalconWindow.DispLine(obj.DispObject.DArr[0], obj.DispObject.DArr[1], obj.DispObject.DArr[2], obj.DispObject.DArr[3]);
-        //                                break;
-        //                            case "Cross":
-        //                                hWndCntrl.HalconWindow.SetColor(obj.IconicColor);
-        //                                hWndCntrl.HalconWindow.SetLineWidth(obj.IconicLineWidth);
-        //                                hWndCntrl.HalconWindow.DispCross(obj.DispObject.DArr[0], obj.DispObject.DArr[1], obj.DispObject.DArr[2], obj.DispObject.DArr[3]);
-        //                                break;
-        //                            case "Rectangle1":
-        //                                hWndCntrl.HalconWindow.SetColor(obj.IconicColor);
-        //                                hWndCntrl.HalconWindow.SetLineWidth(obj.IconicLineWidth);
-        //                                hWndCntrl.HalconWindow.DispRectangle1(obj.DispObject.DArr[0], obj.DispObject.DArr[1], obj.DispObject.DArr[2], obj.DispObject.DArr[3]);
-        //                                break;
-        //                            case "Rectangle2":
-        //                                hWndCntrl.HalconWindow.SetColor(obj.IconicColor);
-        //                                hWndCntrl.HalconWindow.SetLineWidth(obj.IconicLineWidth);
-        //                                hWndCntrl.HalconWindow.DispRectangle2(obj.DispObject.DArr[0], obj.DispObject.DArr[1], obj.DispObject.DArr[2], obj.DispObject.DArr[3], obj.DispObject.DArr[3]);
-        //                                break;
-        //                            default:
-        //                                break;
-        //                        }
-        //                    }
-        //                }
-        //            }
-        //            */
-        //        }
-        //    }
-        //}
-
         public static void DisplayResult(ElaborateResult result, CogRecordDisplay cogWndCntrl)
         {
             double ratio = (double)cogWndCntrl.Height / (double)cogWndCntrl.Height;
@@ -234,15 +108,17 @@ namespace QVLEGSCOG2362.Utilities
                 dummy = string.Format("{0} TIMEOUT", dummy);
             }
 
-            cogWndCntrl.StaticGraphics.Add(new CogGraphicLabel()
+            CogGraphicLabel cgl = new CogGraphicLabel()
             {
-                Text = "t. elaborazione: " + dummy,
+                Text = dummy,
                 Font = new System.Drawing.Font("Arial", 20),
                 Color = CogColorConstants.Yellow,
                 X = 0,
                 Y = cogWndCntrl.Image.Height,
                 Alignment = CogGraphicLabelAlignmentConstants.BottomLeft
-            }, "timeDisplay");
+            };
+
+            cogWndCntrl.StaticGraphics.Add(cgl, "timeDisplay");
         }
 
         public static void DisplayRegolazioni(ObjectToDisplay dipObjList, CogRecordDisplay cogWndCntrl)

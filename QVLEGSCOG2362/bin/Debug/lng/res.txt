@@ -562,3 +562,7 @@ LBL_STEP_BUCHI=Impostazione parametri buchi
 
 LBL_THRESHOLD=Threshold
 
+MSG_OUT_ACETATO_AREA_1=Acetato Area SX {0} mm² < {1} mm²
+MSG_OUT_ACETATO_AREA_2=Acetato Area DX {0} mm² < {1} mm²
+MSG_OUT_DL_UNCERTAIN={0}: Certezza Bassa {1}%
+MSG_OUT_DL_MISMATCH=Mancata Corrispondenza in pos. {0}: {1}

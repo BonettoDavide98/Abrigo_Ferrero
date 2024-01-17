@@ -149,9 +149,9 @@ namespace QVLEGSCOG2362.Algoritmi
 
                 workingList.AddStaticGraphics(new CogGraphicLabel()
                 {
-                    Text = res.Result1 ? "OK" : "KO",
+                    Text = "SX",
                     Font = new System.Drawing.Font("Arial", 36),
-                    Color = res.Result1 ? CogColorConstants.Green : CogColorConstants.Red,
+                    Color = CogColorConstants.Magenta,
                     X = 0,
                     Y = 0,
                     Alignment = CogGraphicLabelAlignmentConstants.TopLeft
@@ -159,12 +159,33 @@ namespace QVLEGSCOG2362.Algoritmi
 
                 workingList.AddStaticGraphics(new CogGraphicLabel()
                 {
+                    Text = res.Result1 ? "OK" : "KO",
+                    Font = new System.Drawing.Font("Arial", 36),
+                    Color = res.Result1 ? CogColorConstants.Green : CogColorConstants.Red,
+                    X = 70,
+                    Y = 0,
+                    Alignment = CogGraphicLabelAlignmentConstants.TopLeft
+                });
+
+
+                workingList.AddStaticGraphics(new CogGraphicLabel()
+                {
+                    Text = "DX",
+                    Font = new System.Drawing.Font("Arial", 36),
+                    Color = CogColorConstants.Cyan,
+                    X = workingList.GetImage().Width - 70,
+                    Y = 0,
+                    Alignment = CogGraphicLabelAlignmentConstants.TopRight
+                });
+
+                workingList.AddStaticGraphics(new CogGraphicLabel()
+                {
                     Text = res.Result2 ? "OK" : "KO",
                     Font = new System.Drawing.Font("Arial", 36),
                     Color = res.Result2 ? CogColorConstants.Green : CogColorConstants.Red,
-                    X = workingList.GetImage().Width / 2,
+                    X = workingList.GetImage().Width,
                     Y = 0,
-                    Alignment = CogGraphicLabelAlignmentConstants.TopLeft
+                    Alignment = CogGraphicLabelAlignmentConstants.TopRight
                 });
 
                 res.DescrizioneTempi = sbTempi.ToString();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cognex.VisionPro;
+using System;
 
 namespace QVLEGSCOG2362.Wizard
 {
@@ -60,6 +61,25 @@ namespace QVLEGSCOG2362.Wizard
             this.algoritmoWizard.SetWizardAcetatoComplete();
 
             this.DialogResult = System.Windows.Forms.DialogResult.OK;
+
+
+            DataType.AcetatoParam param = this.algoritmoWizard.GetAlgoritmoParam().AcetatoParam;
+            for (int i = 0; i < step1.GetROIs().Count; i++)
+            {
+                try
+                {
+                    CogRectangle rect = (CogRectangle)step1.GetROIs()[i];
+
+                    if (rect.Color == CogColorConstants.Magenta)
+                        param.SetRectangleSX(rect);
+                    else if (rect.Color == CogColorConstants.Cyan)
+                        param.SetRectangleDX(rect);
+                }
+                catch
+                {
+
+                }
+            }
         }
 
     }
