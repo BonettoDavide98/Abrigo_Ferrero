@@ -72,22 +72,8 @@ namespace QVLEGSCOG2362.Class
             ret2 = false;
 
             foto++;
-
-            //per lo scarto 1 devo avere tutte le camere in scarto
-            if (risultati.Count(k => k != null && k.Result1 == false) == 3)
-                ret = false;
-            else
-                ret = true;
-
-            if (risultati.Count(k => k == null || k.Result2 == false) == 0)
-                ret2 = true;
-            else
-                ret2 = false;
-
-            if (ret && ret2)
-                buoni++;
-            else
-                scarti++;
+            
+            //if()
 
             //GestioneStatistiche(risultati);
             risultatiQueue.Enqueue(risultati);
@@ -96,17 +82,6 @@ namespace QVLEGSCOG2362.Class
             for (int i = 0; i < risultati.Length; i++)
             {
                 risultati[i] = null;
-            }
-
-            //se ho uno scarto1 non dò lo scarto 2
-            if (!ret)
-            {
-                ret2 = true;
-            }
-
-            if (ret == false && ret2 == false)
-            {
-                ret = true;
             }
 
             return ret;

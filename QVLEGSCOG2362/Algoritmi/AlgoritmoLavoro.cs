@@ -190,8 +190,10 @@ namespace QVLEGSCOG2362.Algoritmi
 
                 res.DescrizioneTempi = sbTempi.ToString();
 
-                //res.StatisticheObj.AddObjContatore("ALG_OK", res.Success);
-                //res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Success);
+                res.StatisticheObj.AddObjContatore("ALG_OK", res.Result1);
+                res.StatisticheObj.AddObjContatore("ALG_OK", res.Result2);
+                res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Result1);
+                res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Result2);
 
                 iconicList = workingList;
                 result = res;
@@ -212,7 +214,6 @@ namespace QVLEGSCOG2362.Algoritmi
 
             StringBuilder sbTempi = new StringBuilder();
             Stopwatch sw = Stopwatch.StartNew();
-            bool ok = false;
 
             ClassInputAlgoritmi inputAlg = null;
 
@@ -246,7 +247,7 @@ namespace QVLEGSCOG2362.Algoritmi
                         if (this.parametri.WizardDLCompleto)
                         {
                             sw.Restart();
-                            res.Success = TestDL(inputAlg, this.parametri.DLParam, false, ref res, ref workingList);
+                            TestDL(inputAlg, this.parametri.DLParam, false, ref res, ref workingList);
                             res.StatisticheObj.AddObjContatore("TEST_DL_OK", res.Success);
                             sbTempi.AppendLine();
                             sbTempi.AppendFormat("{0:00000}ms - TestDL", sw.ElapsedMilliseconds);
@@ -277,8 +278,8 @@ namespace QVLEGSCOG2362.Algoritmi
 
                 res.DescrizioneTempi = sbTempi.ToString();
 
-                //res.StatisticheObj.AddObjContatore("ALG_OK", res.Success);
-                //res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Success);
+                res.StatisticheObj.AddObjContatore("ALG_OK", res.Success);
+                res.StatisticheObj.AddObjContatore($"CNT_KO_CAM{this.idCamera + 1}", !res.Success);
 
                 iconicList = workingList;
                 result = res;

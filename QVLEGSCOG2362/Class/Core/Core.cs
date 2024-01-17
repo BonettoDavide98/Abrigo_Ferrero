@@ -139,9 +139,8 @@ namespace QVLEGSCOG2362.Class
                 {
                     ExceptionManager.AddException(ex);
                 }
-
-                //??
-                ((IDisposable)image).Dispose();
+                
+                ((IDisposable)image)?.Dispose();
             };
 
             if (this.taskCoreOnNewImageForRegolazioni == null)

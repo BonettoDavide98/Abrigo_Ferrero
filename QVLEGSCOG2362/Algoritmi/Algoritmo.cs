@@ -100,8 +100,9 @@ namespace QVLEGSCOG2362.Algoritmi
                             workingList.AddStaticGraphics(blobResult.CreateResultGraphics(CogBlobResultGraphicConstants.All));
                     }
 
-                    res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_1"), areaTot1, param.AreaMinDifetto), ret1 ? CogColorConstants.Green : CogColorConstants.Red));
-                    
+                    res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_1"), areaTot1), ret1 ? CogColorConstants.Green : CogColorConstants.Red));
+                    res.Result1 = ret1;
+
                     //VASSOIO DX
                     CogRectangle rectDX = new CogRectangle()
                     {
@@ -134,7 +135,8 @@ namespace QVLEGSCOG2362.Algoritmi
                             workingList.AddStaticGraphics(blobResult.CreateResultGraphics(CogBlobResultGraphicConstants.All));
                     }
 
-                    res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_2"), areaTot2, param.AreaMinDifetto), ret2 ? CogColorConstants.Green : CogColorConstants.Red));
+                    res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_2"), areaTot2), ret2 ? CogColorConstants.Green : CogColorConstants.Red));
+                    res.Result2 = ret2;
                 }
             }
             catch(System.Exception ex)
