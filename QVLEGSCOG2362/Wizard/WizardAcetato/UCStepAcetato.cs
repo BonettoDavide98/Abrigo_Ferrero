@@ -45,8 +45,8 @@ namespace QVLEGSCOG2362.Wizard
 
                 AddChangeEvent();
 
-                Description.Text = linguaManager.GetTranslation("LBL_STEP_Acetato");
-                lblDescrizione.Text = linguaManager.GetTranslation("LBL_DESCRIZIONE_Acetato");
+                Description.Text = linguaManager.GetTranslation("LBL_STEP_ACETATO");
+                lblDescrizione.Text = linguaManager.GetTranslation("LBL_DESCRIZIONE_ACETATO");
                 btnTest.Text = linguaManager.GetTranslation("BTN_TEST");
                 btnSnap.Text = linguaManager.GetTranslation("BTN_SNAP");
                 btnUltimaFoto.Text = linguaManager.GetTranslation("BTN_ULTIMA_FOTO");

@@ -563,11 +563,16 @@ LBL_THRESHOLD=Threshold
 MSG_OUT_ACETATO_AREA_1=Acetato Area SX {0} mm²
 MSG_OUT_ACETATO_AREA_2=Acetato Area DX {0} mm²
 MSG_OUT_DL_UNCERTAIN={0}: Certezza Bassa {1}%
-MSG_OUT_DL_MISMATCH=Mancata Corrispondenza in pos. {0}: {1}
+MSG_OUT_DL_MISMATCH=Mancata Corrispondenza pos. {0}: {1}
 LBL_UC_PARAM_ACETATO=Wizard Acetato
 LBL_UC_PARAM_DL=Wizard Deep Learning
 LBL_GRAFICO_TEST_ACETATO_KO=Acetato KO
 LBL_GRAFICO_TEST_DL_KO=DL KO
+LBL_DESCRIZIONE_ACETATO=Posizionare le aree (sinistra = magenta, destra = azzurro) per la ricerca di presenza di acetato.
+LBL_DESCRIZIONE_DL=Definire il livello di certezza minima desiderato (certezza minima minore porta a meno scarti ma a più errori e viceversa)
+LBL_CERTAINTY_THRESHOLD=Certezza minima
+LBL_STEP_DL=Wizard Deep Learning
+LBL_STEP_ACETATO=Wizard Acetato
 
 LBL_STAZIONE_0=Acetato
 LBL_STAZIONE_1=Deep Learning 1

@@ -32,15 +32,15 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
             this.lblThreshold = new System.Windows.Forms.Label();
-            this.nudThreshold = new QVLEGSCOG2362.UCNumericUpDown();
             this.lblAreaMinDifetto = new System.Windows.Forms.Label();
-            this.nudAreaMinDifetto = new QVLEGSCOG2362.UCNumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblDescrizione = new System.Windows.Forms.Label();
             this.btnUltimaFoto = new System.Windows.Forms.Button();
             this.btnLog = new System.Windows.Forms.Button();
             this.btnTest = new System.Windows.Forms.Button();
             this.btnSnap = new System.Windows.Forms.Button();
+            this.nudThreshold = new QVLEGSCOG2362.UCNumericUpDown();
+            this.nudAreaMinDifetto = new QVLEGSCOG2362.UCNumericUpDown();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -105,38 +105,6 @@
             this.lblThreshold.TabIndex = 0;
             this.lblThreshold.Text = "LBL_THRESHOLD";
             // 
-            // nudThreshold
-            // 
-            this.nudThreshold.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.nudThreshold.DecimalPlaces = 0;
-            this.nudThreshold.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudThreshold.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.nudThreshold.Location = new System.Drawing.Point(6, 26);
-            this.nudThreshold.Margin = new System.Windows.Forms.Padding(6);
-            this.nudThreshold.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
-            this.nudThreshold.Minimum = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.nudThreshold.Name = "nudThreshold";
-            this.nudThreshold.Size = new System.Drawing.Size(328, 32);
-            this.nudThreshold.TabIndex = 2;
-            this.nudThreshold.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.nudThreshold.Value = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            // 
             // lblAreaMinDifetto
             // 
             this.lblAreaMinDifetto.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -147,38 +115,6 @@
             this.lblAreaMinDifetto.Size = new System.Drawing.Size(207, 20);
             this.lblAreaMinDifetto.TabIndex = 7;
             this.lblAreaMinDifetto.Text = "LBL_AREA_MIN_DIFETTO";
-            // 
-            // nudAreaMinDifetto
-            // 
-            this.nudAreaMinDifetto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.nudAreaMinDifetto.DecimalPlaces = 1;
-            this.nudAreaMinDifetto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudAreaMinDifetto.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.nudAreaMinDifetto.Location = new System.Drawing.Point(6, 90);
-            this.nudAreaMinDifetto.Margin = new System.Windows.Forms.Padding(6);
-            this.nudAreaMinDifetto.Maximum = new decimal(new int[] {
-            10000000,
-            0,
-            0,
-            0});
-            this.nudAreaMinDifetto.Minimum = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.nudAreaMinDifetto.Name = "nudAreaMinDifetto";
-            this.nudAreaMinDifetto.Size = new System.Drawing.Size(328, 32);
-            this.nudAreaMinDifetto.TabIndex = 8;
-            this.nudAreaMinDifetto.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.nudAreaMinDifetto.Value = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
             // 
             // panel1
             // 
@@ -206,7 +142,7 @@
             this.lblDescrizione.Name = "lblDescrizione";
             this.lblDescrizione.Size = new System.Drawing.Size(721, 201);
             this.lblDescrizione.TabIndex = 47;
-            this.lblDescrizione.Text = "LBL_DESCRIZIONE_Acetato";
+            this.lblDescrizione.Text = "LBL_DESCRIZIONE_ACETATO";
             // 
             // btnUltimaFoto
             // 
@@ -263,6 +199,70 @@
             this.btnSnap.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSnap.UseVisualStyleBackColor = true;
             this.btnSnap.Click += new System.EventHandler(this.btnSnap_Click);
+            // 
+            // nudThreshold
+            // 
+            this.nudThreshold.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.nudThreshold.DecimalPlaces = 0;
+            this.nudThreshold.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudThreshold.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudThreshold.Location = new System.Drawing.Point(6, 26);
+            this.nudThreshold.Margin = new System.Windows.Forms.Padding(6);
+            this.nudThreshold.Maximum = new decimal(new int[] {
+            255,
+            0,
+            0,
+            0});
+            this.nudThreshold.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.nudThreshold.Name = "nudThreshold";
+            this.nudThreshold.Size = new System.Drawing.Size(328, 32);
+            this.nudThreshold.TabIndex = 2;
+            this.nudThreshold.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.nudThreshold.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            // 
+            // nudAreaMinDifetto
+            // 
+            this.nudAreaMinDifetto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.nudAreaMinDifetto.DecimalPlaces = 1;
+            this.nudAreaMinDifetto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudAreaMinDifetto.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudAreaMinDifetto.Location = new System.Drawing.Point(6, 90);
+            this.nudAreaMinDifetto.Margin = new System.Windows.Forms.Padding(6);
+            this.nudAreaMinDifetto.Maximum = new decimal(new int[] {
+            10000000,
+            0,
+            0,
+            0});
+            this.nudAreaMinDifetto.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.nudAreaMinDifetto.Name = "nudAreaMinDifetto";
+            this.nudAreaMinDifetto.Size = new System.Drawing.Size(328, 32);
+            this.nudAreaMinDifetto.TabIndex = 8;
+            this.nudAreaMinDifetto.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.nudAreaMinDifetto.Value = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             // 
             // UCStepAcetato
             // 

@@ -44,7 +44,6 @@ namespace QVLEGSCOG2362.Algoritmi
             bool ret = false;
             bool ret1 = false;
             bool ret2 = false;
-            int limit;
 
             CogBlobTool blobTool = new CogBlobTool();
             CogImageConvertTool imageConvertTool = new CogImageConvertTool();
@@ -57,6 +56,8 @@ namespace QVLEGSCOG2362.Algoritmi
                 }
                 else
                 {
+                    //int limit = 0;
+
                     imageConvertTool.InputImage = inputAlg.Img;
                     imageConvertTool.Run();
 
@@ -91,7 +92,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     ret1 = blobTool.Results.GetBlobIDs(true).Length == 0;
 
                     double areaTot1 = 0;
-                    limit = 0;
+                    //limit = 0;
                     foreach (CogBlobResult blobResult in blobTool.Results.GetBlobs())
                     {
                         areaTot1 += blobResult.Area;
@@ -142,7 +143,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     ret2 = blobTool.Results.GetBlobIDs(true).Length == 0;
 
                     double areaTot2 = 0;
-                    limit = 0;
+                    //limit = 0;
                     foreach (CogBlobResult blobResult in blobTool.Results.GetBlobs())
                     {
                         areaTot2 += blobResult.Area;
