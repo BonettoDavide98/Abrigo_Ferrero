@@ -8,6 +8,7 @@ namespace QVLEGSCOG2362.Algoritmi
 {
     public class Algoritmo : AlgoritmoBase
     {
+        //non possono esistere due istanze di queste variabili, quindi sono statiche
         protected static ViDi2.Runtime.IControl control = null;
         protected static IWorkspace workspace = null;
         protected static IStream streamCAM1 = null;
@@ -15,6 +16,7 @@ namespace QVLEGSCOG2362.Algoritmi
 
         public Algoritmo(int idCamera, int idStazione, DataType.Impostazioni impostazioni, DBL.LinguaManager linguaManager) : base(idCamera, idStazione, impostazioni, linguaManager)
         {
+            //singleton
             if (control == null)
             {
                 control = new ViDi2.Runtime.Local.Control();
@@ -58,16 +60,20 @@ namespace QVLEGSCOG2362.Algoritmi
                 {
                     //int limit = 0;
 
+                    //imageConvertTool converte l'immagine in una CogImage8Grey (ovvero in bianco e nero)
                     imageConvertTool.InputImage = inputAlg.Img;
                     imageConvertTool.Run();
-
+                    
+                    //l'immagine in bianco e nero viene data in input al cogBlobTool
                     blobTool.InputImage = imageConvertTool.OutputImage;
                     blobTool.RunParams.ConnectivityMinPixels = param.AreaMinDifetto;
                     blobTool.RunParams.SegmentationParams.SetSegmentationHardFixedThreshold(100, CogBlobSegmentationPolarityConstants.LightBlobs);
+                    //eseguo una volta il blobtool su tutta l'immagine per avere un immagine da mettere a display
                     blobTool.Run();
                     workingList.SetImage(blobTool.Results.CreateBlobImage());
 
                     //VASSOIO SX
+                    //creo un rettangolo a partire dai parametri in AcetatoParam; questo rettangolo verrà usato come ROI
                     CogRectangle rectSX = new CogRectangle()
                     {
                         Width = param.RettangoloSXWidth,
@@ -80,15 +86,17 @@ namespace QVLEGSCOG2362.Algoritmi
                         LineWidthInScreenPixels = 5
                     };
 
+                    //se sono in wizard il rettangolo è interattivo, ovvero posso trascinarlo e ridimensionarlo, altrimenti è fisso
                     if (isWizard)
                         workingList.AddInteractiveGraphics(rectSX);
                     else
                         workingList.AddStaticGraphics(rectSX);
 
+                    //imposto ROI ed eseguo
                     blobTool.Region = rectSX;
-
                     blobTool.Run();
 
+                    //se non trovo blobs vuol dire che non è presente acetato
                     ret1 = blobTool.Results.GetBlobIDs(true).Length == 0;
 
                     double areaTot1 = 0;
@@ -97,6 +105,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     {
                         areaTot1 += blobResult.Area;
 
+                        //mostro una bounding box per ogni blob trovato se sono in wizard
                         if (isWizard)
                         {
                             CogRectangleAffine rect = blobResult.GetBoundingBox(CogBlobAxisConstants.PixelAligned);
@@ -115,10 +124,13 @@ namespace QVLEGSCOG2362.Algoritmi
                         //}
                     }
 
+                    //non funziona???
                     res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_1"), areaTot1), ret1 ? CogColorConstants.Green : CogColorConstants.Red));
+
                     res.Result1 = ret1;
 
                     //VASSOIO DX
+                    //creo un rettangolo a partire dai parametri in AcetatoParam; questo rettangolo verrà usato come ROI
                     CogRectangle rectDX = new CogRectangle()
                     {
                         Width = param.RettangoloDXWidth,
@@ -131,15 +143,17 @@ namespace QVLEGSCOG2362.Algoritmi
                         LineWidthInScreenPixels = 5
                     };
 
+                    //se sono in wizard il rettangolo è interattivo, ovvero posso trascinarlo e ridimensionarlo, altrimenti è fisso
                     if (isWizard)
                         workingList.AddInteractiveGraphics(rectDX);
                     else
                         workingList.AddStaticGraphics(rectDX);
 
+                    //imposto ROI ed eseguo
                     blobTool.Region = rectDX;
-
                     blobTool.Run();
 
+                    //se non trovo blobs vuol dire che non è presente acetato
                     ret2 = blobTool.Results.GetBlobIDs(true).Length == 0;
 
                     double areaTot2 = 0;
@@ -150,6 +164,7 @@ namespace QVLEGSCOG2362.Algoritmi
 
                         if (isWizard)
                         {
+                            //mostro una bounding box per ogni blob trovato se sono in wizard
                             CogRectangleAffine rect = blobResult.GetBoundingBox(CogBlobAxisConstants.PixelAligned);
                             rect.Color = CogColorConstants.Cyan;
                             workingList.AddStaticGraphics(rect);
@@ -166,7 +181,9 @@ namespace QVLEGSCOG2362.Algoritmi
                         //}
                     }
 
+                    //non funziona???
                     res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_2"), areaTot2), ret2 ? CogColorConstants.Green : CogColorConstants.Red));
+
                     res.Result2 = ret2;
                 }
             }
@@ -200,6 +217,8 @@ namespace QVLEGSCOG2362.Algoritmi
 
                 image = inputAlg.Img.CopyBase(CogImageCopyModeConstants.CopyPixels);
 
+                /*
+                 * POSSIBILE IMPLEMENTAZIONE ROI DINAMICA (NON FUNZIONA PER ADESSO)
                 //IGreenTool tool1 = streamCAM1.Tools["Classify"] as IGreenTool;
 
                 //if(tool1.RegionOfInterest is IManualRegionOfInterest)
@@ -217,33 +236,39 @@ namespace QVLEGSCOG2362.Algoritmi
                 //    (tool2.RegionOfInterest as IManualRegionOfInterest).Size = new Size(image.Width, image.Height);
                 //    (tool2.RegionOfInterest as IManualRegionOfInterest).SplittingGrid = new Size(5, 3);
                 //}
+                */
 
+                //processo l'immagine con il green tool CLassify
                 using (IImage iimage = new FormsImage(image.ToBitmap()))
                 {
                     if (idCamera == 1)
                         sample = streamCAM1.Tools["Classify"].Process(iimage);
                     else if (idCamera == 2)
                         sample = streamCAM2.Tools["Classify"].Process(iimage);
-                    //if (idCamera == 1)
-                    //    sample = tool1.Process(iimage);
-                    //else if (idCamera == 2)
-                    //    sample = tool2.Process(iimage);
                 }
 
                 res.Success = true;
                 ret = true;
 
+                //dato che la ROI del GreenTool Classify è una griglia 5x3, avrò 15 GreenView da valutare
+                //--Posizioni--
+                //0   1   2   3   4
+                //5   6   7   8   9
+                //10  11  12  13  14
+                //----
                 IGreenView greenView = null;
                 for (int i = 0; i < sample.Markings["Classify"].Views.Count; i++)
                 {
                     greenView = sample.Markings["Classify"].Views[i] as IGreenView;
 
+                    //se la view ha una score minore del threshold impostato nel wizard, il risultato viene scartato a priori
                     if (greenView.BestTag.Score < (param.CertaintyThreshold / 100))
                     {
                         res.Success = false;
                         ret = false;
                         res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_UNCERTAIN"), i, greenView.BestTag.Score));
                     }
+                    //nelle posizioni 0, 5 e 10 (quelle del lato sinistro) devono esserci dei Raffaello
                     else if (i == 0 || i == 5 || i == 10)
                     {
                         if (greenView.BestTag.Name != "Raffaello_OK")
@@ -254,6 +279,7 @@ namespace QVLEGSCOG2362.Algoritmi
                             break;
                         }
                     }
+                    //nelle posizioni 4, 9 e 14 (quelle del lato destro) devono esserci dei Rondnoir
                     else if (i == 4 || i == 9 || i == 14)
                     {
                         if (greenView.BestTag.Name != "Rondnoir_OK")
@@ -264,6 +290,7 @@ namespace QVLEGSCOG2362.Algoritmi
                             break;
                         }
                     }
+                    //in tutte le altre devono esserci dei Rocher
                     else
                     {
                         if (greenView.BestTag.Name != "Rocher_OK")
