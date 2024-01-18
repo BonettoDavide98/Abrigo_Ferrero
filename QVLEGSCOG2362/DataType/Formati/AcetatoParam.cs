@@ -11,9 +11,6 @@ namespace QVLEGSCOG2362.DataType
         [Browsable(false)]
         [Category("CAT_GENERAL")]
         public bool AbilitaControllo { get; set; }
-
-        [Browsable(false)]
-        public int DistanzaBordo { get; set; }
         [Browsable(false)]
         public int Threshold { get; set; }
         [Browsable(false)]
@@ -37,7 +34,6 @@ namespace QVLEGSCOG2362.DataType
 
         public AcetatoParam()
         {
-            this.DistanzaBordo = 4;
             this.Threshold = 100;
             this.AreaMinDifetto = 200;
 

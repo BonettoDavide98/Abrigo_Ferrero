@@ -66,14 +66,33 @@ namespace QVLEGSCOG2362.Class
             }
         }
 
-        public bool ControlloRisultati(out bool ret2)
+        public bool ControlloRisultati(DataType.ElaborateResult result, out bool ret2)
         {
-            bool ret = false;
+            bool ret1 = false;
             ret2 = false;
-
-            foto++;
             
-            //if()
+            if(result.StatisticheObj.Contatori.Count > 3)
+            {
+                foto += 2;
+
+                if (result.Result1)
+                    buoni++;
+                else
+                    scarti++;
+
+                if (result.Result2)
+                    buoni++;
+                else
+                    scarti++;
+            } else
+            {
+                foto++;
+
+                if (result.Success)
+                    buoni++;
+                else
+                    scarti++;
+            }
 
             //GestioneStatistiche(risultati);
             risultatiQueue.Enqueue(risultati);
@@ -84,7 +103,7 @@ namespace QVLEGSCOG2362.Class
                 risultati[i] = null;
             }
 
-            return ret;
+            return ret1;
         }
 
         public void ResetContatori()

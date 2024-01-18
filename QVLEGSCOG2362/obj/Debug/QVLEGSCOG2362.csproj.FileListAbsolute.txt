@@ -625,3 +625,4 @@ C:\Users\Amministratore\Desktop\Ferrero1201\QVLEGSCOG2362\obj\Debug\QVLEGSCOG236
 C:\Users\Amministratore\Desktop\Ferrero1201\QVLEGSCOG2362\obj\Debug\QVLEGSCOG2362.exe
 C:\Users\Amministratore\Desktop\Ferrero1201\QVLEGSCOG2362\obj\Debug\QVLEGSCOG2362.pdb
 C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\obj\Debug\QVLEGSCOG2362.Wizard.UCStepDL.resources
+C:\Progetti\Abrigo\2023_62_Ferrero\Ferrero\QVLEGSCOG2362\obj\Debug\QVLEGSCOG2362.Wizard.UCStepAcetato.resources

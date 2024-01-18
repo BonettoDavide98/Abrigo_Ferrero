@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panelContainer = new System.Windows.Forms.Panel();
-            this.btnSnap = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
             this.lblThreshold = new System.Windows.Forms.Label();
@@ -37,12 +36,11 @@
             this.lblAreaMinDifetto = new System.Windows.Forms.Label();
             this.nudAreaMinDifetto = new QVLEGSCOG2362.UCNumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblDescrizione = new System.Windows.Forms.Label();
             this.btnUltimaFoto = new System.Windows.Forms.Button();
             this.btnLog = new System.Windows.Forms.Button();
-            this.lblDescrizione = new System.Windows.Forms.Label();
             this.btnTest = new System.Windows.Forms.Button();
-            this.lblDistanzaBordo = new System.Windows.Forms.Label();
-            this.nudDistanzaBordo = new QVLEGSCOG2362.UCNumericUpDown();
+            this.btnSnap = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -54,38 +52,22 @@
             // 
             // panelContainer
             // 
-            this.panelContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.panelContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelContainer.Location = new System.Drawing.Point(10, 76);
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(721, 360);
             this.panelContainer.TabIndex = 2;
             // 
-            // btnSnap
-            // 
-            this.btnSnap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSnap.Image = global::QVLEGSCOG2362.Properties.Resources.imgScattaFoto;
-            this.btnSnap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSnap.Location = new System.Drawing.Point(146, 10);
-            this.btnSnap.Name = "btnSnap";
-            this.btnSnap.Size = new System.Drawing.Size(130, 60);
-            this.btnSnap.TabIndex = 11;
-            this.btnSnap.Text = "BTN_SNAP";
-            this.btnSnap.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSnap.UseVisualStyleBackColor = true;
-            this.btnSnap.Click += new System.EventHandler(this.btnSnap_Click);
-            // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.nudDistanzaBordo, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.propertyGrid1, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.lblDistanzaBordo, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.lblThreshold, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.nudThreshold, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.lblAreaMinDifetto, 0, 4);
@@ -105,11 +87,11 @@
             // 
             // propertyGrid1
             // 
-            this.propertyGrid1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.propertyGrid1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.propertyGrid1.Location = new System.Drawing.Point(3, 195);
+            this.propertyGrid1.Location = new System.Drawing.Point(3, 131);
             this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.Size = new System.Drawing.Size(334, 448);
+            this.propertyGrid1.Size = new System.Drawing.Size(334, 512);
             this.propertyGrid1.TabIndex = 38;
             // 
             // lblThreshold
@@ -117,7 +99,7 @@
             this.lblThreshold.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblThreshold.AutoSize = true;
             this.lblThreshold.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThreshold.Location = new System.Drawing.Point(3, 64);
+            this.lblThreshold.Location = new System.Drawing.Point(3, 0);
             this.lblThreshold.Name = "lblThreshold";
             this.lblThreshold.Size = new System.Drawing.Size(147, 20);
             this.lblThreshold.TabIndex = 0;
@@ -133,7 +115,7 @@
             0,
             0,
             0});
-            this.nudThreshold.Location = new System.Drawing.Point(6, 90);
+            this.nudThreshold.Location = new System.Drawing.Point(6, 26);
             this.nudThreshold.Margin = new System.Windows.Forms.Padding(6);
             this.nudThreshold.Maximum = new decimal(new int[] {
             255,
@@ -160,7 +142,7 @@
             this.lblAreaMinDifetto.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblAreaMinDifetto.AutoSize = true;
             this.lblAreaMinDifetto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAreaMinDifetto.Location = new System.Drawing.Point(3, 128);
+            this.lblAreaMinDifetto.Location = new System.Drawing.Point(3, 64);
             this.lblAreaMinDifetto.Name = "lblAreaMinDifetto";
             this.lblAreaMinDifetto.Size = new System.Drawing.Size(207, 20);
             this.lblAreaMinDifetto.TabIndex = 7;
@@ -176,7 +158,7 @@
             0,
             0,
             0});
-            this.nudAreaMinDifetto.Location = new System.Drawing.Point(6, 154);
+            this.nudAreaMinDifetto.Location = new System.Drawing.Point(6, 90);
             this.nudAreaMinDifetto.Margin = new System.Windows.Forms.Padding(6);
             this.nudAreaMinDifetto.Maximum = new decimal(new int[] {
             10000000,
@@ -200,8 +182,8 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.Controls.Add(this.btnUltimaFoto);
@@ -214,6 +196,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(734, 646);
             this.panel1.TabIndex = 14;
+            // 
+            // lblDescrizione
+            // 
+            this.lblDescrizione.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDescrizione.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescrizione.Location = new System.Drawing.Point(10, 439);
+            this.lblDescrizione.Name = "lblDescrizione";
+            this.lblDescrizione.Size = new System.Drawing.Size(721, 201);
+            this.lblDescrizione.TabIndex = 47;
+            this.lblDescrizione.Text = "LBL_DESCRIZIONE_Acetato";
             // 
             // btnUltimaFoto
             // 
@@ -243,17 +236,6 @@
             this.btnLog.UseVisualStyleBackColor = true;
             this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
             // 
-            // lblDescrizione
-            // 
-            this.lblDescrizione.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblDescrizione.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescrizione.Location = new System.Drawing.Point(10, 439);
-            this.lblDescrizione.Name = "lblDescrizione";
-            this.lblDescrizione.Size = new System.Drawing.Size(721, 201);
-            this.lblDescrizione.TabIndex = 47;
-            this.lblDescrizione.Text = "LBL_DESCRIZIONE_Acetato";
-            // 
             // btnTest
             // 
             this.btnTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -268,47 +250,19 @@
             this.btnTest.UseVisualStyleBackColor = true;
             this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
-            // lblDistanzaBordo
+            // btnSnap
             // 
-            this.lblDistanzaBordo.AutoSize = true;
-            this.lblDistanzaBordo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDistanzaBordo.Location = new System.Drawing.Point(3, 0);
-            this.lblDistanzaBordo.Name = "lblDistanzaBordo";
-            this.lblDistanzaBordo.Size = new System.Drawing.Size(195, 20);
-            this.lblDistanzaBordo.TabIndex = 52;
-            this.lblDistanzaBordo.Text = "LBL_DISTANZA_BORDO";
-            // 
-            // nudDistanzaBordo
-            // 
-            this.nudDistanzaBordo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.nudDistanzaBordo.DecimalPlaces = 1;
-            this.nudDistanzaBordo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudDistanzaBordo.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.nudDistanzaBordo.Location = new System.Drawing.Point(6, 26);
-            this.nudDistanzaBordo.Margin = new System.Windows.Forms.Padding(6);
-            this.nudDistanzaBordo.Maximum = new decimal(new int[] {
-            100000,
-            0,
-            0,
-            0});
-            this.nudDistanzaBordo.Minimum = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.nudDistanzaBordo.Name = "nudDistanzaBordo";
-            this.nudDistanzaBordo.Size = new System.Drawing.Size(328, 32);
-            this.nudDistanzaBordo.TabIndex = 53;
-            this.nudDistanzaBordo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.nudDistanzaBordo.Value = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
+            this.btnSnap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSnap.Image = global::QVLEGSCOG2362.Properties.Resources.imgScattaFoto;
+            this.btnSnap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSnap.Location = new System.Drawing.Point(146, 10);
+            this.btnSnap.Name = "btnSnap";
+            this.btnSnap.Size = new System.Drawing.Size(130, 60);
+            this.btnSnap.TabIndex = 11;
+            this.btnSnap.Text = "BTN_SNAP";
+            this.btnSnap.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSnap.UseVisualStyleBackColor = true;
+            this.btnSnap.Click += new System.EventHandler(this.btnSnap_Click);
             // 
             // UCStepAcetato
             // 
@@ -346,7 +300,5 @@
         private System.Windows.Forms.Label lblDescrizione;
         private System.Windows.Forms.Button btnLog;
         private System.Windows.Forms.Button btnUltimaFoto;
-        private System.Windows.Forms.Label lblDistanzaBordo;
-        private UCNumericUpDown nudDistanzaBordo;
     }
 }

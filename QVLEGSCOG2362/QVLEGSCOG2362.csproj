@@ -1194,6 +1194,9 @@
     <EmbeddedResource Include="Wizard\FormScegliImgLog.resx">
       <DependentUpon>FormScegliImgLog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\WizardAcetato\UCStepAcetato.resx">
+      <DependentUpon>UCStepAcetato.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Wizard\WizardAcq\WizardAcq.resx">
       <DependentUpon>WizardAcq.cs</DependentUpon>
     </EmbeddedResource>

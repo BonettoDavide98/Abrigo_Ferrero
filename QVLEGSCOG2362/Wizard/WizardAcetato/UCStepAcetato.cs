@@ -51,8 +51,7 @@ namespace QVLEGSCOG2362.Wizard
                 btnSnap.Text = linguaManager.GetTranslation("BTN_SNAP");
                 btnUltimaFoto.Text = linguaManager.GetTranslation("BTN_ULTIMA_FOTO");
                 btnLog.Text = linguaManager.GetTranslation("BTN_LOG");
-
-                lblDistanzaBordo.Text = linguaManager.GetTranslation("LBL_DISTANZA_BORDO");
+                
                 lblThreshold.Text = linguaManager.GetTranslation("LBL_THRESHOLD");
                 lblAreaMinDifetto.Text = linguaManager.GetTranslation("LBL_AREA_MIN_DIFETTO");
 
@@ -117,7 +116,6 @@ namespace QVLEGSCOG2362.Wizard
         private void Object2Form(DataType.ParametriAlgoritmo paramAlg)
         {
             DataType.AcetatoParam param = paramAlg.AcetatoParam;
-            nudDistanzaBordo.Value = (decimal)param.DistanzaBordo;
             nudThreshold.Value = (decimal)param.Threshold;
             nudAreaMinDifetto.Value = (decimal)param.AreaMinDifetto;
 
@@ -126,14 +124,12 @@ namespace QVLEGSCOG2362.Wizard
 
         private void AddChangeEvent()
         {
-            nudDistanzaBordo.ValueChanged += nud_ValueChanged;
             nudThreshold.ValueChanged += nud_ValueChanged;
             nudAreaMinDifetto.ValueChanged += nud_ValueChanged;
         }
 
         private void RemoveChangeEvent()
         {
-            nudDistanzaBordo.ValueChanged -= nud_ValueChanged;
             nudThreshold.ValueChanged -= nud_ValueChanged;
             nudAreaMinDifetto.ValueChanged -= nud_ValueChanged;
         }
@@ -255,7 +251,6 @@ namespace QVLEGSCOG2362.Wizard
             try
             {
                 DataType.AcetatoParam param = this.algoritmoWizard.GetAlgoritmoParam().AcetatoParam;
-                param.DistanzaBordo = (int)nudDistanzaBordo.Value;
                 param.Threshold = (int)nudThreshold.Value;
                 param.AreaMinDifetto = (int)nudAreaMinDifetto.Value;
 

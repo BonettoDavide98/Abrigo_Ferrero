@@ -379,7 +379,7 @@ namespace QVLEGSCOG2362.Class
                     contatori.WaitAllCam();
 
                     //guardo se le altre sono buone, incremento contatori
-                    bool ok = contatori.ControlloRisultati(out bool ok2);
+                    bool ok = contatori.ControlloRisultati(result, out bool ok2);
                     //ok = true;
                     //SET RISULTATO
                     SetOutput(true, ok, ok2);

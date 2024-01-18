@@ -341,8 +341,6 @@ LBL_STATISTICHE_2=Misure
 LBL_STATISTICHE_3=Statistiche totali
 LBL_STATISTICHE_4=Statistiche 4
 LBL_STAZIONE=Stazione
-LBL_STAZIONE_0=Destra
-LBL_STAZIONE_1=Sinistra
 LBL_STEP_ACQ=Impostazione parametri telecamera
 LBL_STEP_ALTEZZA=Controllo altezza
 LBL_STEP_BUCHI_LATO_3D=Test Buchi Lato
@@ -566,3 +564,12 @@ MSG_OUT_ACETATO_AREA_1=Acetato Area SX {0} mm²
 MSG_OUT_ACETATO_AREA_2=Acetato Area DX {0} mm²
 MSG_OUT_DL_UNCERTAIN={0}: Certezza Bassa {1}%
 MSG_OUT_DL_MISMATCH=Mancata Corrispondenza in pos. {0}: {1}
+LBL_UC_PARAM_ACETATO=Wizard Acetato
+LBL_UC_PARAM_DL=Wizard Deep Learning
+LBL_GRAFICO_TEST_ACETATO_KO=Acetato KO
+LBL_GRAFICO_TEST_DL_KO=DL KO
+
+LBL_STAZIONE_0=Acetato
+LBL_STAZIONE_1=Deep Learning 1
+LBL_STAZIONE_2=Deep Learning 2
+

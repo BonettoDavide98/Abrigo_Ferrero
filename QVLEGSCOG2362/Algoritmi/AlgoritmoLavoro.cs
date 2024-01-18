@@ -94,7 +94,6 @@ namespace QVLEGSCOG2362.Algoritmi
 
             StringBuilder sbTempi = new StringBuilder();
             Stopwatch sw = Stopwatch.StartNew();
-            bool ok = false;
 
             ClassInputAlgoritmi inputAlg = null;
 

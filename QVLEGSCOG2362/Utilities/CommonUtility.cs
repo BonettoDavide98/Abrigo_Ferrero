@@ -126,7 +126,7 @@ namespace QVLEGSCOG2362.Utilities
             if (dipObjList != null && dipObjList.GetImage() != null)
             {
                 cogWndCntrl.Image = dipObjList.GetImage().CopyBase(CogImageCopyModeConstants.CopyPixels);
-
+                
                 cogWndCntrl.StaticGraphics.Clear();
                 cogWndCntrl.InteractiveGraphics.Clear();
 
