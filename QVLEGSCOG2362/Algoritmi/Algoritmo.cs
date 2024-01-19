@@ -9,20 +9,25 @@ namespace QVLEGSCOG2362.Algoritmi
     public class Algoritmo : AlgoritmoBase
     {
         //non possono esistere due istanze di queste variabili, quindi sono statiche
-        protected static ViDi2.Runtime.IControl control = null;
-        protected static IWorkspace workspace = null;
-        protected static IStream streamCAM1 = null;
-        protected static IStream streamCAM2 = null;
+        //protected static ViDi2.Runtime.IControl control = null;
+        //protected static IWorkspace workspace = null;
+        //protected static IStream streamCAM1 = null;
+        //protected static IStream streamCAM2 = null;
+        protected static IGreenTool greenTool1 = null;
+        protected static IGreenTool greenTool2 = null;
 
         public Algoritmo(int idCamera, int idStazione, DataType.Impostazioni impostazioni, DBL.LinguaManager linguaManager) : base(idCamera, idStazione, impostazioni, linguaManager)
         {
             //singleton
-            if (control == null)
+            if (greenTool1 == null || greenTool2 == null)
             {
-                control = new ViDi2.Runtime.Local.Control();
-                workspace = control.Workspaces.Add("Ferrero_Abrigo_GRID_FAST", impostazioni.PathDatiBase + @"\ViDi_SUITE_RUNTIMES\Ferrero_Abrigo_GRID_FAST.vrws");
-                streamCAM1 = workspace.Streams["CAM1"];
-                streamCAM2 = workspace.Streams["CAM2"];
+                ViDi2.Runtime.IControl control = new ViDi2.Runtime.Local.Control();
+                IWorkspace workspace = control.Workspaces.Add("Ferrero_Abrigo_GRID_FAST", impostazioni.PathDatiBase + @"\ViDi_SUITE_RUNTIMES\Ferrero_Abrigo_GRID_FAST.vrws");
+                IStream streamCAM1 = workspace.Streams["CAM1"];
+                IStream streamCAM2 = workspace.Streams["CAM2"];
+
+                greenTool1 = streamCAM1.Tools["Classify"] as IGreenTool;
+                greenTool2 = streamCAM2.Tools["Classify"] as IGreenTool;
             }
         }
 
@@ -209,7 +214,10 @@ namespace QVLEGSCOG2362.Algoritmi
             bool ret = false;
 
             ICogImage image = null;
+            IGreenTool greenTool = null;
+            IManualRegionOfInterest ROI = null;
             ISample sample = null;
+            IGreenView greenView = null;
 
             try
             {
@@ -217,89 +225,106 @@ namespace QVLEGSCOG2362.Algoritmi
 
                 image = inputAlg.Img.CopyBase(CogImageCopyModeConstants.CopyPixels);
 
-                /*
-                 * POSSIBILE IMPLEMENTAZIONE ROI DINAMICA (NON FUNZIONA PER ADESSO)
-                //IGreenTool tool1 = streamCAM1.Tools["Classify"] as IGreenTool;
+                if (idCamera == 1)
+                {
+                    ROI = greenTool1.RegionOfInterest as ViDi2.IManualRegionOfInterest;
+                    greenTool = greenTool1;
+                }
+                else if (idCamera == 2)
+                {
+                    ROI = greenTool2.RegionOfInterest as ViDi2.IManualRegionOfInterest;
+                    greenTool = greenTool2;
+                }
 
-                //if(tool1.RegionOfInterest is IManualRegionOfInterest)
-                //{
-                //    (tool1.RegionOfInterest as IManualRegionOfInterest).Offset = new Point(0, 0);
-                //    (tool1.RegionOfInterest as IManualRegionOfInterest).Size = new Size(image.Width, image.Height);
-                //    (tool1.RegionOfInterest as IManualRegionOfInterest).SplittingGrid = new Size(5, 3);
-                //}
-
-                //IGreenTool tool2 = streamCAM2.Tools["Classify"] as IGreenTool;
-
-                //if (tool2.RegionOfInterest is IManualRegionOfInterest)
-                //{
-                //    (tool2.RegionOfInterest as IManualRegionOfInterest).Offset = new Point(0, 0);
-                //    (tool2.RegionOfInterest as IManualRegionOfInterest).Size = new Size(image.Width, image.Height);
-                //    (tool2.RegionOfInterest as IManualRegionOfInterest).SplittingGrid = new Size(5, 3);
-                //}
-                */
+                ROI.Offset = new Point(25, 15);
+                ROI.Size = new Size(163, 198);
 
                 //processo l'immagine con il green tool CLassify
                 using (IImage iimage = new FormsImage(image.ToBitmap()))
                 {
-                    if (idCamera == 1)
-                        sample = streamCAM1.Tools["Classify"].Process(iimage);
-                    else if (idCamera == 2)
-                        sample = streamCAM2.Tools["Classify"].Process(iimage);
-                }
+                    res.Success = true;
+                    ret = true;
 
-                res.Success = true;
-                ret = true;
+                    //dato che la ROI del GreenTool Classify è una griglia 5x3, avrò 15 GreenView da valutare
+                    //--Posizioni--
+                    //0   1   2   3   4
+                    //5   6   7   8   9
+                    //10  11  12  13  14
+                    //----
 
-                //dato che la ROI del GreenTool Classify è una griglia 5x3, avrò 15 GreenView da valutare
-                //--Posizioni--
-                //0   1   2   3   4
-                //5   6   7   8   9
-                //10  11  12  13  14
-                //----
-                IGreenView greenView = null;
-                for (int i = 0; i < sample.Markings["Classify"].Views.Count; i++)
-                {
-                    greenView = sample.Markings["Classify"].Views[i] as IGreenView;
-
-                    //se la view ha una score minore del threshold impostato nel wizard, il risultato viene scartato a priori
-                    if (greenView.BestTag.Score < (param.CertaintyThreshold / 100))
+                    //TODO : valori hardcoded da cambiare con valori dinamici
+                    for (int i = 0; i < 15; i++)
                     {
-                        res.Success = false;
-                        ret = false;
-                        res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_UNCERTAIN"), i, greenView.BestTag.Score));
-                    }
-                    //nelle posizioni 0, 5 e 10 (quelle del lato sinistro) devono esserci dei Raffaello
-                    else if (i == 0 || i == 5 || i == 10)
-                    {
-                        if (greenView.BestTag.Name != "Raffaello_OK")
+                        //calcolo l'offset (da in alto a sinistra) attuale
+                        ROI.Offset = new Point((i % 5) * ROI.Size.Width + 25, (i / 5) * ROI.Size.Height + 15);
+
+                        CogRectangle rect = new CogRectangle()
+                        {
+                            Width = 161,
+                            Height = 196,
+                            X = ROI.Offset.X,
+                            Y = ROI.Offset.Y,
+                            LineWidthInScreenPixels = 5
+                        };
+
+                        //processo l'immagine con la ROI corrente
+                        sample = greenTool.Process(iimage);
+
+                        //prendo sempre la view 0 siccome la mia ROI conterrà sempre un solo elemento (1x1)
+                        greenView = sample.Markings["Classify"].Views[0] as IGreenView;
+
+                        //se la view ha una score minore del threshold impostato nel wizard, il risultato viene scartato a priori
+                        if (greenView.BestTag.Score < (param.CertaintyThreshold / 100))
                         {
                             res.Success = false;
                             ret = false;
-                            res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_MISMATCH"), i, "RAFFAELLO"));
-                            break;
+                            res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_UNCERTAIN"), i, greenView.BestTag.Score));
+                            rect.Color = CogColorConstants.Red;
                         }
-                    }
-                    //nelle posizioni 4, 9 e 14 (quelle del lato destro) devono esserci dei Rondnoir
-                    else if (i == 4 || i == 9 || i == 14)
-                    {
-                        if (greenView.BestTag.Name != "Rondnoir_OK")
+                        //nelle posizioni 0, 5 e 10 (quelle del lato sinistro) devono esserci dei Raffaello
+                        else if (i == 0 || i == 5 || i == 10)
                         {
-                            res.Success = false;
-                            ret = false;
-                            res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_MISMATCH"), i, "RONDNOIR"));
-                            break;
+                            if (greenView.BestTag.Name != "Raffaello_OK")
+                            {
+                                res.Success = false;
+                                ret = false;
+                                res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_MISMATCH"), i, "RAFFAELLO"));
+                                rect.Color = CogColorConstants.Red;
+                            } else
+                            {
+                                rect.Color = CogColorConstants.White;
+                            }
                         }
-                    }
-                    //in tutte le altre devono esserci dei Rocher
-                    else
-                    {
-                        if (greenView.BestTag.Name != "Rocher_OK")
+                        //nelle posizioni 4, 9 e 14 (quelle del lato destro) devono esserci dei Rondnoir
+                        else if (i == 4 || i == 9 || i == 14)
                         {
-                            res.Success = false;
-                            ret = false;
-                            res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_MISMATCH"), i, "ROCHER"));
-                            break;
+                            if (greenView.BestTag.Name != "Rondnoir_OK")
+                            {
+                                res.Success = false;
+                                ret = false;
+                                res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_MISMATCH"), i, "RONDNOIR"));
+                                rect.Color = CogColorConstants.Red;
+                            } else
+                            {
+                                rect.Color = CogColorConstants.Black;
+                            }
                         }
+                        //in tutte le altre devono esserci dei Rocher
+                        else
+                        {
+                            if (greenView.BestTag.Name != "Rocher_OK")
+                            {
+                                res.Success = false;
+                                ret = false;
+                                res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_MISMATCH"), i, "ROCHER"));
+                                rect.Color = CogColorConstants.Red;
+                            } else
+                            {
+                                rect.Color = CogColorConstants.Yellow;
+                            }
+                        }
+
+                        workingList.AddStaticGraphics(rect);
                     }
                 }
 

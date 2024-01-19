@@ -14,8 +14,7 @@ namespace QVLEGSCOG2362.Algoritmi
         #region Variabili Private
 
         private bool disposed = false;
-
-        private DataType.ParametriAlgoritmo parametri = null;
+        
         private string idFormato = null;
 
         private DateTime dataRiferimentoTurno = DateTime.MinValue;
