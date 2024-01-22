@@ -253,7 +253,6 @@ namespace QVLEGSCOG2362.Class
         {
             try
             {
-#if !_Simulazione
                 if (this.saveEnable && cntSave < maxSaveCnt)
                 {
                     Utilities.CacheErrorObject ceo2 = new Utilities.CacheErrorObject(iconicVarList, result);
@@ -261,7 +260,6 @@ namespace QVLEGSCOG2362.Class
 
                     cntSave++;
                 }
-#endif
             }
             catch (Exception ex)
             {

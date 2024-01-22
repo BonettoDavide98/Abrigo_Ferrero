@@ -786,6 +786,12 @@
     <Compile Include="Pagine\SottoPagine\UCPaginaOnLine3Cam.Designer.cs">
       <DependentUpon>UCPaginaOnLine3Cam.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pagine\SottoPagine\UCPaginaSelezionePattern.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pagine\SottoPagine\UCPaginaSelezionePattern.Designer.cs">
+      <DependentUpon>UCPaginaSelezionePattern.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pagine\SottoPagine\UCPaginaViewLogDettaglio.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -1142,6 +1148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pagine\SottoPagine\UCPaginaOnLine3Cam.resx">
       <DependentUpon>UCPaginaOnLine3Cam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagine\SottoPagine\UCPaginaSelezionePattern.resx">
+      <DependentUpon>UCPaginaSelezionePattern.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pagine\SottoPagine\UCPaginaViewLogDettaglio.resx">
       <DependentUpon>UCPaginaViewLogDettaglio.cs</DependentUpon>

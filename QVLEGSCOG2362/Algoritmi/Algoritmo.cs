@@ -19,6 +19,8 @@ namespace QVLEGSCOG2362.Algoritmi
         public Algoritmo(int idCamera, int idStazione, DataType.Impostazioni impostazioni, DBL.LinguaManager linguaManager) : base(idCamera, idStazione, impostazioni, linguaManager)
         {
             //singleton
+            //non posso avere più di un istanza di queste variabili, quindi istanzio una sola volta
+            //non posso trasformare questo costruttore in un costruttore statico dato che il workspace dipende dalla classe non statica impostazioni
             if (greenTool1 == null || greenTool2 == null)
             {
                 ViDi2.Runtime.IControl control = new ViDi2.Runtime.Local.Control();
@@ -48,9 +50,6 @@ namespace QVLEGSCOG2362.Algoritmi
 
         protected bool TestAcetato(ClassInputAlgoritmi inputAlg, DataType.AcetatoParam param, bool isWizard, ref DataType.ElaborateResult res, ref Utilities.ObjectToDisplay workingList)
         {
-            bool ret = false;
-            bool ret1 = false;
-            bool ret2 = false;
 
             CogBlobTool blobTool = new CogBlobTool();
             CogImageConvertTool imageConvertTool = new CogImageConvertTool();
@@ -78,7 +77,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     workingList.SetImage(blobTool.Results.CreateBlobImage());
 
                     //VASSOIO SX
-                    //creo un rettangolo a partire dai parametri in AcetatoParam; questo rettangolo verrà usato come ROI
+                    //creo un rettangolo a partire dai parametri in AcetatoParam; questo rettangolo verrà usato come ROI per il vassoio sinistro
                     CogRectangle rectSX = new CogRectangle()
                     {
                         Width = param.RettangoloSXWidth,
@@ -102,7 +101,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     blobTool.Run();
 
                     //se non trovo blobs vuol dire che non è presente acetato
-                    ret1 = blobTool.Results.GetBlobIDs(true).Length == 0;
+                    res.Result1 = blobTool.Results.GetBlobIDs(true).Length == 0;
 
                     double areaTot1 = 0;
                     //limit = 0;
@@ -117,6 +116,7 @@ namespace QVLEGSCOG2362.Algoritmi
                             rect.Color = CogColorConstants.Magenta;
                             workingList.AddStaticGraphics(rect);
                         }
+                        //codice per rappresentare i blob al di fuori del wizard
                         //else
                         //{
                         //    //limito in numero di blob raffigurati in live per evitare lag
@@ -130,12 +130,10 @@ namespace QVLEGSCOG2362.Algoritmi
                     }
 
                     //non funziona???
-                    res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_1"), areaTot1), ret1 ? CogColorConstants.Green : CogColorConstants.Red));
-
-                    res.Result1 = ret1;
-
+                    res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_1"), areaTot1), res.Result1 ? CogColorConstants.Green : CogColorConstants.Red));
+                    
                     //VASSOIO DX
-                    //creo un rettangolo a partire dai parametri in AcetatoParam; questo rettangolo verrà usato come ROI
+                    //creo un rettangolo a partire dai parametri in AcetatoParam; questo rettangolo verrà usato come ROI per il vassoio destro
                     CogRectangle rectDX = new CogRectangle()
                     {
                         Width = param.RettangoloDXWidth,
@@ -159,7 +157,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     blobTool.Run();
 
                     //se non trovo blobs vuol dire che non è presente acetato
-                    ret2 = blobTool.Results.GetBlobIDs(true).Length == 0;
+                    res.Result2 = blobTool.Results.GetBlobIDs(true).Length == 0;
 
                     double areaTot2 = 0;
                     //limit = 0;
@@ -174,6 +172,7 @@ namespace QVLEGSCOG2362.Algoritmi
                             rect.Color = CogColorConstants.Cyan;
                             workingList.AddStaticGraphics(rect);
                         }
+                        //codice per rappresentare i blob al di fuori del wizard
                         //else
                         //{
                         //    //limito in numero di blob raffigurati in live per evitare lag
@@ -187,9 +186,7 @@ namespace QVLEGSCOG2362.Algoritmi
                     }
 
                     //non funziona???
-                    res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_2"), areaTot2), ret2 ? CogColorConstants.Green : CogColorConstants.Red));
-
-                    res.Result2 = ret2;
+                    res.TestiOutAlgoritmi.Add(new Tuple<string, CogColorConstants>(string.Format(linguaManager.GetTranslation("MSG_OUT_ACETATO_AREA_2"), areaTot2), res.Result2 ? CogColorConstants.Green : CogColorConstants.Red));
                 }
             }
             catch (System.Exception ex)
@@ -202,7 +199,7 @@ namespace QVLEGSCOG2362.Algoritmi
                 blobTool?.Dispose();
             }
 
-            return ret = ret1 & ret2;
+            return res.Result1 && res.Result2;
         }
 
         #endregion
@@ -211,9 +208,6 @@ namespace QVLEGSCOG2362.Algoritmi
 
         protected bool TestDL(ClassInputAlgoritmi inputAlg, DataType.DLParam param, bool isWizard, ref DataType.ElaborateResult res, ref Utilities.ObjectToDisplay workingList)
         {
-            bool ret = false;
-
-            ICogImage image = null;
             IGreenTool greenTool = null;
             IManualRegionOfInterest ROI = null;
             ISample sample = null;
@@ -223,45 +217,60 @@ namespace QVLEGSCOG2362.Algoritmi
             {
                 workingList.SetImage(inputAlg.Img.CopyBase(CogImageCopyModeConstants.CopyPixels));
 
-                image = inputAlg.Img.CopyBase(CogImageCopyModeConstants.CopyPixels);
-
                 if (idCamera == 1)
                 {
-                    ROI = greenTool1.RegionOfInterest as ViDi2.IManualRegionOfInterest;
+                    ROI = greenTool1.RegionOfInterest as IManualRegionOfInterest;
                     greenTool = greenTool1;
                 }
                 else if (idCamera == 2)
                 {
-                    ROI = greenTool2.RegionOfInterest as ViDi2.IManualRegionOfInterest;
+                    ROI = greenTool2.RegionOfInterest as IManualRegionOfInterest;
                     greenTool = greenTool2;
                 }
 
-                ROI.Offset = new Point(25, 15);
-                ROI.Size = new Size(163, 198);
+                //l'offset è a partire dall'angolo in alto a sinistra
+                ROI.Offset = new Point(param.OffsetX, param.OffsetY);
+                ROI.Size = new Size(param.CellWidth, param.CellHeight);
+
+                //se si è nel wizard mostro il rettangolo trascinabile per definire la griglia
+                if(isWizard)
+                {
+                    CogRectangle interactiveRectangle = new CogRectangle()
+                    {
+                        Width = param.RettangoloWidth,
+                        Height = param.RettangoloHeight,
+                        X = param.OffsetX,
+                        Y = param.OffsetY,
+                        LineWidthInScreenPixels = 2,
+                        Interactive = true,
+                        GraphicDOFEnable = CogRectangleDOFConstants.All,
+                        Color = CogColorConstants.Cyan
+                    };
+
+                    workingList.AddInteractiveGraphics(interactiveRectangle);
+                }
 
                 //processo l'immagine con il green tool CLassify
-                using (IImage iimage = new FormsImage(image.ToBitmap()))
+                using (IImage iimage = new FormsImage(inputAlg.Img.ToBitmap()))
                 {
                     res.Success = true;
-                    ret = true;
 
-                    //dato che la ROI del GreenTool Classify è una griglia 5x3, avrò 15 GreenView da valutare
+                    //dato che la confezione è una griglia 5x3, avrò 15 GreenView da valutare
                     //--Posizioni--
                     //0   1   2   3   4
                     //5   6   7   8   9
                     //10  11  12  13  14
                     //----
-
-                    //TODO : valori hardcoded da cambiare con valori dinamici
-                    for (int i = 0; i < 15; i++)
+                    
+                    for (int i = 0; i < param.Rows * param.Columns; i++)
                     {
                         //calcolo l'offset (da in alto a sinistra) attuale
-                        ROI.Offset = new Point((i % 5) * ROI.Size.Width + 25, (i / 5) * ROI.Size.Height + 15);
+                        ROI.Offset = new Point((i % param.Columns) * param.CellWidth + param.OffsetX, (i / param.Columns) * param.CellHeight + param.OffsetY);
 
                         CogRectangle rect = new CogRectangle()
                         {
-                            Width = 161,
-                            Height = 196,
+                            Width = param.CellWidth - 2,
+                            Height = param.CellHeight - 2,
                             X = ROI.Offset.X,
                             Y = ROI.Offset.Y,
                             LineWidthInScreenPixels = 5
@@ -277,17 +286,15 @@ namespace QVLEGSCOG2362.Algoritmi
                         if (greenView.BestTag.Score < (param.CertaintyThreshold / 100))
                         {
                             res.Success = false;
-                            ret = false;
                             res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_UNCERTAIN"), i, greenView.BestTag.Score));
                             rect.Color = CogColorConstants.Red;
                         }
                         //nelle posizioni 0, 5 e 10 (quelle del lato sinistro) devono esserci dei Raffaello
-                        else if (i == 0 || i == 5 || i == 10)
+                        else if (i % param.Columns == 0)
                         {
                             if (greenView.BestTag.Name != "Raffaello_OK")
                             {
                                 res.Success = false;
-                                ret = false;
                                 res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_MISMATCH"), i, "RAFFAELLO"));
                                 rect.Color = CogColorConstants.Red;
                             } else
@@ -296,12 +303,11 @@ namespace QVLEGSCOG2362.Algoritmi
                             }
                         }
                         //nelle posizioni 4, 9 e 14 (quelle del lato destro) devono esserci dei Rondnoir
-                        else if (i == 4 || i == 9 || i == 14)
+                        else if (i % param.Columns == 4)
                         {
                             if (greenView.BestTag.Name != "Rondnoir_OK")
                             {
                                 res.Success = false;
-                                ret = false;
                                 res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_MISMATCH"), i, "RONDNOIR"));
                                 rect.Color = CogColorConstants.Red;
                             } else
@@ -315,7 +321,6 @@ namespace QVLEGSCOG2362.Algoritmi
                             if (greenView.BestTag.Name != "Rocher_OK")
                             {
                                 res.Success = false;
-                                ret = false;
                                 res.TestiRagioneScarto.Add(string.Format(linguaManager.GetTranslation("MSG_OUT_DL_MISMATCH"), i, "ROCHER"));
                                 rect.Color = CogColorConstants.Red;
                             } else
@@ -338,12 +343,8 @@ namespace QVLEGSCOG2362.Algoritmi
             {
                 throw ex;
             }
-            finally
-            {
-                ((IDisposable)image)?.Dispose();
-            }
 
-            return ret;
+            return res.Success;
         }
 
         #endregion

@@ -21,6 +21,7 @@ namespace QVLEGSCOG2362.Wizard
         private readonly DBL.LinguaManager linguaManager = null;
         private readonly object repaintLock = null;
         private readonly Utilities.CogWndCtrlManager cogWndCtrlManager = null;
+        private DataType.DLParam param = null;
 
         private ICogImage lastTestImage = null;
 
@@ -52,11 +53,15 @@ namespace QVLEGSCOG2362.Wizard
                 btnUltimaFoto.Text = linguaManager.GetTranslation("BTN_ULTIMA_FOTO");
                 btnLog.Text = linguaManager.GetTranslation("BTN_LOG");
 
-                lblDistanzaBordo.Text = linguaManager.GetTranslation("LBL_CERTAINTY_THRESHOLD");
+                lblCertaintyThreshold.Text = linguaManager.GetTranslation("LBL_CERTAINTY_THRESHOLD");
 
                 propertyGrid1.Visible = Class.LoginLogoutManager.GetUserLoggedStato() <= DataType.Livello.LivelloUtente.Amministratore && impostazioni.AbilitaVistaAvanzata;
 
+                nudRighe.Increment = 1;
+                nudColonne.Increment = 1;
+
                 LoadDeafultPhoto();
+                EseguiStep(lastTestImage.CopyBase(CogImageCopyModeConstants.CopyPixels));
             }
             catch (Exception ex)
             {
@@ -113,8 +118,10 @@ namespace QVLEGSCOG2362.Wizard
 
         private void Object2Form(DataType.ParametriAlgoritmo paramAlg)
         {
-            DataType.DLParam param = paramAlg.DLParam;
+            param = paramAlg.DLParam;
             nudDistanzaBordo.Value = (decimal)param.CertaintyThreshold;
+            nudRighe.Value = (decimal)param.Rows;
+            nudColonne.Value = (decimal)param.Columns;
 
             propertyGrid1.SelectedObject = param;
         }
@@ -122,11 +129,15 @@ namespace QVLEGSCOG2362.Wizard
         private void AddChangeEvent()
         {
             nudDistanzaBordo.ValueChanged += nud_ValueChanged;
+            nudRighe.ValueChanged += nud_ValueChanged;
+            nudColonne.ValueChanged += nud_ValueChanged;
         }
 
         private void RemoveChangeEvent()
         {
             nudDistanzaBordo.ValueChanged -= nud_ValueChanged;
+            nudRighe.ValueChanged -= nud_ValueChanged;
+            nudColonne.ValueChanged -= nud_ValueChanged;
         }
 
         private void EseguiStep(ICogImage image)
@@ -150,7 +161,21 @@ namespace QVLEGSCOG2362.Wizard
             {
                 if(this.lastTestImage != null)
                     image = this.lastTestImage.CopyBase(CogImageCopyModeConstants.CopyPixels);
+                
+                for (int i = 0; i < cogWndCtrlManager.cogRecordDisplay.InteractiveGraphics.Count; i++)
+                {
+                    try
+                    {
+                        CogRectangle rect = (CogRectangle)cogWndCtrlManager.cogRecordDisplay.InteractiveGraphics[i];
 
+                        if (rect.Color == CogColorConstants.Cyan)
+                            param.SetRectangle(rect, param.Rows, param.Columns);
+                    }
+                    catch
+                    {
+
+                    }
+                }
                 EseguiStep(image);
 
             }
@@ -223,8 +248,24 @@ namespace QVLEGSCOG2362.Wizard
         {
             try
             {
-                DataType.DLParam param = this.algoritmoWizard.GetAlgoritmoParam().DLParam;
                 param.CertaintyThreshold = (int)nudDistanzaBordo.Value;
+                param.Rows = (int)nudRighe.Value;
+                param.Columns = (int)nudColonne.Value;
+
+                for (int i = 0; i < cogWndCtrlManager.cogRecordDisplay.InteractiveGraphics.Count; i++)
+                {
+                    try
+                    {
+                        CogRectangle rect = (CogRectangle)cogWndCtrlManager.cogRecordDisplay.InteractiveGraphics[i];
+
+                        if (rect.Color == CogColorConstants.Cyan)
+                            param.SetRectangle(rect, param.Rows, param.Columns);
+                    }
+                    catch
+                    {
+
+                    }
+                }
 
                 ICogImage image = null;
                 try
